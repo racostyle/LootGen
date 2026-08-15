@@ -25,6 +25,7 @@ namespace GUI
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<ProfilesPage>();
             builder.Services.AddTransient<GeneratePage>();
+            builder.Services.AddTransient<SettingsPage>();
             builder.Services.AddSingleton<AppShell>();
 
 #if DEBUG

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GUI.Pages.SettingsPage"
+             Title="Settings">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="24">
+            <VerticalStackLayout Spacing="8">
+                <Label Text="Type" FontAttributes="Bold" FontSize="18" />
+                <VerticalStackLayout x:Name="TypeItemsLayout" Spacing="4" />
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+                    <Entry x:Name="TypeEntry"
+                           Placeholder="Add type"
+                           Completed="OnAddTypeClicked"
+                           Grid.Column="0" />
+                    <Button Text="Add"
+                            Clicked="OnAddTypeClicked"
+                            Grid.Column="1" />
+                </Grid>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="8">
+                <Label Text="Rarity" FontAttributes="Bold" FontSize="18" />
+                <VerticalStackLayout x:Name="RarityItemsLayout" Spacing="4" />
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+                    <Entry x:Name="RarityEntry"
+                           Placeholder="Add rarity"
+                           Completed="OnAddRarityClicked"
+                           Grid.Column="0" />
+                    <Button Text="Add"
+                            Clicked="OnAddRarityClicked"
+                            Grid.Column="1" />
+                </Grid>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="8">
+                <Label Text="Size" FontAttributes="Bold" FontSize="18" />
+                <VerticalStackLayout x:Name="SizeItemsLayout" Spacing="4" />
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+                    <Entry x:Name="SizeEntry"
+                           Placeholder="Add size"
+                           Completed="OnAddSizeClicked"
+                           Grid.Column="0" />
+                    <Button Text="Add"
+                            Clicked="OnAddSizeClicked"
+                            Grid.Column="1" />
+                </Grid>
+            </VerticalStackLayout>
+
+            <Button Text="Restore defaults"
+                    Clicked="OnRestoreDefaultsClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

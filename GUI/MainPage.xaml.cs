@@ -34,7 +34,7 @@ namespace GUI
 
         private async void OnSettingsClicked(object? sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("SettingsPage");
+            await Shell.Current.GoToAsync(nameof(SettingsPage));
         }
 
         private async Task RefreshProfileAsync()
