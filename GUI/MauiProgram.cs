@@ -24,6 +24,7 @@ namespace GUI
             builder.Services.AddSingleton<IAppSettingsService, AppSettingsService>();
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<ProfilesPage>();
+            builder.Services.AddTransient<GeneratePage>();
             builder.Services.AddSingleton<AppShell>();
 
 #if DEBUG

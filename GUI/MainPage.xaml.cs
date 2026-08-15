@@ -29,7 +29,7 @@ namespace GUI
 
         private async void OnGenerateClicked(object? sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("GeneratePage");
+            await Shell.Current.GoToAsync(nameof(GeneratePage));
         }
 
         private async void OnSettingsClicked(object? sender, EventArgs e)

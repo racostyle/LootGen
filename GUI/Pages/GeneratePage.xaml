@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GUI.Pages.GeneratePage"
+             Title="Generate">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="16">
+            <Label Text="Source" FontAttributes="Bold" />
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="8">
+                <Button x:Name="MerchantButton"
+                        Text="Merchant"
+                        Clicked="OnSourceClicked"
+                        Grid.Column="0" />
+                <Button x:Name="LocationButton"
+                        Text="Location"
+                        Clicked="OnSourceClicked"
+                        Grid.Column="1" />
+            </Grid>
+
+            <Label Text="Type" FontAttributes="Bold" />
+            <FlexLayout x:Name="TypeButtonsLayout"
+                        Wrap="Wrap"
+                        Direction="Row"
+                        JustifyContent="Start"
+                        AlignItems="Start"
+                        AlignContent="Start" />
+
+            <Label Text="Size" FontAttributes="Bold" />
+            <Picker x:Name="SizePicker" Title="Size" />
+
+            <Label Text="Highest rarity available" FontAttributes="Bold" />
+            <Picker x:Name="RarityPicker" Title="Rarity" />
+
+            <Button x:Name="GenerateButton"
+                    Text="Generate"
+                    Clicked="OnGenerateClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
