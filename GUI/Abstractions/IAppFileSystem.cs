@@ -1,6 +1,6 @@
 namespace GUI.Abstractions
 {
-    public interface IFileSystem
+    public interface IAppFileSystem
     {
         string Root { get; }
 

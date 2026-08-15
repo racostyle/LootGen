@@ -10,6 +10,11 @@
         VerticalOptions="Center">
 
         <Button
+            x:Name="ProfileButton"
+            Clicked="OnProfileClicked"
+            HorizontalOptions="Fill" />
+
+        <Button
             Text="Generate"
             Clicked="OnGenerateClicked"
             HorizontalOptions="Fill" />

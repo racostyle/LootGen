@@ -1,5 +1,6 @@
 ﻿using GUI.Abstractions;
 using GUI.Infrastructure;
+using GUI.Pages;
 using GUI.Services;
 using Microsoft.Extensions.Logging;
 
@@ -18,8 +19,12 @@ namespace GUI
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            builder.Services.AddSingleton<IFileSystem, MauiFileSystem>();
+            builder.Services.AddSingleton<IAppFileSystem, MauiFileSystem>();
+            builder.Services.AddSingleton<IProfileService, ProfileService>();
             builder.Services.AddSingleton<IAppSettingsService, AppSettingsService>();
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddTransient<ProfilesPage>();
+            builder.Services.AddSingleton<AppShell>();
 
 #if DEBUG
             builder.Logging.AddDebug();

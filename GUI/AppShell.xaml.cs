@@ -1,10 +1,21 @@
-﻿namespace GUI
+﻿using GUI.Pages;
+
+namespace GUI
 {
     public partial class AppShell : Shell
     {
-        public AppShell()
+        public AppShell(MainPage mainPage)
         {
             InitializeComponent();
+
+            Items.Add(new ShellContent
+            {
+                Title = "Home",
+                Route = nameof(MainPage),
+                Content = mainPage
+            });
+
+            Routing.RegisterRoute(nameof(ProfilesPage), typeof(ProfilesPage));
         }
     }
 }

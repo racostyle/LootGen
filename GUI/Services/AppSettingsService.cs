@@ -15,14 +15,20 @@ namespace GUI.Services
             WriteIndented = true
         };
 
-        private readonly IFileSystem _fileSystem;
+        private readonly IAppFileSystem _fileSystem;
+        private readonly IProfileService _profileService;
         private readonly ILogger<AppSettingsService> _logger;
         private readonly SemaphoreSlim _gate = new(1, 1);
         private AppSettings? _settings;
+        private string? _loadedProfile;
 
-        public AppSettingsService(IFileSystem fileSystem, ILogger<AppSettingsService> logger)
+        public AppSettingsService(
+            IAppFileSystem fileSystem,
+            IProfileService profileService,
+            ILogger<AppSettingsService> logger)
         {
             _fileSystem = fileSystem;
+            _profileService = profileService;
             _logger = logger;
         }
 
@@ -59,8 +65,8 @@ namespace GUI.Services
                 }
 
                 list.Add(trimmed);
-                await SaveAsync().ConfigureAwait(false);
-                _logger.LogInformation("Added {Value} to {Category}", trimmed, category);
+                Save();
+                _logger.LogInformation("Added {Value} to {Category} for profile {Profile}", trimmed, category, _loadedProfile);
                 return true;
             }
             finally
@@ -79,8 +85,8 @@ namespace GUI.Services
                 var removed = list.RemoveAll(item => string.Equals(item, value, StringComparison.OrdinalIgnoreCase)) > 0;
                 if (removed)
                 {
-                    await SaveAsync().ConfigureAwait(false);
-                    _logger.LogInformation("Removed {Value} from {Category}", value, category);
+                    Save();
+                    _logger.LogInformation("Removed {Value} from {Category} for profile {Profile}", value, category, _loadedProfile);
                 }
 
                 return removed;
@@ -96,9 +102,10 @@ namespace GUI.Services
             await _gate.WaitAsync().ConfigureAwait(false);
             try
             {
+                await EnsureLoadedAsync().ConfigureAwait(false);
                 _settings = DefaultSettings.Create();
-                await SaveAsync().ConfigureAwait(false);
-                _logger.LogInformation("Restored default settings");
+                Save();
+                _logger.LogInformation("Restored default settings for profile {Profile}", _loadedProfile);
             }
             finally
             {
@@ -117,39 +124,42 @@ namespace GUI.Services
             };
         }
 
-        private Task EnsureLoadedAsync()
+        private async Task EnsureLoadedAsync()
         {
-            if (_settings is not null)
+            var profile = await _profileService.GetSelectedNameAsync().ConfigureAwait(false);
+            if (_settings is not null && string.Equals(_loadedProfile, profile, StringComparison.Ordinal))
             {
-                return Task.CompletedTask;
+                return;
             }
 
-            if (!_fileSystem.FileExists(SettingsFileName))
+            _loadedProfile = profile;
+            var relativePath = Path.Combine(profile, SettingsFileName);
+            if (!_fileSystem.FileExists(relativePath))
             {
                 _settings = DefaultSettings.Create();
-                return SaveAsync();
+                Save();
+                return;
             }
 
             try
             {
-                var json = _fileSystem.ReadAllText(SettingsFileName);
+                var json = _fileSystem.ReadAllText(relativePath);
                 var loaded = JsonSerializer.Deserialize<AppSettings>(json, JsonOptions);
                 _settings = Normalize(loaded);
-                return Task.CompletedTask;
             }
             catch (Exception ex)
             {
-                _logger.LogWarning(ex, "Failed to read {File}; using defaults", SettingsFileName);
+                _logger.LogWarning(ex, "Failed to read {File}; using defaults", relativePath);
                 _settings = DefaultSettings.Create();
-                return SaveAsync();
+                Save();
             }
         }
 
-        private Task SaveAsync()
+        private void Save()
         {
+            var relativePath = Path.Combine(_loadedProfile!, SettingsFileName);
             var json = JsonSerializer.Serialize(_settings, JsonOptions);
-            _fileSystem.WriteAllText(SettingsFileName, json);
-            return Task.CompletedTask;
+            _fileSystem.WriteAllText(relativePath, json);
         }
 
         private static AppSettings Normalize(AppSettings? loaded)

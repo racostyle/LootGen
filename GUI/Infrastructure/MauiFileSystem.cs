@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace GUI.Infrastructure
 {
-    public sealed class MauiFileSystem : IFileSystem
+    public sealed class MauiFileSystem : IAppFileSystem
     {
         private readonly ILogger<MauiFileSystem> _logger;
         private readonly string _root;
