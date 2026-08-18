@@ -1,0 +1,159 @@
+{
+    "Type": "Explosives",
+    "Categories": [
+        "Name",
+        "Weight",
+        "Cost",
+        "Rarity",
+        "Description"
+    ],
+    "Data": [
+        [
+            "Baseball Grenade",
+            "1",
+            "40",
+            "1",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Frag Grenade",
+            ".5",
+            "50",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Molotov Cocktail",
+            "1",
+            "20",
+            "1",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Persistent, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Nuka Grenade",
+            "1",
+            "100",
+            "4",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 9 CD, DAMAGE EFFECTS: Breaking, Radioactive, Vicious, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Plasma Grenade",
+            ".5",
+            "135",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 9 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Pulse Grenade",
+            ".5",
+            "100",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Bottlecap Mine",
+            "1",
+            "75",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Frag Mine",
+            "1",
+            "50",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Nuke Mine",
+            "1",
+            "100",
+            "4",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 9 CD, DAMAGE EFFECTS: Breaking, Radioactive, Vicious, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Plasma Mine",
+            ".5",
+            "135",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 9 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Pulse Mine",
+            ".5",
+            "100",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Grenade",
+            "1",
+            "50",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Freeze, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Cryo Mine",
+            "1",
+            "50",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Freeze, DAMAGE TYPE: Energy, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Detonator",
+            "1",
+            "75",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: Special, DAMAGE EFFECTS: -, DAMAGE TYPE: -, FIRE RATE: -, RANGE: -, QUALITIES: -"
+        ],
+        [
+            "Dynamite",
+            ".5",
+            "25",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Dynamite Bundle",
+            "2",
+            "150",
+            "3",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 9 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Delay (X), Placed"
+        ],
+        [
+            "Flash Bang",
+            "1",
+            "40",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: Special, DAMAGE EFFECTS: Special, DAMAGE TYPE: Special, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Frag Grenade MIRV",
+            "1",
+            "75",
+            "4",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ],
+        [
+            "Plastic Explosives",
+            "2",
+            "200",
+            "4",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 10 CD, DAMAGE EFFECTS: Breaking, Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Delay (X), Placed"
+        ],
+        [
+            "Powder Charge",
+            "1",
+            "25",
+            "1",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Mine"
+        ],
+        [
+            "Smoke Grenade",
+            "1",
+            "40",
+            "2",
+            "WEAPON TYPE: Explosive, DAMAGE RATING: Special, DAMAGE EFFECTS: Special, DAMAGE TYPE: Special, FIRE RATE: -, RANGE: -, QUALITIES: Blast, Thrown (M)"
+        ]
+    ]
+}

@@ -1,0 +1,257 @@
+{
+  "Type": "RobotArmor",
+  "Categories": [
+    "Name",
+    "Weight",
+    "Cost",
+    "Rarity",
+    "Description"
+  ],
+  "Data": [
+    [
+      "Standard Plating All",
+      "0",
+      "0",
+      "0",
+      "Phys: 2, Energy: 0"
+    ],
+    [
+      "Mister Gutsy Plating All",
+      "-10",
+      "0",
+      "0",
+      "Phys: 2, Energy: 2"
+    ],
+    [
+      "Factory Armor Optics",
+      "0",
+      "10",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Factory Armor Main Body",
+      "0",
+      "20",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Factory Armor Arms",
+      "0",
+      "10",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Factory Armor Thruster",
+      "0",
+      "10",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Factory Storage Armor Main Body",
+      "+20",
+      "25",
+      "1",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Primal Plate Optics",
+      "-10",
+      "10",
+      "0",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Primal Plate Main Body",
+      "-20",
+      "20",
+      "0",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Primal Plate Arms",
+      "-10",
+      "10",
+      "0",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Primal Plate Thruster",
+      "-10",
+      "10",
+      "0",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Serrated Plate Optics",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Serrated Plate Main Body",
+      "-20",
+      "30",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Serrated Plate Arms",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Serrated Plate Thruster",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Noxious Plate Optics",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Noxious Plate Main Body",
+      "-20",
+      "30",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Noxious Plate Arms",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Noxious Plate Thruster",
+      "-10",
+      "15",
+      "1",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Toxic Plate Optics",
+      "-10",
+      "15",
+      "3",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Toxic Plate Main Body",
+      "-20",
+      "30",
+      "3",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Toxic Plate Arms",
+      "-10",
+      "15",
+      "3",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Toxic Plate Thruster",
+      "-10",
+      "15",
+      "3",
+      "Phys: +2, Energy: –"
+    ],
+    [
+      "Actuated Frame Optics",
+      "+10",
+      "15",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Actuated Frame Main Body",
+      "+20",
+      "30",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Actuated Frame Arms",
+      "+10",
+      "15",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Actuated Frame Thruster",
+      "+10",
+      "15",
+      "0",
+      "Phys: +1, Energy: +1"
+    ],
+    [
+      "Voltaic Frame Optics",
+      "+10",
+      "20",
+      "2",
+      "Phys: +2, Energy: +2"
+    ],
+    [
+      "Voltaic Frame Main Body",
+      "+20",
+      "40",
+      "2",
+      "Phys: +2, Energy: +2"
+    ],
+    [
+      "Voltaic Frame Arms",
+      "+10",
+      "20",
+      "2",
+      "Phys: +2, Energy: +2"
+    ],
+    [
+      "Voltaic Frame Thruster",
+      "+10",
+      "20",
+      "2",
+      "Phys: +2, Energy: +2"
+    ],
+    [
+      "Hydraulic Frame Optics",
+      "+5",
+      "30",
+      "3",
+      "Phys: +3, Energy: +3"
+    ],
+    [
+      "Hydraulic Frame Main Body",
+      "+10",
+      "60",
+      "3",
+      "Phys: +3, Energy: +3"
+    ],
+    [
+      "Hydraulic Frame Arms",
+      "+5",
+      "30",
+      "3",
+      "Phys: +3, Energy: +3"
+    ],
+    [
+      "Hydraulic Frame Thruster",
+      "+5",
+      "30",
+      "3",
+      "Phys: +3, Energy: +3"
+    ]
+  ]
+}

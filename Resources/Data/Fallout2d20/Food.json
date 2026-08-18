@@ -1,0 +1,537 @@
+{
+  "Type": "Food",
+  "Categories": [
+    "Name",
+    "Weight",
+    "Cost",
+    "Rarity",
+    "Description"
+  ],
+  "Data": [
+    [
+      "Baked Bloatfly",
+      ".5",
+      "15",
+      "1",
+      "HP HEALED: 6, OTHER EFFECTS: +2 Radiation damage resistance, IRRADIATED?: –"
+    ],
+    [
+      "BlamCo Brand Mac and Cheese",
+      ".5",
+      "10",
+      "1",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Bloatfly Meat",
+      ".5",
+      "8",
+      "0",
+      "HP HEALED: 2, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Bloodbug Meat",
+      ".5",
+      "8",
+      "1",
+      "HP HEALED: 7, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Bloodbug Steak",
+      ".5",
+      "18",
+      "2",
+      "HP HEALED: 10, OTHER EFFECTS: Max HP +3 until end of following scene, IRRADIATED?: –"
+    ],
+    [
+      "Brahmin Meat",
+      "1",
+      "28",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Brain Fungus",
+      ".5",
+      "6",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Canned Dog Food",
+      ".5",
+      "6",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Carrot",
+      ".5",
+      "3",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Cooked Softshell Meat",
+      ".5",
+      "40",
+      "3",
+      "HP HEALED: 9, OTHER EFFECTS: Gain +1 AP at start of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Corn",
+      ".5",
+      "6",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Cram",
+      ".5",
+      "25",
+      "1",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Crispy Squirrel Bits",
+      ".5",
+      "6",
+      "2",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Dandy Boy Apples",
+      ".5",
+      "7",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Deathclaw Egg",
+      ".5",
+      "69",
+      "3",
+      "HP HEALED: 7, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Deathclaw Meat",
+      "1",
+      "110",
+      "3",
+      "HP HEALED: 9, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Deathclaw Omelette",
+      ".5",
+      "80",
+      "4",
+      "HP HEALED: 11, OTHER EFFECTS: If next scene is combat, regain 1HP at the start of each turn, IRRADIATED?: –"
+    ],
+    [
+      "Deathclaw Steak",
+      "1",
+      "130",
+      "4",
+      "HP HEALED: 14, OTHER EFFECTS: May re-roll 1d20 on all STR tests until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Fancy Lads Snack Cakes",
+      ".5",
+      "18",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Food Paste",
+      ".5",
+      "0",
+      "2",
+      "HP HEALED: 7, OTHER EFFECTS: May re-roll 1d20 on all END tests until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Gourd",
+      "1",
+      "6",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Grilled Radroach",
+      ".5",
+      "7",
+      "1",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Grilled Radstag",
+      "1",
+      "60",
+      "2",
+      "HP HEALED: 11, OTHER EFFECTS: Carry weight increases by +25 until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Gum Drops",
+      ".5",
+      "5",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Iguana Bits",
+      ".5",
+      "8",
+      "1",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Iguana on a Stick",
+      ".5",
+      "33",
+      "2",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Iguana Soup",
+      "1",
+      "21",
+      "3",
+      "HP HEALED: 10, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "InstaMash",
+      ".5",
+      "20",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Institute Food Packet",
+      ".5",
+      "10",
+      "2",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Melon",
+      "1",
+      "6",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mirelurk Cake",
+      ".5",
+      "35",
+      "3",
+      "HP HEALED: 12, OTHER EFFECTS: Can breathe underwater until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Mirelurk Egg",
+      "1",
+      "0",
+      "2",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mirelurk Egg Omelette",
+      ".5",
+      "30",
+      "3",
+      "HP HEALED: 7, OTHER EFFECTS: Immediately add 2 AP to the group pool, IRRADIATED?: –"
+    ],
+    [
+      "Mirelurk Meat",
+      ".5",
+      "18",
+      "1",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mirelurk Queen Steak",
+      "1",
+      "130",
+      "5",
+      "HP HEALED: 14, OTHER EFFECTS: Reduce the difficulty of all END tests by 1 until the end of the next scene, IRRADIATED?: –"
+    ],
+    [
+      "Mole Rat Chunks",
+      ".5",
+      "8",
+      "1",
+      "HP HEALED: 7, OTHER EFFECTS: +1 Maximum AP in group pool until the end of the current scene, IRRADIATED?: –"
+    ],
+    [
+      "Mole Rat Meat",
+      ".5",
+      "5",
+      "0",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mongrel Dog Meat",
+      ".5",
+      "8",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mutant Hound Chops",
+      ".5",
+      "12",
+      "3",
+      "HP HEALED: 8, OTHER EFFECTS: Heals 2 Radiation damage, IRRADIATED?: –"
+    ],
+    [
+      "Mutant Hound Meat",
+      ".5",
+      "8",
+      "2",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mutfruit",
+      ".5",
+      "8",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Mutt Chops",
+      ".5",
+      "12",
+      "1",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Noodle Cup",
+      ".5",
+      "20",
+      "2",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Perfectly Preserved Pie",
+      ".5",
+      "20",
+      "3",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Pork ‘n’ Beans",
+      ".5",
+      "10",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Potato Crisps",
+      ".5",
+      "7",
+      "0",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Potted Meat",
+      "1",
+      "25",
+      "0",
+      "HP HEALED: 6, OTHER EFFECTS: Roll 2CD rather than 1 for determining Radiation damage when consumed, IRRADIATED?: 1CD"
+    ],
+    [
+      "Queen Mirelurk Meat",
+      ".5",
+      "22",
+      "4",
+      "HP HEALED: 10, OTHER EFFECTS: May re-roll 1d20 on all END tests until end of next scene, IRRADIATED?: 1CD"
+    ],
+    [
+      "Radroach Meat",
+      ".5",
+      "3",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Radscorpion Egg",
+      ".5",
+      "48",
+      "3",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Radscorpion Egg Omelette",
+      ".5",
+      "65",
+      "4",
+      "HP HEALED: 9, OTHER EFFECTS: Cure all addictions, IRRADIATED?: –"
+    ],
+    [
+      "Radscorpion Meat",
+      "1",
+      "55",
+      "2",
+      "HP HEALED: 9, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Radscorpion Steak",
+      "1",
+      "65",
+      "3",
+      "HP HEALED: 12, OTHER EFFECTS: +2 Energy damage resistance until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Radstag Meat",
+      "1",
+      "50",
+      "1",
+      "HP HEALED: 8, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Radstag Stew",
+      "1",
+      "60",
+      "3",
+      "HP HEALED: 12, OTHER EFFECTS: +3 Energy damage resistance until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Razorgrain",
+      ".5",
+      "5",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Ribeye Steak",
+      "1",
+      "40",
+      "2",
+      "HP HEALED: 10, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Roasted Mirelurk Meat",
+      ".5",
+      "40",
+      "2",
+      "HP HEALED: 8, OTHER EFFECTS: Gain +1 AP at start of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Salisbury Steak",
+      ".5",
+      "20",
+      "0",
+      "HP HEALED: 5, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Silt Bean",
+      ".5",
+      "6",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Softshell Mirelurk Meat",
+      ".5",
+      "22",
+      "2",
+      "HP HEALED: 6, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Squirrel Bits",
+      ".5",
+      "4",
+      "1",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Squirrel on a Stick",
+      ".5",
+      "15",
+      "2",
+      "HP HEALED: 7, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Squirrel Stew",
+      "1",
+      "24",
+      "2",
+      "HP HEALED: 10, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Stingwing Filet",
+      ".5",
+      "35",
+      "2",
+      "HP HEALED: 11, OTHER EFFECTS: May re-roll 1d20 on all PER tests until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Stingwing Meat",
+      ".5",
+      "30",
+      "1",
+      "HP HEALED: 8, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Sugar Bombs",
+      ".5",
+      "11",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: Gain +1 AP at start of next scene, IRRADIATED?: 1CD"
+    ],
+    [
+      "Sweet Roll",
+      ".5",
+      "9",
+      "1",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Tarberry",
+      ".5",
+      "5",
+      "3",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Tato",
+      ".5",
+      "7",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Vegetable Soup",
+      "1",
+      "13",
+      "2",
+      "HP HEALED: 7, OTHER EFFECTS: +2 Radiation damage resistance until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Yao Guai Meat",
+      "1",
+      "85",
+      "3",
+      "HP HEALED: 9, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Yao Guai Ribs",
+      "1",
+      "90",
+      "4",
+      "HP HEALED: 13, OTHER EFFECTS: +2 Physical damage resistance until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Yao Guai Roast",
+      "1",
+      "110",
+      "4",
+      "HP HEALED: 14, OTHER EFFECTS: +2CD to melee attacks until end of next scene, IRRADIATED?: –"
+    ],
+    [
+      "Yum-Yum Deviled Eggs",
+      ".5",
+      "20",
+      "0",
+      "HP HEALED: 4, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ]
+  ]
+}

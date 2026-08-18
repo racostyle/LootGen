@@ -1,0 +1,229 @@
+{
+    "Type": "Ammo",
+    "Categories": [
+        "Name",
+        "Weight",
+        "Cost",
+        "Rarity",
+        "Description"
+    ],
+    "Data": [
+        [
+            ".38",
+            ".5",
+            "1",
+            "0",
+            "QUANTITY FOUND: 10+5 CD"
+        ],
+        [
+            "10mm",
+            ".5",
+            "2",
+            "0",
+            "QUANTITY FOUND: 8+4 CD"
+        ],
+        [
+            ".308",
+            ".5",
+            "3",
+            "1",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            "Flare",
+            ".5",
+            "1",
+            "1",
+            "QUANTITY FOUND: 2+1 CD"
+        ],
+        [
+            "Shotgun Shell",
+            ".5",
+            "3",
+            "1",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            ".45",
+            ".5",
+            "3",
+            "2",
+            "QUANTITY FOUND: 8+4 CD"
+        ],
+        [
+            "Flamer Fuel",
+            ".5",
+            "1",
+            "2",
+            "QUANTITY FOUND: 12+6 CD"
+        ],
+        [
+            "Fusion Cell",
+            ".5",
+            "3",
+            "2",
+            "QUANTITY FOUND: 14+7 CD"
+        ],
+        [
+            "Gamma Round",
+            ".5",
+            "10",
+            "2",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            "Railway Spike",
+            ".5",
+            "1",
+            "2",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            "Syringer Ammo",
+            ".5",
+            "Varies",
+            "2",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            ".44 Magnum",
+            ".5",
+            "3",
+            "3",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            ".50",
+            ".5",
+            "4",
+            "3",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            "5.56mm",
+            ".5",
+            "2",
+            "3",
+            "QUANTITY FOUND: 8+4 CD"
+        ],
+        [
+            "5mm",
+            ".5",
+            "1",
+            "3",
+            "QUANTITY FOUND: 10x 12+6 CD"
+        ],
+        [
+            "Fusion Core",
+            "4",
+            "200",
+            "3",
+            "QUANTITY FOUND: 1"
+        ],
+        [
+            "Missile",
+            "7",
+            "25",
+            "3",
+            "QUANTITY FOUND: 2+1 CD"
+        ],
+        [
+            "Plasma Cartridge",
+            ".5",
+            "5",
+            "4",
+            "QUANTITY FOUND: 10+5 CD"
+        ],
+        [
+            "2mm EC",
+            ".5",
+            "10",
+            "5",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            "Mini-Nuke",
+            "12",
+            "100",
+            "6",
+            "QUANTITY FOUND: 1+1 CD"
+        ],
+        [
+            ".357 Magnum",
+            ".5",
+            "2",
+            "1",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            "12.7mm",
+            ".5",
+            "2",
+            "2",
+            "QUANTITY FOUND: 6+3 CD"
+        ],
+        [
+            "9mm",
+            ".5",
+            "1",
+            "0",
+            "QUANTITY FOUND: 10+5 CD"
+        ],
+        [
+            ".50 Ball",
+            ".5",
+            "1",
+            "3",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            "25mm Grenade",
+            ".5",
+            "8",
+            "4",
+            "QUANTITY FOUND: 2+1 CD"
+        ],
+        [
+            "40mm grenade round",
+            ".5",
+            "20",
+            "4",
+            "QUANTITY FOUND: 2+1 CD"
+        ],
+        [
+            "Alien Power Cells",
+            ".5",
+            "5",
+            "5",
+            "QUANTITY FOUND: 4+2 CD"
+        ],
+        [
+            "Alien Power Module",
+            ".5",
+            "10",
+            "6",
+            "QUANTITY FOUND: 3+1 CD"
+        ],
+        [
+            "Arrow",
+            ".5",
+            "2",
+            "1",
+            "QUANTITY FOUND: 6+4 CD"
+        ],
+        [
+            "Crossbow Bolt",
+            ".5",
+            "3",
+            "2",
+            "QUANTITY FOUND: 4+4 CD"
+        ],
+        [
+            "Plasma Core",
+            "4",
+            "200",
+            "5",
+            "QUANTITY FOUND: 1"
+        ]
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "Type": "ArmorMiscMods",
+    "Categories": [
+        "Name",
+        "Weight",
+        "Cost",
+        "Rarity",
+        "Description"
+    ],
+    "Data": [
+        [
+            "Lighter Build",
+            "-1",
+            "+1",
+            "0",
+            "Category: ALL LOCATIONS, Phys: -, Energy: -, Rad: -, Effects: -"
+        ],
+        [
+            "Pocketed",
+            "+1",
+            "+1",
+            "1",
+            "Category: ALL LOCATIONS, Phys: -, Energy: -, Rad: -, Effects: +10 Carry Weight"
+        ],
+        [
+            "Deep Pocketed",
+            "+2",
+            "+5",
+            "1",
+            "Category: ALL LOCATIONS, Phys: -, Energy: -, Rad: -, Effects: +20 Carry Weight"
+        ],
+        [
+            "Lead Lined",
+            "+2",
+            "+5",
+            "4",
+            "Category: ALL LOCATIONS, Phys: -, Energy: -, Rad: +3, Effects: -"
+        ],
+        [
+            "Ultra-Light Build",
+            "-3",
+            "+7",
+            "3",
+            "Category: ALL LOCATIONS, Phys: -, Energy: -, Rad: -, Effects: -"
+        ],
+        [
+            "Padded",
+            "+4",
+            "+1",
+            "0",
+            "Category: TORSO ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: +2 to all damage resistances vs Blast weapons"
+        ],
+        [
+            "Asbestos Lining",
+            "+4",
+            "+3",
+            "1",
+            "Category: TORSO ONLY UPGRADES, Phys: -, Energy: +3, Rad: -, Effects: Ignore Energy damage from the Persistent damage effect"
+        ],
+        [
+            "Dense",
+            "+4",
+            "+7",
+            "3",
+            "Category: TORSO ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: +4 to all Damage Resistances vs Blast weapons"
+        ],
+        [
+            "BioCommMesh",
+            "+2",
+            "+9",
+            "4",
+            "Category: TORSO ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: Chems last twice as long (see p.164)"
+        ],
+        [
+            "Pneumatic",
+            "+2",
+            "+9",
+            "4",
+            "Category: TORSO ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: Stun damage effect requires 2+ Effects to be rolled to affect you"
+        ],
+        [
+            "Brawling",
+            "+1",
+            "+1",
+            "1",
+            "Category: ARMS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: Unarmed attacks inflict +1CD damage"
+        ],
+        [
+            "Braced",
+            "+1",
+            "+1",
+            "1",
+            "Category: ARMS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: +2 to all damage resistances vs melee attacks."
+        ],
+        [
+            "Stabilized",
+            "+1",
+            "+1",
+            "2",
+            "Category: ARMS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: When you aim and make a ranged attack, +1CD to the attack’s damage"
+        ],
+        [
+            "Aerodynamic",
+            "0",
+            "+1",
+            "3",
+            "Category: ARMS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: May spend up to 4 AP on bonus damage for melee attacks"
+        ],
+        [
+            "Weighted",
+            "1",
+            "+1",
+            "4",
+            "Category: ARMS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: Melee and Unarmed attacks gain Piercing"
+        ],
+        [
+            "Cushioned",
+            "0",
+            "+1",
+            "1",
+            "Category: LEGS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: +2 to Physical damage resistance vs falling damage"
+        ],
+        [
+            "Muffled",
+            "0",
+            "+2",
+            "2",
+            "Category: LEGS ONLY UPGRADES, Phys: -, Energy: -, Rad: -, Effects: Re-roll 1d20 on Stealth tests"
+        ]
+    ]
+}

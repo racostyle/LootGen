@@ -1,0 +1,243 @@
+{
+  "Type": "Chems",
+  "Categories": [
+    "Name",
+    "Weight",
+    "Cost",
+    "Rarity",
+    "Description"
+  ],
+  "Data": [
+    [
+      "Addictol",
+      ".5",
+      "125",
+      "3",
+      "EFFECTS: Removes all addictions, DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Antibiotics",
+      ".5",
+      "75",
+      "3",
+      "EFFECTS: Cures all illnesses, DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Berry Mentats",
+      ".5",
+      "60",
+      "3",
+      "EFFECTS: Reduce the difficulty of INT tests by 2 (minimum 0), DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Buffjet",
+      ".5",
+      "75",
+      "4",
+      "EFFECTS: Reduce the difficulty of all STR and END tests by 1 (minimum 0). +4 Max HP, Gain 3 AP immediately (lost if not spent), Extra actions cost 1 less AP, DURATION: Brief, ADDICTIVE?: Yes"
+    ],
+    [
+      "Buffout",
+      ".5",
+      "45",
+      "2",
+      "EFFECTS: Re-roll 1d20 on all STR and END tests, +3 Max HP, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Bufftats",
+      ".5",
+      "75",
+      "4",
+      "EFFECTS: Reduce the difficulty of all STR, PER, and END tests by 1 (minimum 0), +4 Max HP, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Calmex",
+      ".5",
+      "100",
+      "4",
+      "EFFECTS: Re-roll 1d20 on all PER and AGI tests, +2CD to sneak attack damage, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Daddy-O",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: Reduce the difficulty of all PER and INT tests by 1 (minimum 0), +1 difficulty to CHA tests, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Day Tripper",
+      ".5",
+      "40",
+      "3",
+      "EFFECTS: Reduce the difficulty of CHA and LCK tests by 1 (minimum 0), +1 difficulty to STR tests, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Fury",
+      ".5",
+      "30",
+      "4",
+      "EFFECTS: +3 Physical damage resistance. +3CD to melee damage, +2 difficulty to all PER tests, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Grape Mentats",
+      ".5",
+      "60",
+      "3",
+      "EFFECTS: Reduce the difficulty of CHA tests by 2, to a minimum of 0, Re-roll 1d20 on Barter tests., DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Healing Salve",
+      ".5",
+      "20",
+      "1",
+      "EFFECTS: Heals 2 HP (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Jet",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: Extra actions cost 1 less AP, DURATION: Brief, ADDICTIVE?: Yes"
+    ],
+    [
+      "Jet Fuel",
+      ".5",
+      "60",
+      "3",
+      "EFFECTS: Gain 1 free AP at the start of each turn, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Med-X",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: +3 Physical damage resistance, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Mentats",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: Re-roll 1d20 on PER and INT tests, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Orange Mentats",
+      ".5",
+      "60",
+      "3",
+      "EFFECTS: Reduce the difficulty of PER tests by 2 (min. 0), Aim minor action lets you re-roll one additional d20., DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Overdrive",
+      ".5",
+      "55",
+      "3",
+      "EFFECTS: +3CD damage to all attacks, May re-roll up to 3CD per damage roll, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Psycho",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: +2CD damage to all attacks, +3 Physical damage resistance, DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Psycho Jet",
+      ".5",
+      "70",
+      "4",
+      "EFFECTS: +2CD damage to all attacks, +4 Physical damage resistance. Gain 4 AP immediately (lost if not spent), DURATION: Brief, ADDICTIVE?: Yes"
+    ],
+    [
+      "Psychobuff",
+      ".5",
+      "70",
+      "4",
+      "EFFECTS: +2CD damage to all attacks, +4 Max HP.Reduce difficulty of all STR and END tests by 1 (minimum 0)., DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Psychotats",
+      ".5",
+      "70",
+      "4",
+      "EFFECTS: +2CD damage to all attacks, +2 Physical damage resistance, Reduce difficulty of PER tests by 1 (min. 0), DURATION: Lasting, ADDICTIVE?: Yes"
+    ],
+    [
+      "Rad-X",
+      ".5",
+      "40",
+      "2",
+      "EFFECTS: +6 Radiation damage resistance, DURATION: Lasting, ADDICTIVE?: No"
+    ],
+    [
+      "Rad-X (Diluted)",
+      ".5",
+      "25",
+      "1",
+      "EFFECTS: +3 Radiation damage resistance, DURATION: Lasting, ADDICTIVE?: No"
+    ],
+    [
+      "RadAway",
+      ".5",
+      "80",
+      "2",
+      "EFFECTS: Heals 4 Radiation damage (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "RadAway (Diluted)",
+      ".5",
+      "50",
+      "1",
+      "EFFECTS: Heals 2 Radiation damage (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Skeeto Spit",
+      ".5",
+      "40",
+      "2",
+      "EFFECTS: +2 Max HP, DURATION: Lasting, ADDICTIVE?: No"
+    ],
+    [
+      "Stimpak",
+      ".5",
+      "50",
+      "2",
+      "EFFECTS: Heals 4 HP (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Stimpak (Diluted)",
+      ".5",
+      "30",
+      "1",
+      "EFFECTS: Heals 2 HP (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Super Stimpak",
+      ".5",
+      "90",
+      "4",
+      "EFFECTS: Heals 8 HP (see description), DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Stimpak Diffuser",
+      ".5",
+      "200",
+      "5",
+      "EFFECTS: Heals 4 HP to all within Close range, DURATION: Instant, ADDICTIVE?: No"
+    ],
+    [
+      "Ultra jet",
+      ".5",
+      "67",
+      "2",
+      "EFFECTS: Gain 6 AP immediately (lost if not spent), Extra actions cost 1 less AP, DURATION: Brief, ADDICTIVE?: Yes"
+    ],
+    [
+      "X-Cell",
+      ".5",
+      "60",
+      "4",
+      "EFFECTS: First d20 bought on all tests is free, DURATION: Lasting, ADDICTIVE?: Yes"
+    ]
+  ]
+}

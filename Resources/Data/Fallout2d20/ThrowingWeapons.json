@@ -1,0 +1,33 @@
+{
+    "Type": "ThrowingWeapons",
+    "Categories": [
+        "Name",
+        "Weight",
+        "Cost",
+        "Rarity",
+        "Description"
+    ],
+    "Data": [
+        [
+            "Throwing Knives",
+            ".5",
+            "10",
+            "1",
+            "WEAPON TYPE: Throwing, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Concealed, Suppressed, Thrown (C)"
+        ],
+        [
+            "Tomahawk",
+            ".5",
+            "15",
+            "2",
+            "WEAPON TYPE: Throwing, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Suppressed, Thrown (C)"
+        ],
+        [
+            "Javelin",
+            "4",
+            "10",
+            "1",
+            "WEAPON TYPE: Throwing, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Suppressed, Thrown (M)"
+        ]
+    ]
+}

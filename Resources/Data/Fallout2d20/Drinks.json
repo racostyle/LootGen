@@ -1,0 +1,166 @@
+{
+  "Type": "Drinks",
+  "Categories": [
+    "Name",
+    "Weight",
+    "Cost",
+    "Rarity",
+    "Description"
+  ],
+  "Data": [
+    [
+      "Beer",
+      "1",
+      "5",
+      "1",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, IRRADIATED?: –"
+    ],
+    [
+      "Blood Pack",
+      ".5",
+      "10",
+      "2",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Bourbon",
+      "1",
+      "7",
+      "2",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, Reroll 1d20 on END tests, IRRADIATED?: –"
+    ],
+    [
+      "Brahmin Milk",
+      ".5",
+      "15",
+      "2",
+      "HP HEALED: 1, OTHER EFFECTS: Heals 2 Radiation damage, IRRADIATED?: –"
+    ],
+    [
+      "Dirty Wastelander",
+      "1",
+      "10",
+      "3",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, Reduce difficulty of all STR tests by 1 and increase difficulty of all INT tests by 2 (in total), IRRADIATED?: –"
+    ],
+    [
+      "Dirty Water",
+      ".5",
+      "5",
+      "0",
+      "HP HEALED: 2, OTHER EFFECTS: –, IRRADIATED?: 1CD"
+    ],
+    [
+      "Glowing Blood Pack",
+      ".5",
+      "30",
+      "3",
+      "HP HEALED: 4, OTHER EFFECTS: +5 to Radiation damage resistance, IRRADIATED?: –"
+    ],
+    [
+      "Irradiated Blood",
+      ".5",
+      "50",
+      "2",
+      "HP HEALED: 3, OTHER EFFECTS: Roll 2CD rather than 1 for determining Radiation damage when consumed, IRRADIATED?: 1CD"
+    ],
+    [
+      "Melon Juice",
+      ".5",
+      "6",
+      "2",
+      "HP HEALED: 3, OTHER EFFECTS: Heal 1HP at the start of each turn, IRRADIATED?: –"
+    ],
+    [
+      "Moonshine",
+      ".5",
+      "30",
+      "3",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, +2 Max HP, IRRADIATED?: –"
+    ],
+    [
+      "Mutfruit Juice",
+      ".5",
+      "8",
+      "2",
+      "HP HEALED: 3, OTHER EFFECTS: Reroll 1d20 on all AGI tests, IRRADIATED?: –"
+    ],
+    [
+      "Nuka-Cherry",
+      "1",
+      "40",
+      "3",
+      "HP HEALED: 3, OTHER EFFECTS: Immediately gain +2 AP, IRRADIATED?: 1CD"
+    ],
+    [
+      "Nuka-Cola",
+      "1",
+      "20",
+      "2",
+      "HP HEALED: 2, OTHER EFFECTS: Immediately gain +1 AP, IRRADIATED?: 1CD"
+    ],
+    [
+      "Nuka-Cola Quantum",
+      "1",
+      "50",
+      "5",
+      "HP HEALED: 10, OTHER EFFECTS: Immediately gain +5 AP, IRRADIATED?: 1CD"
+    ],
+    [
+      "Purified Water",
+      ".5",
+      "20",
+      "1",
+      "HP HEALED: 3, OTHER EFFECTS: –, IRRADIATED?: –"
+    ],
+    [
+      "Refreshing Beverage",
+      "1",
+      "110",
+      "5",
+      "HP HEALED: 11, OTHER EFFECTS: Heals 10 Radiation damage, Cures all addictions, IRRADIATED?: –"
+    ],
+    [
+      "Rum",
+      "1",
+      "8",
+      "2",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, Reroll 1d20 on AGI tests, IRRADIATED?: –"
+    ],
+    [
+      "Tarberry Juice",
+      ".5",
+      "5",
+      "4",
+      "HP HEALED: 3, OTHER EFFECTS: Immediately gain +6 AP, IRRADIATED?: –"
+    ],
+    [
+      "Tato Juice",
+      ".5",
+      "7",
+      "3",
+      "HP HEALED: 3, OTHER EFFECTS: Group AP pool can hold 1 AP more than normal, IRRADIATED?: –"
+    ],
+    [
+      "Vodka",
+      "1",
+      "5",
+      "3",
+      "HP HEALED: 2, OTHER EFFECTS: Alcoholic, IRRADIATED?: –"
+    ],
+    [
+      "Whiskey",
+      "1",
+      "5",
+      "3",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, Reroll up to two d20 on STR tests (in total), IRRADIATED?: –"
+    ],
+    [
+      "Wine",
+      "1",
+      "5",
+      "3",
+      "HP HEALED: 0, OTHER EFFECTS: Alcoholic, Immediately gain +1 AP, IRRADIATED?: –"
+    ]
+  ]
+}
