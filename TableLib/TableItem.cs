@@ -7,14 +7,16 @@
         public string Cost { get; }
         public int Rarity { get; }
         public string Description { get; }
+        public string Category { get; }
 
-        public TableItem(string[] data)
+        public TableItem(string[] data, string category)
         {
             Name = data[0];
             Weight = data[1];
             Cost = data[2];
             Rarity = int.Parse(data[3]);
             Description = data[4];
+            Category = category;
         }
     }
 }

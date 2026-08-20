@@ -3,13 +3,13 @@
     internal class DataFile
     {
         public string Type { get; set; }
-        public string[] Categories { get; set; }
+        public int Spotlight { get; set; }
         public string[][] Data { get; set; }
 
-        public DataFile(string type, string[] categories, string[][] data)
+        public DataFile(string type, int spotlight, string[][] data)
         {
             Type = type;
-            Categories = categories;
+            Spotlight = spotlight;
             Data = data;
         }
     }
