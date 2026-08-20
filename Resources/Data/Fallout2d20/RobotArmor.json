@@ -1,12 +1,6 @@
 {
   "Type": "RobotArmor",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 4,
   "Data": [
     [
       "Standard Plating All",

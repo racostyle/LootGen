@@ -1,12 +1,6 @@
 {
   "Type": "Chems",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 6,
   "Data": [
     [
       "Addictol",

@@ -1,684 +1,678 @@
 {
-    "Type": "Armors",
-    "Categories": [
-        "Name",
-        "Weight",
-        "Cost",
-        "Rarity",
-        "Description"
+  "Type": "Armors",
+  "Spotlight": 5,
+  "Data": [
+    [
+      "Sturdy Raider Chest Piece",
+      "12",
+      "33",
+      "1",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
     ],
-    "Data": [
-        [
-            "Sturdy Raider Chest Piece",
-            "12",
-            "33",
-            "1",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Raider Leg",
-            "7",
-            "13",
-            "1",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Raider Arm",
-            "3",
-            "6",
-            "0",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Raider Chest Piece",
-            "12",
-            "33",
-            "1",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Raider Leg",
-            "7",
-            "13",
-            "1",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Raider Arm",
-            "7",
-            "8",
-            "1",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Raider Chest Piece",
-            "17",
-            "48",
-            "2",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Raider Leg",
-            "10",
-            "18",
-            "2",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Raider Arm",
-            "10",
-            "15",
-            "2",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Leather Chest Piece",
-            "5",
-            "25",
-            "1",
-            "Phys: 1, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Leather Leg",
-            "2",
-            "10",
-            "1",
-            "Phys: 1, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Leather Arm",
-            "2",
-            "8",
-            "1",
-            "Phys: 1, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Leather Chest Piece",
-            "10",
-            "50",
-            "2",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Leather Leg",
-            "5",
-            "20",
-            "2",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Leather Arm",
-            "5",
-            "18",
-            "2",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Leather Chest Piece",
-            "15",
-            "75",
-            "3",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Leather Leg",
-            "7",
-            "30",
-            "3",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Leather Arm",
-            "7",
-            "28",
-            "3",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Metal Helmet",
-            "3",
-            "15",
-            "1",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Metal Chest Piece",
-            "6",
-            "40",
-            "1",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Metal Leg",
-            "3",
-            "15",
-            "1",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Metal Arm",
-            "3",
-            "15",
-            "1",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Metal Helmet",
-            "8",
-            "65",
-            "2",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Sturdy Metal Chest Piece",
-            "16",
-            "115",
-            "2",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Metal Leg",
-            "8",
-            "65",
-            "2",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Metal Arm",
-            "8",
-            "65",
-            "2",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Metal Helmet",
-            "12",
-            "115",
-            "3",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Heavy Metal Chest Piece",
-            "23",
-            "190",
-            "3",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Metal Leg",
-            "12",
-            "115",
-            "3",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Metal Arm",
-            "12",
-            "115",
-            "3",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Combat Helmet",
-            "4",
-            "25",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Combat Chest Piece",
-            "8",
-            "60",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Combat Leg",
-            "2",
-            "25",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Combat Arm",
-            "2",
-            "25",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Combat Helmet",
-            "5",
-            "105",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Sturdy Combat Chest Piece",
-            "12",
-            "140",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Combat Leg",
-            "5",
-            "105",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Combat Arm",
-            "5",
-            "105",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Combat Helmet",
-            "7",
-            "185",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Heavy Combat Chest Piece",
-            "16",
-            "220",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Combat Leg",
-            "7",
-            "185",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Combat Arm",
-            "7",
-            "145",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Synth Helmet",
-            "3",
-            "33",
-            "3",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Synth Chest Piece",
-            "7",
-            "75",
-            "3",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Synth Leg",
-            "3",
-            "30",
-            "3",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Synth Arm",
-            "3",
-            "30",
-            "4",
-            "Phys: 2, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Synth Helmet",
-            "7",
-            "70",
-            "4",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Sturdy Synth Chest Piece",
-            "12",
-            "125",
-            "4",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Synth Leg",
-            "7",
-            "80",
-            "4",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Synth Arm",
-            "7",
-            "70",
-            "4",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Synth Helmet",
-            "10",
-            "110",
-            "5",
-            "Phys: 4, Energy: 5, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Heavy Synth Chest Piece",
-            "17",
-            "175",
-            "5",
-            "Phys: 4, Energy: 5, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Synth Leg",
-            "10",
-            "130",
-            "5",
-            "Phys: 4, Energy: 5, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Synth Arm",
-            "10",
-            "110",
-            "5",
-            "Phys: 4, Energy: 5, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Vault-Tec Security Helmet",
-            "2",
-            "20",
-            "1",
-            "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Vault-Tec Security Armor",
-            "8",
-            "16",
-            "1",
-            "Phys: 2, Energy: 0, Rad: 2, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Legionary Recruit Chest Piece",
-            "6",
-            "75",
-            "3",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Legionary Recruit Arm",
-            "2",
-            "30",
-            "3",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Legionary Recruit Leg",
-            "2",
-            "40",
-            "3",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Legionary Recruit Helmet",
-            "2",
-            "50",
-            "3",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Legionary Chest Piece",
-            "11",
-            "100",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Legionary Arm",
-            "4",
-            "50",
-            "4",
-            "Phys: 2, Energy: 1, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Legionary Leg",
-            "4",
-            "70",
-            "4",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Legionary Helmet",
-            "5",
-            "75",
-            "4",
-            "Phys: 3, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Legionary Centurion Chest Piece",
-            "16",
-            "200",
-            "5",
-            "Phys: 5, Energy: 4, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Legionary Centurion Arm",
-            "12",
-            "140",
-            "5",
-            "Phys: 4, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Legionary Centurion Leg",
-            "6",
-            "100",
-            "5",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Legionary Centurion Helmet",
-            "10",
-            "175",
-            "5",
-            "Phys: 5, Energy: 4, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Legatus Helmet",
-            "16",
-            "250",
-            "5",
-            "Phys: 5, Energy: 5, Rad: 3, Locations covered: Head"
-        ],
-        [
-            "Chinese Stealth Armor",
-            "5",
-            "750",
-            "6",
-            "Phys: 4, Energy: 4, Rad: 6, Locations covered: All"
-        ],
-        [
-            "Diving Suit",
-            "8",
-            "350",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 9, Locations covered: All"
-        ],
-        [
-            "Scout Armor Chest Piece",
-            "7",
-            "90",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 2, Locations covered: Torso"
-        ],
-        [
-            "Scout Armor Arm",
-            "3",
-            "60",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 2, Locations covered: Arm"
-        ],
-        [
-            "Scout Armor Leg",
-            "3",
-            "60",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 2, Locations covered: Leg"
-        ],
-        [
-            "Scout Armor Mask",
-            "1",
-            "50",
-            "4",
-            "Phys: 3, Energy: 2, Rad: 2, Locations covered: Head"
-        ],
-        [
-            "Marine Armor Chest Piece",
-            "19",
-            "150",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 2, Locations covered: Torso"
-        ],
-        [
-            "Marine Armor Arm",
-            "10",
-            "115",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 2, Locations covered: Arm"
-        ],
-        [
-            "Marine Armor Leg",
-            "10",
-            "100",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 2, Locations covered: Leg"
-        ],
-        [
-            "Marine Armor Helmet",
-            "10",
-            "65",
-            "4",
-            "Phys: 4, Energy: 4, Rad: 2, Locations covered: Head"
-        ],
-        [
-            "Recon Armor",
-            "3",
-            "360",
-            "4",
-            "Phys: 3, Energy: 3, Rad: 2, Locations covered: All"
-        ],
-        [
-            "Robot Armor Chest Piece",
-            "8",
-            "25",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Robot Armor Arm",
-            "4",
-            "10",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Robot Armor Leg",
-            "4",
-            "10",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Robot Armor Helmet",
-            "4",
-            "10",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Sturdy Robot Armor Chest Piece",
-            "16",
-            "100",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Sturdy Robot Armor Arm",
-            "8",
-            "60",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Sturdy Robot Armor Leg",
-            "8",
-            "60",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Sturdy Robot Armor Helmet",
-            "8",
-            "60",
-            "3",
-            "Phys: 3, Energy: 3, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Heavy Robot Armor Chest Piece",
-            "25",
-            "175",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Heavy Robot Armor Arm",
-            "13",
-            "110",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Heavy Robot Armor Leg",
-            "13",
-            "110",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Heavy Robot Armor Helmet",
-            "13",
-            "110",
-            "4",
-            "Phys: 4, Energy: 3, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Wood Armor Chest Piece",
-            "4",
-            "25",
-            "0",
-            "Phys: 1, Energy: 0, Rad: 0, Locations covered: Torso"
-        ],
-        [
-            "Wood Armor Arm",
-            "2",
-            "10",
-            "0",
-            "Phys: 1, Energy: 0, Rad: 0, Locations covered: Arm"
-        ],
-        [
-            "Wood Armor Leg",
-            "2",
-            "10",
-            "0",
-            "Phys: 1, Energy: 0, Rad: 0, Locations covered: Leg"
-        ],
-        [
-            "Wood Armor Helmet",
-            "2",
-            "10",
-            "0",
-            "Phys: 1, Energy: 0, Rad: 0, Locations covered: Head"
-        ]
+    [
+      "Sturdy Raider Leg",
+      "7",
+      "13",
+      "1",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Raider Arm",
+      "3",
+      "6",
+      "0",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Raider Chest Piece",
+      "12",
+      "33",
+      "1",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Raider Leg",
+      "7",
+      "13",
+      "1",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Raider Arm",
+      "7",
+      "8",
+      "1",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Raider Chest Piece",
+      "17",
+      "48",
+      "2",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Raider Leg",
+      "10",
+      "18",
+      "2",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Raider Arm",
+      "10",
+      "15",
+      "2",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Leather Chest Piece",
+      "5",
+      "25",
+      "1",
+      "Phys: 1, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Leather Leg",
+      "2",
+      "10",
+      "1",
+      "Phys: 1, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Leather Arm",
+      "2",
+      "8",
+      "1",
+      "Phys: 1, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Leather Chest Piece",
+      "10",
+      "50",
+      "2",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Leather Leg",
+      "5",
+      "20",
+      "2",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Leather Arm",
+      "5",
+      "18",
+      "2",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Leather Chest Piece",
+      "15",
+      "75",
+      "3",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Leather Leg",
+      "7",
+      "30",
+      "3",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Leather Arm",
+      "7",
+      "28",
+      "3",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Metal Helmet",
+      "3",
+      "15",
+      "1",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Metal Chest Piece",
+      "6",
+      "40",
+      "1",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Metal Leg",
+      "3",
+      "15",
+      "1",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Metal Arm",
+      "3",
+      "15",
+      "1",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Metal Helmet",
+      "8",
+      "65",
+      "2",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Sturdy Metal Chest Piece",
+      "16",
+      "115",
+      "2",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Metal Leg",
+      "8",
+      "65",
+      "2",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Metal Arm",
+      "8",
+      "65",
+      "2",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Metal Helmet",
+      "12",
+      "115",
+      "3",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Heavy Metal Chest Piece",
+      "23",
+      "190",
+      "3",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Metal Leg",
+      "12",
+      "115",
+      "3",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Metal Arm",
+      "12",
+      "115",
+      "3",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Combat Helmet",
+      "4",
+      "25",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Combat Chest Piece",
+      "8",
+      "60",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Combat Leg",
+      "2",
+      "25",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Combat Arm",
+      "2",
+      "25",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Combat Helmet",
+      "5",
+      "105",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Sturdy Combat Chest Piece",
+      "12",
+      "140",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Combat Leg",
+      "5",
+      "105",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Combat Arm",
+      "5",
+      "105",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Combat Helmet",
+      "7",
+      "185",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Heavy Combat Chest Piece",
+      "16",
+      "220",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Combat Leg",
+      "7",
+      "185",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Combat Arm",
+      "7",
+      "145",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Synth Helmet",
+      "3",
+      "33",
+      "3",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Synth Chest Piece",
+      "7",
+      "75",
+      "3",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Synth Leg",
+      "3",
+      "30",
+      "3",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Synth Arm",
+      "3",
+      "30",
+      "4",
+      "Phys: 2, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Synth Helmet",
+      "7",
+      "70",
+      "4",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Sturdy Synth Chest Piece",
+      "12",
+      "125",
+      "4",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Synth Leg",
+      "7",
+      "80",
+      "4",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Synth Arm",
+      "7",
+      "70",
+      "4",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Synth Helmet",
+      "10",
+      "110",
+      "5",
+      "Phys: 4, Energy: 5, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Heavy Synth Chest Piece",
+      "17",
+      "175",
+      "5",
+      "Phys: 4, Energy: 5, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Synth Leg",
+      "10",
+      "130",
+      "5",
+      "Phys: 4, Energy: 5, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Synth Arm",
+      "10",
+      "110",
+      "5",
+      "Phys: 4, Energy: 5, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Vault-Tec Security Helmet",
+      "2",
+      "20",
+      "1",
+      "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Vault-Tec Security Armor",
+      "8",
+      "16",
+      "1",
+      "Phys: 2, Energy: 0, Rad: 2, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Legionary Recruit Chest Piece",
+      "6",
+      "75",
+      "3",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Legionary Recruit Arm",
+      "2",
+      "30",
+      "3",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Legionary Recruit Leg",
+      "2",
+      "40",
+      "3",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Legionary Recruit Helmet",
+      "2",
+      "50",
+      "3",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Legionary Chest Piece",
+      "11",
+      "100",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Legionary Arm",
+      "4",
+      "50",
+      "4",
+      "Phys: 2, Energy: 1, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Legionary Leg",
+      "4",
+      "70",
+      "4",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Legionary Helmet",
+      "5",
+      "75",
+      "4",
+      "Phys: 3, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Legionary Centurion Chest Piece",
+      "16",
+      "200",
+      "5",
+      "Phys: 5, Energy: 4, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Legionary Centurion Arm",
+      "12",
+      "140",
+      "5",
+      "Phys: 4, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Legionary Centurion Leg",
+      "6",
+      "100",
+      "5",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Legionary Centurion Helmet",
+      "10",
+      "175",
+      "5",
+      "Phys: 5, Energy: 4, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Legatus Helmet",
+      "16",
+      "250",
+      "5",
+      "Phys: 5, Energy: 5, Rad: 3, Locations covered: Head"
+    ],
+    [
+      "Chinese Stealth Armor",
+      "5",
+      "750",
+      "6",
+      "Phys: 4, Energy: 4, Rad: 6, Locations covered: All"
+    ],
+    [
+      "Diving Suit",
+      "8",
+      "350",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 9, Locations covered: All"
+    ],
+    [
+      "Scout Armor Chest Piece",
+      "7",
+      "90",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 2, Locations covered: Torso"
+    ],
+    [
+      "Scout Armor Arm",
+      "3",
+      "60",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 2, Locations covered: Arm"
+    ],
+    [
+      "Scout Armor Leg",
+      "3",
+      "60",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 2, Locations covered: Leg"
+    ],
+    [
+      "Scout Armor Mask",
+      "1",
+      "50",
+      "4",
+      "Phys: 3, Energy: 2, Rad: 2, Locations covered: Head"
+    ],
+    [
+      "Marine Armor Chest Piece",
+      "19",
+      "150",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 2, Locations covered: Torso"
+    ],
+    [
+      "Marine Armor Arm",
+      "10",
+      "115",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 2, Locations covered: Arm"
+    ],
+    [
+      "Marine Armor Leg",
+      "10",
+      "100",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 2, Locations covered: Leg"
+    ],
+    [
+      "Marine Armor Helmet",
+      "10",
+      "65",
+      "4",
+      "Phys: 4, Energy: 4, Rad: 2, Locations covered: Head"
+    ],
+    [
+      "Recon Armor",
+      "3",
+      "360",
+      "4",
+      "Phys: 3, Energy: 3, Rad: 2, Locations covered: All"
+    ],
+    [
+      "Robot Armor Chest Piece",
+      "8",
+      "25",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Robot Armor Arm",
+      "4",
+      "10",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Robot Armor Leg",
+      "4",
+      "10",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Robot Armor Helmet",
+      "4",
+      "10",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Sturdy Robot Armor Chest Piece",
+      "16",
+      "100",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Sturdy Robot Armor Arm",
+      "8",
+      "60",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Sturdy Robot Armor Leg",
+      "8",
+      "60",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Sturdy Robot Armor Helmet",
+      "8",
+      "60",
+      "3",
+      "Phys: 3, Energy: 3, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Heavy Robot Armor Chest Piece",
+      "25",
+      "175",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Heavy Robot Armor Arm",
+      "13",
+      "110",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Heavy Robot Armor Leg",
+      "13",
+      "110",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Heavy Robot Armor Helmet",
+      "13",
+      "110",
+      "4",
+      "Phys: 4, Energy: 3, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Wood Armor Chest Piece",
+      "4",
+      "25",
+      "0",
+      "Phys: 1, Energy: 0, Rad: 0, Locations covered: Torso"
+    ],
+    [
+      "Wood Armor Arm",
+      "2",
+      "10",
+      "0",
+      "Phys: 1, Energy: 0, Rad: 0, Locations covered: Arm"
+    ],
+    [
+      "Wood Armor Leg",
+      "2",
+      "10",
+      "0",
+      "Phys: 1, Energy: 0, Rad: 0, Locations covered: Leg"
+    ],
+    [
+      "Wood Armor Helmet",
+      "2",
+      "10",
+      "0",
+      "Phys: 1, Energy: 0, Rad: 0, Locations covered: Head"
     ]
+  ]
 }

@@ -1,278 +1,272 @@
 {
-    "Type": "Clothing",
-    "Categories": [
-        "Name",
-        "Weight",
-        "Cost",
-        "Rarity",
-        "Description"
+  "Type": "Clothing",
+  "Spotlight": 9,
+  "Data": [
+    [
+      "Brotherhood of Steel Uniform",
+      "2",
+      "20",
+      "2",
+      "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
     ],
-    "Data": [
-        [
-            "Brotherhood of Steel Uniform",
-            "2",
-            "20",
-            "2",
-            "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Casual Clothing",
-            "2",
-            "20",
-            "1",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Harness",
-            "1",
-            "5",
-            "0",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Military Fatigues",
-            "3",
-            "12",
-            "1",
-            "Phys: 0, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Road Leathers",
-            "1",
-            "5",
-            "1",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Tough Clothing",
-            "3",
-            "20",
-            "1",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Vault Jumpsuit",
-            "1",
-            "20",
-            "2",
-            "Phys: 0, Energy: 1, Rad: 2, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Brotherhood of Steel Fatigues",
-            "4",
-            "20",
-            "3",
-            "Phys: 2, Energy: 2, Rad: 2, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Brotherhood Scribe’s Armor",
-            "4",
-            "20",
-            "2",
-            "Phys: 1, Energy: 2, Rad: 2, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Cage Armor",
-            "33",
-            "110",
-            "3",
-            "Phys: 3, Energy: 4, Rad: 0, Locations covered: Head, Arms, Legs, Torso"
-        ],
-        [
-            "Drifter Outfit",
-            "10",
-            "35",
-            "1",
-            "Phys: 1, Energy: 2, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Engineer’s Armor",
-            "2",
-            "15",
-            "1",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Formal Clothing",
-            "2",
-            "30",
-            "2",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Hazmat Suit",
-            "5",
-            "85",
-            "3",
-            "Phys: 0, Energy: 0, Rad: Immune, Locations covered: Head, Arms, Legs, Torso"
-        ],
-        [
-            "Heavy Coat",
-            "2",
-            "20",
-            "1",
-            "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Hides",
-            "4",
-            "13",
-            "0",
-            "Phys: 1, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Lab Coat",
-            "2",
-            "10",
-            "1",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Spike Armor",
-            "17",
-            "65",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head, Arms, Legs, Torso"
-        ],
-        [
-            "Utility Coveralls",
-            "2",
-            "12",
-            "1",
-            "Phys: 2, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Army Helmet",
-            "3",
-            "20",
-            "1",
-            "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Brotherhood of Steel Hood",
-            ".5",
-            "12",
-            "2",
-            "Phys: 0, Energy: 1, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Brotherhood Scribe’s Hat",
-            ".5",
-            "8",
-            "2",
-            "Phys: 0, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Casual Hat",
-            ".5",
-            "15",
-            "1",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Formal Hat",
-            ".5",
-            "15",
-            "2",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Gas Mask",
-            "3",
-            "10",
-            "2",
-            "Phys: 1, Energy: 0, Rad: 3, Locations covered: Head"
-        ],
-        [
-            "Hard Hat",
-            ".5",
-            "15",
-            "1",
-            "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Hood or Cowl",
-            "2",
-            "5",
-            "1",
-            "Phys: 1, Energy: 0, Rad: 1, Locations covered: Head"
-        ],
-        [
-            "Sack Hood",
-            "1",
-            "5",
-            "0",
-            "Phys: 0, Energy: 0, Rad: 2, Locations covered: Head"
-        ],
-        [
-            "Welder’s Visor",
-            "4",
-            "20",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Beer Hat",
-            "1",
-            "15",
-            "2",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
-        ],
-        [
-            "Marine Tactical Helmet",
-            "2",
-            "25",
-            "3",
-            "Phys: 2, Energy: 2, Rad: 2, Locations covered: Head"
-        ],
-        [
-            "Spacesuit Helmet",
-            "5",
-            "85",
-            "3",
-            "Phys: 1, Energy: 4, Rad: 2, Locations covered: Head"
-        ],
-        [
-            "Marine Wetsuit",
-            "2",
-            "25",
-            "3",
-            "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Underarmor Suit",
-            "1",
-            "30",
-            "2",
-            "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
-        ],
-        [
-            "Cleanroom Suit",
-            "5",
-            "65",
-            "2",
-            "Phys: 0, Energy: 0, Rad: 6, Locations covered: All"
-        ],
-        [
-            "Hunter’s Pelt Outfit",
-            "15",
-            "50",
-            "2",
-            "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso, Arms, Legs, Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
-        ],
-        [
-            "Hunter’s Hood",
-            "2",
-            "15",
-            "2",
-            "Phys: 1, Energy: 1, Rad: 0, Locations covered: Head, Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
-        ],
-        [
-            "Spacesuit Costume",
-            "8",
-            "100",
-            "4",
-            "Phys: 1, Energy: 4, Rad: 2, Locations covered: Arms, Legs, Torso"
-        ]
+    [
+      "Casual Clothing",
+      "2",
+      "20",
+      "1",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Harness",
+      "1",
+      "5",
+      "0",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Military Fatigues",
+      "3",
+      "12",
+      "1",
+      "Phys: 0, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Road Leathers",
+      "1",
+      "5",
+      "1",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Tough Clothing",
+      "3",
+      "20",
+      "1",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Vault Jumpsuit",
+      "1",
+      "20",
+      "2",
+      "Phys: 0, Energy: 1, Rad: 2, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Brotherhood of Steel Fatigues",
+      "4",
+      "20",
+      "3",
+      "Phys: 2, Energy: 2, Rad: 2, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Brotherhood Scribe’s Armor",
+      "4",
+      "20",
+      "2",
+      "Phys: 1, Energy: 2, Rad: 2, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Cage Armor",
+      "33",
+      "110",
+      "3",
+      "Phys: 3, Energy: 4, Rad: 0, Locations covered: Head, Arms, Legs, Torso"
+    ],
+    [
+      "Drifter Outfit",
+      "10",
+      "35",
+      "1",
+      "Phys: 1, Energy: 2, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Engineer’s Armor",
+      "2",
+      "15",
+      "1",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Formal Clothing",
+      "2",
+      "30",
+      "2",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Hazmat Suit",
+      "5",
+      "85",
+      "3",
+      "Phys: 0, Energy: 0, Rad: Immune, Locations covered: Head, Arms, Legs, Torso"
+    ],
+    [
+      "Heavy Coat",
+      "2",
+      "20",
+      "1",
+      "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Hides",
+      "4",
+      "13",
+      "0",
+      "Phys: 1, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Lab Coat",
+      "2",
+      "10",
+      "1",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Spike Armor",
+      "17",
+      "65",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head, Arms, Legs, Torso"
+    ],
+    [
+      "Utility Coveralls",
+      "2",
+      "12",
+      "1",
+      "Phys: 2, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Army Helmet",
+      "3",
+      "20",
+      "1",
+      "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Brotherhood of Steel Hood",
+      ".5",
+      "12",
+      "2",
+      "Phys: 0, Energy: 1, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Brotherhood Scribe’s Hat",
+      ".5",
+      "8",
+      "2",
+      "Phys: 0, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Casual Hat",
+      ".5",
+      "15",
+      "1",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Formal Hat",
+      ".5",
+      "15",
+      "2",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Gas Mask",
+      "3",
+      "10",
+      "2",
+      "Phys: 1, Energy: 0, Rad: 3, Locations covered: Head"
+    ],
+    [
+      "Hard Hat",
+      ".5",
+      "15",
+      "1",
+      "Phys: 2, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Hood or Cowl",
+      "2",
+      "5",
+      "1",
+      "Phys: 1, Energy: 0, Rad: 1, Locations covered: Head"
+    ],
+    [
+      "Sack Hood",
+      "1",
+      "5",
+      "0",
+      "Phys: 0, Energy: 0, Rad: 2, Locations covered: Head"
+    ],
+    [
+      "Welder’s Visor",
+      "4",
+      "20",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Beer Hat",
+      "1",
+      "15",
+      "2",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Head"
+    ],
+    [
+      "Marine Tactical Helmet",
+      "2",
+      "25",
+      "3",
+      "Phys: 2, Energy: 2, Rad: 2, Locations covered: Head"
+    ],
+    [
+      "Spacesuit Helmet",
+      "5",
+      "85",
+      "3",
+      "Phys: 1, Energy: 4, Rad: 2, Locations covered: Head"
+    ],
+    [
+      "Marine Wetsuit",
+      "2",
+      "25",
+      "3",
+      "Phys: 1, Energy: 1, Rad: 1, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Underarmor Suit",
+      "1",
+      "30",
+      "2",
+      "Phys: 0, Energy: 0, Rad: 0, Locations covered: Arms, Legs, Torso"
+    ],
+    [
+      "Cleanroom Suit",
+      "5",
+      "65",
+      "2",
+      "Phys: 0, Energy: 0, Rad: 6, Locations covered: All"
+    ],
+    [
+      "Hunter’s Pelt Outfit",
+      "15",
+      "50",
+      "2",
+      "Phys: 2, Energy: 2, Rad: 0, Locations covered: Torso, Arms, Legs, Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Hunter’s Hood",
+      "2",
+      "15",
+      "2",
+      "Phys: 1, Energy: 1, Rad: 0, Locations covered: Head, Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Spacesuit Costume",
+      "8",
+      "100",
+      "4",
+      "Phys: 1, Energy: 4, Rad: 2, Locations covered: Arms, Legs, Torso"
     ]
+  ]
 }

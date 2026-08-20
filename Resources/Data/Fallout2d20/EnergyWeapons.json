@@ -1,89 +1,83 @@
 {
-    "Type": "EnergyWeapons",
-    "Categories": [
-        "Name",
-        "Weight",
-        "Cost",
-        "Rarity",
-        "Description"
+  "Type": "EnergyWeapons",
+  "Spotlight": 3,
+  "Data": [
+    [
+      "Institute Laser",
+      "4",
+      "50",
+      "2",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
     ],
-    "Data": [
-        [
-            "Institute Laser",
-            "4",
-            "50",
-            "2",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
-        ],
-        [
-            "Laser Musket",
-            "13",
-            "57",
-            "1",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Laser Gun",
-            "4",
-            "69",
-            "2",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters"
-        ],
-        [
-            "Plasma Gun",
-            "4",
-            "123",
-            "3",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical/Energy, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
-        ],
-        [
-            "Gamma Gun",
-            "3",
-            "156",
-            "5",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, Stun, DAMAGE TYPE: Radiation, FIRE RATE: 1, RANGE: M, QUALITIES: Blast, Inaccurate"
-        ],
-        [
-            "Alien Atomizer",
-            "3",
-            "1536",
-            "5",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Reliable"
-        ],
-        [
-            "Alien Disintegrator",
-            "7",
-            "921",
-            "5",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed, Reliable"
-        ],
-        [
-            "Arc Welder",
-            "15",
-            "370",
-            "4",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 4, RANGE: C, QUALITIES: Surge, Two-Handed"
-        ],
-        [
-            "Assaultron Head",
-            "8",
-            "500",
-            "3",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: C, QUALITIES: -"
-        ],
-        [
-            "Microwave Emitter",
-            "8",
-            "500",
-            "5",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Persistent, Piercing 3, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Tesla Rifle",
-            "8",
-            "180",
-            "4",
-            "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Arc, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
-        ]
+    [
+      "Laser Musket",
+      "13",
+      "57",
+      "1",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Laser Gun",
+      "4",
+      "69",
+      "2",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters"
+    ],
+    [
+      "Plasma Gun",
+      "4",
+      "123",
+      "3",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical/Energy, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
+    ],
+    [
+      "Gamma Gun",
+      "3",
+      "156",
+      "5",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, Stun, DAMAGE TYPE: Radiation, FIRE RATE: 1, RANGE: M, QUALITIES: Blast, Inaccurate"
+    ],
+    [
+      "Alien Atomizer",
+      "3",
+      "1536",
+      "5",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Reliable"
+    ],
+    [
+      "Alien Disintegrator",
+      "7",
+      "921",
+      "5",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed, Reliable"
+    ],
+    [
+      "Arc Welder",
+      "15",
+      "370",
+      "4",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 4, RANGE: C, QUALITIES: Surge, Two-Handed"
+    ],
+    [
+      "Assaultron Head",
+      "8",
+      "500",
+      "3",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: C, QUALITIES: -"
+    ],
+    [
+      "Microwave Emitter",
+      "8",
+      "500",
+      "5",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Persistent, Piercing 3, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Tesla Rifle",
+      "8",
+      "180",
+      "4",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Arc, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
     ]
+  ]
 }

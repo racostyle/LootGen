@@ -1,12 +1,6 @@
 {
   "Type": "Food",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 10,
   "Data": [
     [
       "Baked Bloatfly",

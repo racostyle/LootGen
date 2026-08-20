@@ -1,236 +1,230 @@
 {
-    "Type": "SmallGuns",
-    "Categories": [
-        "Name",
-        "Weight",
-        "Cost",
-        "Rarity",
-        "Description"
+  "Type": "SmallGuns",
+  "Spotlight": 6,
+  "Data": [
+    [
+      ".44 Pistol",
+      "4",
+      "99",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
     ],
-    "Data": [
-        [
-            ".44 Pistol",
-            "4",
-            "99",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
-        ],
-        [
-            "10mm Pistol",
-            "4",
-            "50",
-            "1",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Reliable"
-        ],
-        [
-            "Flare Gun",
-            "2",
-            "50",
-            "1",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Reliable"
-        ],
-        [
-            "Assault Rifle",
-            "13",
-            "144",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Combat Rifle",
-            "11",
-            "117",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Gauss Rifle",
-            "16",
-            "228",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 10 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: L, QUALITIES: Two-Handed"
-        ],
-        [
-            "Hunting Rifle",
-            "10",
-            "55",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Submachine Gun",
-            "12",
-            "109",
-            "1",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
-        ],
-        [
-            "Combat Shotgun",
-            "11",
-            "87",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
-        ],
-        [
-            "Double-Barrel Shotgun",
-            "9",
-            "39",
-            "1",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
-        ],
-        [
-            "Pipe Bolt-Action",
-            "3",
-            "30",
-            "0",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Unreliable"
-        ],
-        [
-            "Pipe Gun",
-            "2",
-            "30",
-            "0",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Unreliable"
-        ],
-        [
-            "Pipe Revolver",
-            "4",
-            "25",
-            "0",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Unreliable"
-        ],
-        [
-            "Railway Rifle",
-            "14",
-            "290",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 10 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Debilitating, Two-Handed, Unreliable"
-        ],
-        [
-            "Syringer",
-            "6",
-            "132",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            ".357 Magnum Revolver",
-            "2",
-            "110",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Reliable"
-        ],
-        [
-            "12.7mm Pistol",
-            "4",
-            "400",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Recoil (7)"
-        ],
-        [
-            "12.7mm SMG",
-            "5",
-            "510",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate, Recoil (7), Two-Handed"
-        ],
-        [
-            "25mm Grenade APW",
-            "8",
-            "420",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: L, QUALITIES: Blast, Two-Handed"
-        ],
-        [
-            "9mm Pistol",
-            "2",
-            "50",
-            "2",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Concealed, Reliable"
-        ],
-        [
-            "Anti-Materiel Rifle",
-            "20",
-            "560",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Reliable, Two-Handed, Recoil (8)"
-        ],
-        [
-            "Battle Rifle",
-            "10",
-            "150",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: M, QUALITIES: Reliable, Two-Handed"
-        ],
-        [
-            "Black Powder Blunderbuss",
-            "3",
-            "90",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Close Quarters, Inaccurate, Recoil (7), Slow Load"
-        ],
-        [
-            "Black Powder Pistol",
-            "3",
-            "60",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Recoil (7), Slow Load"
-        ],
-        [
-            "Black Powder Rifle",
-            "6",
-            "60",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Recoil (7), Slow Load"
-        ],
-        [
-            "Gauss Pistol",
-            "6",
-            "334",
-            "5",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: M, QUALITIES: -"
-        ],
-        [
-            "Gauss Shotgun",
-            "14",
-            "400",
-            "5",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, Spread, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Ammo-Hungry (10), Two-Handed"
-        ],
-        [
-            "Lever-Action Rifle",
-            "9",
-            "201",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: -"
-        ],
-        [
-            "Light Machine Gun",
-            "15",
-            "150",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 4, RANGE: M, QUALITIES: Inaccurate, Recoil (8), Two-Handed"
-        ],
-        [
-            "Pump-Action Shotgun",
-            "11",
-            "70",
-            "1",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
-        ],
-        [
-            "Radium Rifle",
-            "11",
-            "110",
-            "3",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Radioactive, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Two-Handed"
-        ],
-        [
-            "Sniper Rifle",
-            "10",
-            "300",
-            "4",
-            "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Accurate, Two-Handed"
-        ]
+    [
+      "10mm Pistol",
+      "4",
+      "50",
+      "1",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Reliable"
+    ],
+    [
+      "Flare Gun",
+      "2",
+      "50",
+      "1",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Reliable"
+    ],
+    [
+      "Assault Rifle",
+      "13",
+      "144",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Combat Rifle",
+      "11",
+      "117",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Gauss Rifle",
+      "16",
+      "228",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 10 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: L, QUALITIES: Two-Handed"
+    ],
+    [
+      "Hunting Rifle",
+      "10",
+      "55",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Submachine Gun",
+      "12",
+      "109",
+      "1",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
+    ],
+    [
+      "Combat Shotgun",
+      "11",
+      "87",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
+    ],
+    [
+      "Double-Barrel Shotgun",
+      "9",
+      "39",
+      "1",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
+    ],
+    [
+      "Pipe Bolt-Action",
+      "3",
+      "30",
+      "0",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Unreliable"
+    ],
+    [
+      "Pipe Gun",
+      "2",
+      "30",
+      "0",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Unreliable"
+    ],
+    [
+      "Pipe Revolver",
+      "4",
+      "25",
+      "0",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Unreliable"
+    ],
+    [
+      "Railway Rifle",
+      "14",
+      "290",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 10 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Debilitating, Two-Handed, Unreliable"
+    ],
+    [
+      "Syringer",
+      "6",
+      "132",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      ".357 Magnum Revolver",
+      "2",
+      "110",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Reliable"
+    ],
+    [
+      "12.7mm Pistol",
+      "4",
+      "400",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters, Recoil (7)"
+    ],
+    [
+      "12.7mm SMG",
+      "5",
+      "510",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate, Recoil (7), Two-Handed"
+    ],
+    [
+      "25mm Grenade APW",
+      "8",
+      "420",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: L, QUALITIES: Blast, Two-Handed"
+    ],
+    [
+      "9mm Pistol",
+      "2",
+      "50",
+      "2",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Concealed, Reliable"
+    ],
+    [
+      "Anti-Materiel Rifle",
+      "20",
+      "560",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Reliable, Two-Handed, Recoil (8)"
+    ],
+    [
+      "Battle Rifle",
+      "10",
+      "150",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: M, QUALITIES: Reliable, Two-Handed"
+    ],
+    [
+      "Black Powder Blunderbuss",
+      "3",
+      "90",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Close Quarters, Inaccurate, Recoil (7), Slow Load"
+    ],
+    [
+      "Black Powder Pistol",
+      "3",
+      "60",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Recoil (7), Slow Load"
+    ],
+    [
+      "Black Powder Rifle",
+      "6",
+      "60",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: Recoil (7), Slow Load"
+    ],
+    [
+      "Gauss Pistol",
+      "6",
+      "334",
+      "5",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: M, QUALITIES: -"
+    ],
+    [
+      "Gauss Shotgun",
+      "14",
+      "400",
+      "5",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, Spread, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: C, QUALITIES: Ammo-Hungry (10), Two-Handed"
+    ],
+    [
+      "Lever-Action Rifle",
+      "9",
+      "201",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: M, QUALITIES: -"
+    ],
+    [
+      "Light Machine Gun",
+      "15",
+      "150",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 4, RANGE: M, QUALITIES: Inaccurate, Recoil (8), Two-Handed"
+    ],
+    [
+      "Pump-Action Shotgun",
+      "11",
+      "70",
+      "1",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Spread, DAMAGE TYPE: Physical, FIRE RATE: 1, RANGE: C, QUALITIES: Inaccurate, Two-Handed"
+    ],
+    [
+      "Radium Rifle",
+      "11",
+      "110",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Radioactive, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Sniper Rifle",
+      "10",
+      "300",
+      "4",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Accurate, Two-Handed"
     ]
+  ]
 }

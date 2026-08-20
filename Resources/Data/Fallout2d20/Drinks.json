@@ -1,12 +1,6 @@
 {
   "Type": "Drinks",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 7,
   "Data": [
     [
       "Beer",

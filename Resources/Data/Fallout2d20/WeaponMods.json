@@ -1,12 +1,6 @@
 {
   "Type": "WeaponMods",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 4,
   "Data": [
     [
       "Hardened Receiver",

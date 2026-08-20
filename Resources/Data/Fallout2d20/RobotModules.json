@@ -1,12 +1,6 @@
 {
   "Type": "RobotModules",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 3,
   "Data": [
     [
       "Behavioral Analysis Mod",

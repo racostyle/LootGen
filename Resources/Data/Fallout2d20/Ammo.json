@@ -1,12 +1,6 @@
 {
     "Type": "Ammo",
-    "Categories": [
-        "Name",
-        "Weight",
-        "Cost",
-        "Rarity",
-        "Description"
-    ],
+    "Spotlight": 7,
     "Data": [
         [
             ".38",

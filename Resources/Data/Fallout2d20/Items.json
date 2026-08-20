@@ -1,12 +1,6 @@
 {
   "Type": "Items",
-  "Categories": [
-    "Name",
-    "Weight",
-    "Cost",
-    "Rarity",
-    "Description"
-  ],
+  "Spotlight": 4,
   "Data": [
     [
       "Robot Repair Kit",
