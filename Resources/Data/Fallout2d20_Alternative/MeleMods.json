@@ -5,303 +5,250 @@
     [
       "Serrated Blade",
       "0",
-      "+25",
+      "50",
       "2",
-      "Name Prefix: Serrated, Effects: Gain Persistent"
+      "Name Prefix: Serrated, Effects: Gain Persistent",
+      "Used On: "
     ],
     [
       "Electrified Blade",
       "0",
-      "+50",
+      "100",
       "2",
-      "Name Prefix: Electrified, Effects: +1CD, Damage type becomes Energy"
+      "Name Prefix: Electrified, Effects: +1CD, Damage type becomes Energy",
+      "Used On: "
     ],
     [
       "Electrified Serrated Blade",
       "0",
-      "+75",
+      "150",
       "3",
-      "Name Prefix: Electrified Serrated, Effects: +1CD, Damage type becomes Energy, gain Persistent (Physical)"
+      "Name Prefix: Electrified Serrated, Effects: +1CD, Damage type becomes Energy, gain Persistent (Physical)",
+      "Used On: "
     ],
     [
       "Stun Pack",
       "0",
-      "+100",
+      "200",
       "3",
-      "Name Prefix: Stunning, Effects: +2CD, Damage type becomes Energy, gain Stun"
+      "Name Prefix: Stunning, Effects: +2CD, Damage type becomes Energy, gain Stun",
+      "Used On: "
     ],
     [
       "Stealth Blade",
       "0",
-      "+18",
+      "35",
       "2",
-      "Name Prefix: Stealth, Effects: +1CD, Gain Persistent, +2CD on Sneak Attacks"
+      "Name Prefix: Stealth, Effects: +1CD, Gain Persistent, +2CD on Sneak Attacks",
+      "Used On: "
     ],
     [
       "Curved Blade",
       "+1",
-      "+15",
+      "30",
       "0",
-      "Name Prefix: Curved, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+      "Name Prefix: Curved, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
+      "Used On: "
     ],
     [
       "Extended Blade",
       "+3",
-      "+25",
+      "50",
       "3",
-      "Name Prefix: Extended, Effects: +1CD, Gain Persistent"
+      "Name Prefix: Extended, Effects: +1CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Extra Flame Jets",
       "+1",
-      "+100",
+      "200",
       "3",
-      "Name Prefix: Searing, Effects: +1CD, Gain Persistent"
+      "Name Prefix: Searing, Effects: +1CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Barbed",
       "0",
-      "+5",
+      "10",
       "0",
-      "Name Prefix: Barbed, Effects: Gain Piercing 1"
-    ],
-    [
-      "Spiked",
-      "+1",
-      "+7",
-      "0",
-      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+      "Name Prefix: Barbed, Effects: Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Sharp",
       "+1",
-      "+7",
+      "15",
       "0",
-      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent"
+      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Chain-Wrapped",
       "+1",
-      "+10",
+      "20",
       "1",
-      "Name Prefix: Chain-Wrapped, Effects: +2CD"
+      "Name Prefix: Chain-Wrapped, Effects: +2CD",
+      "Used On: "
     ],
     [
       "Bladed",
       "+2",
-      "+12",
+      "25",
       "2",
-      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent"
+      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Spiked",
       "+1",
-      "+6",
+      "10",
       "0",
-      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Puncturing",
       "+1",
-      "+9",
+      "20",
       "1",
-      "Name Prefix: Puncturing, Effects: +2CD"
+      "Name Prefix: Puncturing, Effects: +2CD",
+      "Used On: "
     ],
     [
       "Bladed",
       "+2",
-      "+10",
+      "20",
       "1",
-      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent"
-    ],
-    [
-      "Spiked",
-      "+1",
-      "+4",
-      "0",
-      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
-    ],
+      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent",
+      "Used On: "
+    ]
     [
       "Heavy",
       "+2",
       "+11",
       "2",
-      "Name Prefix: Heavy, Effects: +2CD"
+      "Name Prefix: Heavy, Effects: +2CD",
+      "Used On: "
     ],
     [
       "Hooked",
       "0",
       "+9",
       "0",
-      "Name Prefix: Hooked, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+      "Name Prefix: Hooked, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
+      "Used On: "
     ],
     [
       "Heavy",
       "+7",
       "+12",
       "1",
-      "Name Prefix: Weighted, Effects: +2CD"
+      "Name Prefix: Weighted, Effects: +2CD",
+      "Used On: "
     ],
     [
       "Puncturing",
       "+1",
       "+13",
       "1",
-      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1"
+      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Extra Heavy",
       "+2",
       "+22",
       "2",
-      "Name Prefix: Heavy, Effects: +3CD"
-    ],
-    [
-      "Barbed",
-      "0",
-      "+2",
-      "0",
-      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1"
-    ],
-    [
-      "Sharp",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent"
-    ],
-    [
-      "Spiked",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1"
+      "Name Prefix: Heavy, Effects: +3CD",
+      "Used On: "
     ],
     [
       "Electrified",
       "0",
       "+15",
       "2",
-      "Name Prefix: Shock, Effects: +2CD, Change Damage Type to Energy"
-    ],
-    [
-      "Stun Pack",
-      "0",
-      "+30",
-      "2",
-      "Name Prefix: Stun, Effects: +3CD, Gain Stun, Change Damage Type to Energy"
+      "Name Prefix: Shock, Effects: +2CD, Change Damage Type to Energy",
+      "Used On: "
     ],
     [
       "Puncturing",
       "+5",
       "+18",
       "2",
-      "Name Prefix: Puncturing, Effects: +1CD. Gain Piercing 1"
-    ],
-    [
-      "Heavy",
-      "+9",
-      "+30",
-      "2",
-      "Name Prefix: Heavy, Effects: +2CD"
+      "Name Prefix: Puncturing, Effects: +1CD. Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Heating Coil",
       "0",
       "+180",
       "2",
-      "Name Prefix: Heated, Effects: +1CD, Change Damage Type to Energy"
+      "Name Prefix: Heated, Effects: +1CD, Change Damage Type to Energy",
+      "Used On: "
     ],
     [
       "Stun Pack",
       "0",
       "+360",
       "3",
-      "Name Prefix: Stunning, Effects: +2CD, Gain Stun, Change Damage Type to Energy"
-    ],
-    [
-      "Bladed",
-      "+1",
-      "+12",
-      "2",
-      "Name Prefix: Bladed, Effects: +1CD, gain Persistent"
-    ],
-    [
-      "Barbed",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Barbed, Effects: +1CD. Gain Piercing 1"
-    ],
-    [
-      "Spiked",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
-    ],
-    [
-      "Spiked",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Spiked, Effects: Gain Piercing 1"
-    ],
-    [
-      "Puncturing",
-      "0",
-      "+4",
-      "1",
-      "Name Prefix: Puncturing, Effects: +1CD, Piercing 1"
+      "Name Prefix: Stunning, Effects: +2CD, Gain Stun, Change Damage Type to Energy",
+      "Used On: "
     ],
     [
       "Lead lining",
       "+1",
       "+7",
       "1",
-      "Name Prefix: Lead-lined, Effects: +2CD"
+      "Name Prefix: Lead-lined, Effects: +2CD",
+      "Used On: "
     ],
     [
       "Extra Claw",
       "+2",
       "+22",
       "0",
-      "Name Prefix: Large, Effects: +1CD. On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+      "Name Prefix: Large, Effects: +1CD. On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
+      "Used On: "
     ],
     [
       "Sharp",
       "0",
       "+3",
       "0",
-      "Name Prefix: Sharp, Effects: Gain Persistent"
+      "Name Prefix: Sharp, Effects: Gain Persistent",
+      "Used On: "
     ],
     [
       "Puncturing",
       "0",
       "+4",
       "1",
-      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1"
+      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Bladed",
       "0",
       "+5",
       "1",
-      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent"
+      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Puncturing",
       "+1",
       "+45",
       "2",
-      "Name Prefix: Puncturing, Effects: +2CD. Gain Piercing 1"
+      "Name Prefix: Puncturing, Effects: +2CD. Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Heating Coil",
       "0",
       "+100",
       "3",
-      "Name Prefix: Heated, Effects: +2CD, Change Damage Type to Energy"
+      "Name Prefix: Heated, Effects: +2CD, Change Damage Type to Energy",
+      "Used On: "
     ]
   ]
 }

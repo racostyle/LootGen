@@ -1,860 +1,982 @@
 {
   "Type": "WeaponMods",
-  "Spotlight": 4,
+  "Spotlight": 3,
   "Data": [
     [
       "Hardened Receiver",
+      "1",
+      "40",
       "0",
-      "+20",
-      "0",
-      "Name Prefix: Hardened, Effects: +1CD damage"
+      "Name Prefix: Hardened, Effects: +1CD damage",
+      "Used On: "
     ],
     [
       "Powerful Receiver",
-      "+1",
-      "+25",
       "1",
-      "Name Prefix: Powerful, Effects: +2CD damage"
+      "50",
+      "1",
+      "Name Prefix: Powerful, Effects: +2CD damage",
+      "Used On: "
     ],
     [
       "Advanced Receiver",
-      "+2",
-      "+35",
       "2",
-      "Name Prefix: Advanced, Effects: +3CD damage, +1 Fire Rate"
+      "70",
+      "2",
+      "Name Prefix: Advanced, Effects: +3CD damage, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Calibrated Receiver",
+      "1",
+      "50",
       "0",
-      "+25",
-      "0",
-      "Name Prefix: Calibrated, Effects: Gain Vicious"
+      "Name Prefix: Calibrated, Effects: Gain Vicious",
+      "Used On: "
     ],
     [
       "Automatic Receiver",
-      "+1",
-      "+30",
       "1",
-      "Name Prefix: Auto, Effects: -1CD damage, +2 Fire Rate, Gain Burst, Gain Inaccurate"
+      "60",
+      "1",
+      "Name Prefix: Auto, Effects: -1CD damage, +2 Fire Rate, Gain Burst, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Hair Trigger Receiver",
-      "0",
-      "+20",
+      "1",
+      "40",
       "2",
-      "Name Prefix: Hair Trigger, Effects: +1 Fire Rate"
+      "Name Prefix: Hair Trigger, Effects: +1 Fire Rate",
+      "Used On: "
     ],
     [
       ".38 Receiver",
-      "+3",
-      "+20",
+      "3",
+      "40",
       "4",
-      "Name Prefix: .38, Effects: Change Damage to 4CD, Ammo changes to .38"
+      "Name Prefix: .38, Effects: Change Damage to 4CD, Ammo changes to .38",
+      "Used On: "
     ],
     [
       ".308 Receiver",
-      "+4",
-      "+40",
       "4",
-      "Name Prefix: .308, Effects: Change damage to 7CD, Ammo changes to .308"
+      "80",
+      "4",
+      "Name Prefix: .308, Effects: Change damage to 7CD, Ammo changes to .308",
+      "Used On: "
     ],
     [
       ".45 Receiver",
-      "+2",
-      "+19",
       "2",
-      "Name Prefix: .45, Effects: Change damage to 4CD, +1 Fire Rate, Ammo changes to .45"
+      "40",
+      "2",
+      "Name Prefix: .45, Effects: Change damage to 4CD, +1 Fire Rate, Ammo changes to .45",
+      "Used On: "
     ],
     [
       ".50 Receiver",
-      "+4",
-      "+30",
       "4",
-      "Name Prefix: .50, Effects: Change damage to 8CD, Gain Vicious, Ammo changes to .50"
+      "60",
+      "4",
+      "Name Prefix: .50, Effects: Change damage to 8CD, Gain Vicious, Ammo changes to .50",
+      "Used On: "
     ],
     [
       "Automatic Piston Receiver",
-      "+2",
-      "+75",
       "2",
-      "Name Prefix: Automatic, Effects: +2 Fire Rate, Reduce Range by 1 step"
+      "150",
+      "2",
+      "Name Prefix: Automatic, Effects: +2 Fire Rate, Reduce Range by 1 step",
+      "Used On: "
     ],
     [
       "Snubnose Barrel",
-      "-1",
+      "1",
+      "20",
       "0",
-      "0",
-      "Name Prefix: Snub-noses, Effects: Gain Inaccurate"
+      "Name Prefix: Snub-noses, Effects: Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Bull Barrel",
-      "0",
-      "+10",
+      "1",
+      "20",
       "3",
-      "Name Prefix: Bull Barrel, Effects: Gain Reliable"
+      "Name Prefix: Bull Barrel, Effects: Gain Reliable",
+      "Used On: "
     ],
     [
       "Long Barrel",
-      "+1",
-      "+20",
       "1",
-      "Name Prefix: Long, Effects: Increase Range by 1 step"
+      "40",
+      "1",
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Ported Barrel",
-      "+1",
-      "+35",
+      "1",
+      "70",
       "4",
-      "Name Prefix: Ported, Effects: Increase Range by 1 step, +1 Fire Rate"
+      "Name Prefix: Ported, Effects: Increase Range by 1 step, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Vented Barrel",
-      "+1",
-      "+36",
+      "1",
+      "75",
       "4",
-      "Name Prefix: Vented, Effects: Increase Range by 1 step, +1 Fire Rate, Gain Reliable"
+      "Name Prefix: Vented, Effects: Increase Range by 1 step, +1 Fire Rate, Gain Reliable",
+      "Used On: "
     ],
     [
       "Sawed-Off Barrel",
-      "-2",
-      "+3",
+      "1",
+      "10",
       "0",
-      "Name Prefix: Sawed Off, Effects: Remove Two-Handed, Gain Close Quarters"
+      "Name Prefix: Sawed Off, Effects: Remove Two-Handed, Gain Close Quarters",
+      "Used On: "
     ],
     [
       "Shielded Barrel",
-      "0",
-      "+37",
+      "1",
+      "65",
       "3",
-      "Name Prefix: Shielded, Effects: +1CD damage"
+      "Name Prefix: Shielded, Effects: +1CD damage",
+      "Used On: "
     ],
     [
       "Finned Barrel",
-      "+2",
-      "+15",
       "2",
-      "Name Prefix: Finned, Effects: +1CD damage, Increase Range by 1 step"
+      "30",
+      "2",
+      "Name Prefix: Finned, Effects: +1CD damage, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Full Capacitors",
-      "0",
-      "+37",
+      "1",
+      "65",
       "3",
-      "Name Prefix: High Capacity, Effects: Gain Vicious"
+      "Name Prefix: High Capacity, Effects: Gain Vicious",
+      "Used On: "
     ],
     [
       "Capacitor Boosting Coil",
-      "+2",
-      "+82",
+      "2",
+      "160",
       "4",
-      "Name Prefix: Maximum Capacity, Effects: +1CD damage, Gain Vicious"
+      "Name Prefix: Maximum Capacity, Effects: +1CD damage, Gain Vicious",
+      "Used On: "
     ],
     [
       "Large Magazine",
-      "+1",
-      "+8",
+      "1",
+      "15",
       "2",
-      "Name Prefix: High Capacity, Effects: +1 Fire Rate, Unreliable"
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate, Unreliable",
+      "Used On: "
     ],
     [
       "Quick-Eject Mag Magazine",
-      "0",
-      "+8",
       "1",
-      "Name Prefix: Quick, Effects: Gain Reliable"
+      "15",
+      "1",
+      "Name Prefix: Quick, Effects: Gain Reliable",
+      "Used On: "
     ],
     [
       "Large Quick-Eject Mag Magazine",
-      "+1",
-      "+23",
+      "1",
+      "45",
       "2",
-      "Name Prefix: Quick high capacity, Effects: +1 Fire Rate"
+      "Name Prefix: Quick high capacity, Effects: +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Comfort Grip",
+      "1",
+      "15",
       "0",
-      "+6",
-      "0",
-      "Name Prefix: Comfort, Effects: Remove Inaccurate"
+      "Name Prefix: Comfort, Effects: Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Sharpshooter’s Grip",
-      "0",
-      "+10",
       "1",
-      "Name Prefix: Sharpshooter’s, Effects: Remove Inaccurate, Add Piercing 1"
+      "30",
+      "1",
+      "Name Prefix: Sharpshooter’s, Effects: Remove Inaccurate, Add Piercing 1",
+      "Used On: "
     ],
     [
       "Full Stock",
-      "+1",
-      "+10",
+      "1",
+      "20",
       "0",
-      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate"
+      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Marksman’s Stock",
-      "+2",
-      "+20",
       "2",
-      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate"
+      "40",
+      "2",
+      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate",
+      "Used On: "
     ],
     [
       "Recoil Compensating Stock",
-      "+2",
-      "+3",
+      "2",
+      "20",
       "3",
-      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate"
+      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Reflex Sight",
+      "1",
+      "30",
       "0",
-      "+14",
-      "0",
-      "Name Prefix: Tactical, Effects: May re-roll hit location die"
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: "
     ],
     [
       "Short Scope Sight",
-      "+1",
-      "+11",
+      "1",
+      "25",
       "0",
-      "Name Prefix: Scoped, Effects: Gain Accurate"
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: "
     ],
     [
       "Long Scope Sight",
-      "+1",
-      "+29",
+      "1",
+      "60",
       "2",
-      "Name Prefix: Scoped, Effects: Gain Accurate, Increase Range by 1 step"
+      "Name Prefix: Scoped, Effects: Gain Accurate, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Short Night Vision Scope Sight",
-      "+1",
-      "+38",
+      "1",
+      "65",
       "2",
-      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision"
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision",
+      "Used On: "
     ],
     [
       "Long Night Vision Scope Sight",
-      "+1",
-      "+50",
+      "1",
+      "100",
       "3",
-      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step"
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Recon Scope Sight",
-      "+1",
-      "+59",
+      "1",
+      "120",
       "3",
-      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon"
+      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
+      "Used On: "
     ],
     [
       "Bayonet Muzzle",
-      "+2",
-      "+10",
+      "2",
+      "20",
       "0",
-      "Name Prefix: Bayoneted, Effects: Melee weapon, deals 4CD Piercing 1 physical damage"
+      "Name Prefix: Bayoneted, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
+      "Used On: "
     ],
     [
       "Compensator Muzzle",
-      "+1",
-      "+15",
       "1",
-      "Name Prefix: Compensated, Effects: Remove Inaccurate"
+      "30",
+      "1",
+      "Name Prefix: Compensated, Effects: Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Muzzle Break",
-      "+1",
-      "+30",
       "1",
-      "Name Prefix: Muzzled, Effects: Remove Inaccurate, +1 Fire Rate"
+      "60",
+      "1",
+      "Name Prefix: Muzzled, Effects: Remove Inaccurate, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Suppressor Muzzle",
-      "+2",
-      "+45",
       "2",
-      "Name Prefix: Suppressed, Effects: Gain Suppressed"
+      "90",
+      "2",
+      "Name Prefix: Suppressed, Effects: Gain Suppressed",
+      "Used On: "
     ],
     [
       "Deep Dish",
-      "+2",
-      "+72",
+      "2",
+      "140",
       "4",
-      "Name Prefix: Long, Effects: +1CD, Increase Range by 1 step"
+      "Name Prefix: Long, Effects: +1CD, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Electric Signal Carrier Antennae Muzzle",
-      "0",
-      "+30",
+      "1",
+      "60",
       "4",
-      "Name Prefix: Electrified, Effects: Change damage to 7CD, Change damage type to Energy, Gain Radioactive"
+      "Name Prefix: Electrified, Effects: Change damage to 7CD, Change damage type to Energy, Gain Radioactive",
+      "Used On: "
     ],
     [
       "Signal Repeater Muzzle",
-      "0",
-      "+60",
+      "1",
+      "120",
       "4",
-      "Name Prefix: Automatic, Effects: +2 Fire Rate, Gain Burst, Remove Blast"
+      "Name Prefix: Automatic, Effects: +2 Fire Rate, Gain Burst, Remove Blast",
+      "Used On: "
     ],
     [
       "Three-crank capacitor",
+      "1",
+      "10",
       "0",
-      "+4",
-      "0",
-      "Name Prefix: Three-crank, Effects: +1CD, consumes 3 shots per attack"
+      "Name Prefix: Three-crank, Effects: +1CD, consumes 3 shots per attack",
+      "Used On: "
     ],
     [
       "Four-crank capacitor",
-      "+1",
-      "+8",
       "1",
-      "Name Prefix: Four-crank, Effects: +2CD, consumes 4 shots per attack"
+      "20",
+      "1",
+      "Name Prefix: Four-crank, Effects: +2CD, consumes 4 shots per attack",
+      "Used On: "
     ],
     [
       "Five-crank capacitor",
-      "+1",
-      "+12",
+      "1",
+      "30",
       "2",
-      "Name Prefix: Five-crank, Effects: +3CD, consumes 5 shots per attack"
+      "Name Prefix: Five-crank, Effects: +3CD, consumes 5 shots per attack",
+      "Used On: "
     ],
     [
       "Six-crank capacitor",
-      "+2",
-      "+16",
+      "2",
+      "40",
       "3",
-      "Name Prefix: Six-crank, Effects: +4CD, consumes 6 shots per attack"
+      "Name Prefix: Six-crank, Effects: +4CD, consumes 6 shots per attack",
+      "Used On: "
     ],
     [
       "Beta Wave Tuner Capacitor",
+      "1",
+      "60",
       "0",
-      "+30",
-      "0",
-      "Name Prefix: Incendiary, Effects: Gain Persistent"
+      "Name Prefix: Incendiary, Effects: Gain Persistent",
+      "Used On: "
     ],
     [
       "Boosted Capacitor",
+      "1",
+      "70",
       "0",
-      "+35",
-      "0",
-      "Name Prefix: Boosted, Effects: +1CD, -1 Fire Rate"
+      "Name Prefix: Boosted, Effects: +1CD, -1 Fire Rate",
+      "Used On: "
     ],
     [
       "Photon Exciter Capacitor",
-      "0",
-      "+30",
       "1",
-      "Name Prefix: Excited, Effects: Gain Vicious"
+      "60",
+      "1",
+      "Name Prefix: Excited, Effects: Gain Vicious",
+      "Used On: "
     ],
     [
       "Photon Agitator Capacitor",
-      "+1",
-      "+35",
+      "1",
+      "70",
       "2",
-      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious"
+      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious",
+      "Used On: "
     ],
     [
       "Bracketed Short Barrel",
+      "1",
+      "15",
       "0",
-      "+6",
-      "0",
-      "Name Prefix: –, Effects: Allows the weapon to take a Muzzle mod"
+      "Name Prefix: –, Effects: Allows the weapon to take a Muzzle mod",
+      "Used On: "
     ],
     [
       "Long Barrel",
-      "+2",
-      "+20",
+      "2",
+      "40",
       "0",
-      "Name Prefix: Long, Effects: Remove Close-Quarters, Increase Range by 1 step"
+      "Name Prefix: Long, Effects: Remove Close-Quarters, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Splitter Barrel",
-      "+1",
-      "+31",
+      "1",
+      "60",
       "0",
-      "Name Prefix: Scattergun, Effects: -1CD, Gain Spread, Gain Inaccurate"
+      "Name Prefix: Scattergun, Effects: -1CD, Gain Spread, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Automatic Barrel",
-      "+1",
-      "+24",
       "1",
-      "Name Prefix: Automatic, Effects: -1CD, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate"
+      "50",
+      "1",
+      "Name Prefix: Automatic, Effects: -1CD, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Bracketed Long Barrel",
-      "+2",
-      "+25",
+      "2",
+      "50",
       "1",
-      "Name Prefix: –, Effects: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod"
+      "Name Prefix: –, Effects: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod",
+      "Used On: "
     ],
     [
       "Improved Barrel",
-      "+1",
-      "+26",
       "1",
-      "Name Prefix: Improved, Effects: +1CD"
+      "50",
+      "1",
+      "Name Prefix: Improved, Effects: +1CD",
+      "Used On: "
     ],
     [
       "Sniper Barrel",
-      "+2",
-      "+30",
+      "2",
+      "60",
       "1",
-      "Name Prefix: Sniper, Effects: +2CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate"
+      "Name Prefix: Sniper, Effects: +2CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
+      "Used On: "
     ],
     [
       "Flamer Barrel",
-      "+1",
-      "+35",
+      "1",
+      "70",
       "2",
-      "Name Prefix: Thrower, Effects: -2CD, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate"
+      "Name Prefix: Thrower, Effects: -2CD, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Standard Stock",
-      "+1",
-      "+10",
+      "1",
+      "20",
       "0",
-      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters"
+      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters",
+      "Used On: "
     ],
     [
       "Full Stock",
-      "+1",
-      "+15",
+      "1",
+      "30",
       "0",
-      "Name Prefix: –, Effects: Gain Two-handed, Gain Piercing 1, Remove Close Quarters"
+      "Name Prefix: –, Effects: Gain Two-handed, Gain Piercing 1, Remove Close Quarters",
+      "Used On: "
     ],
     [
       "Marksman’s Stock",
-      "+2",
-      "+20",
       "2",
-      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate, Remove Close Quarters"
+      "40",
+      "2",
+      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate, Remove Close Quarters",
+      "Used On: "
     ],
     [
       "Recoil Compensating Stock",
-      "+2",
-      "+3",
+      "2",
+      "10",
       "3",
-      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate, Remove Close Quarters"
+      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate, Remove Close Quarters",
+      "Used On: "
     ],
     [
       "Long Night Vision Scope Stock",
-      "+1",
-      "+50",
+      "1",
+      "100",
       "3",
-      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step"
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Recon Scope Stock",
-      "+1",
-      "+59",
+      "1",
+      "120",
       "3",
-      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon"
+      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
+      "Used On: "
     ],
     [
       "Beam Splitter Muzzle",
-      "+1",
-      "+15",
       "1",
-      "Name Prefix: Scattered, Effects: -1CD, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step"
+      "30",
+      "1",
+      "Name Prefix: Scattered, Effects: -1CD, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step",
+      "Used On: "
     ],
     [
       "Beam Focuser Muzzle",
-      "+1",
-      "+20",
       "1",
-      "Name Prefix: Focused, Effects: Increase Range by 1 Step"
+      "40",
+      "1",
+      "Name Prefix: Focused, Effects: Increase Range by 1 Step",
+      "Used On: "
     ],
     [
       "Gyro Compensating Lens Muzzle",
-      "+1",
-      "+25",
       "1",
-      "Name Prefix: Targeting, Effects: +1 Fire Rate, Remove Inaccurate"
+      "50",
+      "1",
+      "Name Prefix: Targeting, Effects: +1 Fire Rate, Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Napalm Fuel",
-      "+7",
-      "+59",
+      "7",
+      "120",
       "1",
-      "Name Prefix: Napalmer, Effects: +1CD"
+      "Name Prefix: Napalmer, Effects: +1CD",
+      "Used On: "
     ],
     [
       "Long Barrel",
       "2",
-      "+28",
+      "50",
       "1",
-      "Name Prefix: Long, Effects: Remove Inaccurate"
+      "Name Prefix: Long, Effects: Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Large Tank Propellant Tank",
-      "+3",
-      "28",
+      "3",
+      "50",
       "1",
-      "Name Prefix: High Capacity, Effects: +1 Fire Rate"
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Huge Tank Propellant Tank",
-      "+6",
-      "34",
+      "6",
+      "70",
       "2",
-      "Name Prefix: Max. Capacity, Effects: +2 Fire Rate"
+      "Name Prefix: Max. Capacity, Effects: +2 Fire Rate",
+      "Used On: "
     ],
     [
       "Compression Nozzle",
-      "0",
-      "+22",
       "1",
-      "Name Prefix: Compressed, Effects: +1CD"
+      "45",
+      "1",
+      "Name Prefix: Compressed, Effects: +1CD",
+      "Used On: "
     ],
     [
       "Vaporization Nozzle",
-      "0",
-      "+47",
+      "1",
+      "85",
       "2",
-      "Name Prefix: Vaporizing, Effects: +1CD, Vicious"
+      "Name Prefix: Vaporizing, Effects: +1CD, Vicious",
+      "Used On: "
     ],
     [
       "Photon Exciter Capacitor",
-      "+1",
-      "+19",
+      "1",
+      "40",
       "3",
-      "Name Prefix: Excited, Effects: Gain Vicious"
+      "Name Prefix: Excited, Effects: Gain Vicious",
+      "Used On: "
     ],
     [
       "Beta Wave Tuner Capacitor",
-      "+1",
-      "+57",
+      "1",
+      "115",
       "0",
-      "Name Prefix: Incendiary, Effects: Gain Persistent"
+      "Name Prefix: Incendiary, Effects: Gain Persistent",
+      "Used On: "
     ],
     [
       "Boosted Capacitor",
-      "+1",
-      "+94",
+      "1",
+      "190",
       "0",
-      "Name Prefix: Boosted, Effects: +1CD"
+      "Name Prefix: Boosted, Effects: +1CD",
+      "Used On: "
     ],
     [
       "Photon Agitator Capacitor",
-      "+3",
-      "+132",
       "3",
-      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious"
+      "260",
+      "3",
+      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious",
+      "Used On: "
     ],
     [
       "Charging barrels",
-      "+10",
-      "+357",
+      "10",
+      "500",
       "4",
-      "Name Prefix: Charging, Effects: +4CD, -3 Fire Rate, Increase Range by 1 step"
+      "Name Prefix: Charging, Effects: +4CD, -3 Fire Rate, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Reflex Sight",
-      "+1",
-      "+169",
+      "1",
+      "300",
       "4",
-      "Name Prefix: Tactical, Effects: Remove Inaccurate"
+      "Name Prefix: Tactical, Effects: Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Beam Focuser Nozzle",
+      "1",
+      "45",
       "0",
-      "+22",
-      "0",
-      "Name Prefix: Focused, Effects: Gain Piercing 1, Increase Range by 1 step"
+      "Name Prefix: Focused, Effects: Gain Piercing 1, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Long Barrel",
-      "+2",
-      "+20",
+      "2",
+      "40",
       "1",
-      "Name Prefix: Long, Effects: Increase Range by 1 step"
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Recoil Compensating Stock",
-      "+2",
-      "+40",
+      "2",
+      "80",
       "0",
-      "Name Prefix: Recoil Compensated, Effects: +1 Fire Rate"
+      "Name Prefix: Recoil Compensated, Effects: +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Gunner Sight",
-      "+1",
-      "+5",
+      "1",
+      "10",
       "0",
-      "Name Prefix: Tactical, Effects: May re-roll hit location die"
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: "
     ],
     [
       "Electrification Module Muzzle",
-      "+1",
-      "+70",
+      "1",
+      "140",
       "2",
-      "Name Prefix: Electrified, Effects: Gain Vicious, Change damage type to Energy"
+      "Name Prefix: Electrified, Effects: Gain Vicious, Change damage type to Energy",
+      "Used On: "
     ],
     [
       "Ignition Module Muzzle",
-      "+1",
-      "+130",
+      "1",
+      "260",
       "3",
-      "Name Prefix: Flaming, Effects: Gain Persistent (Energy)"
+      "Name Prefix: Flaming, Effects: Gain Persistent (Energy)",
+      "Used On: "
     ],
     [
       "Accelerated Barrel",
-      "+5",
-      "+45",
+      "5",
+      "90",
       "3",
-      "Name Prefix: High-Speed, Effects: +1CD, +1 Fire Rate, Reduce Range by 1 step"
+      "Name Prefix: High-Speed, Effects: +1CD, +1 Fire Rate, Reduce Range by 1 step",
+      "Used On: "
     ],
     [
       "Tri-Barrel",
-      "+3",
-      "+75",
+      "3",
+      "150",
       "4",
-      "Name Prefix: High-Powered, Effects: +2CD, -2 Fire Rate"
+      "Name Prefix: High-Powered, Effects: +2CD, -2 Fire Rate",
+      "Used On: "
     ],
     [
       "Gunner Sight",
-      "+1",
-      "+68",
+      "1",
+      "140",
       "0",
-      "Name Prefix: Tactical, Effects: Remove Inaccurate"
+      "Name Prefix: Tactical, Effects: Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Shredder Bayoneted Muzzle",
-      "+5",
-      "+5",
+      "5",
+      "10",
       "2",
-      "Name Prefix: Shredding, Effects: Melee weapon, Deals CD of Physical damage equal to Fire Rate"
+      "Name Prefix: Shredding, Effects: Melee weapon, Deals CD of Physical damage equal to Fire Rate",
+      "Used On: "
     ],
     [
       "Triple Barrel",
-      "+16",
-      "+143",
+      "16",
+      "280",
       "2",
-      "Name Prefix: Triple Barrel, Effects: +1 Fire Rate"
+      "Name Prefix: Triple Barrel, Effects: +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Quad Barrel",
-      "+20",
-      "+218",
+      "20",
+      "400",
       "3",
-      "Name Prefix: Quad Barrel, Effects: +2 Fire Rate"
+      "Name Prefix: Quad Barrel, Effects: +2 Fire Rate",
+      "Used On: "
     ],
     [
       "Scope Sight",
-      "+6",
-      "+143",
+      "6",
+      "280",
       "2",
-      "Name Prefix: Scoped, Effects: Gain Accurate"
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: "
     ],
     [
       "Night Vision Scope Sight",
-      "+6",
-      "+248",
+      "6",
+      "480",
       "4",
-      "Name Prefix: Night-vision, Effects: Gain Accurate, Gain Night Vision"
+      "Name Prefix: Night-vision, Effects: Gain Accurate, Gain Night Vision",
+      "Used On: "
     ],
     [
       "Targeting Computer Sight",
-      "+7",
-      "+293",
+      "7",
+      "500",
       "2",
-      "Name Prefix: Targeting, Effects: When you Aim at a target, the target does not benefit from being in cover, and the bonus for aiming applies to the next attack on any subsequent turn during the scene"
+      "Name Prefix: Targeting, Effects: When you Aim at a target, the target does not benefit from being in cover, and the bonus for aiming applies to the next attack on any subsequent turn during the scene",
+      "Used On: "
     ],
     [
       "Bayonet Bayoneted Muzzle",
-      "+1",
-      "+30",
+      "1",
+      "60",
       "0",
-      "Name Prefix: Shredding, Effects: Melee weapon, deals 4CD Piercing 1 physical damage"
+      "Name Prefix: Shredding, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
+      "Used On: "
     ],
     [
       "Stabilizer Muzzle",
-      "+2",
-      "+60",
       "2",
-      "Name Prefix: Muzzled, Effects: Gain Piercing 1"
+      "120",
+      "2",
+      "Name Prefix: Muzzled, Effects: Gain Piercing 1",
+      "Used On: "
     ],
     [
       "Armor Piercing Receiver",
-      "0",
-      "+3",
       "1",
-      "Name Prefix: Armor Piercing, Effects: Add Piercing 1"
+      "10",
+      "1",
+      "Name Prefix: Armor Piercing, Effects: Add Piercing 1",
+      "Used On: "
     ],
     [
       "Armor Piercing Automatic Receiver",
-      "+1",
-      "+40",
+      "1",
+      "80",
       "3",
-      "Name Prefix: AP Auto, Effects: -1 CD, +2 Fire Rate, Add Piercing 1, Gain Inaccurate"
+      "Name Prefix: AP Auto, Effects: -1 CD, +2 Fire Rate, Add Piercing 1, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Hardened Automatic Receiver",
-      "+2",
-      "+58",
+      "2",
+      "120",
       "3",
-      "Name Prefix: Hardened Auto, Effects: +2 Fire Rate, Gain Inaccurate"
+      "Name Prefix: Hardened Auto, Effects: +2 Fire Rate, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Rapid Automatic Receiver",
-      "+2",
-      "+63",
+      "2",
+      "125",
       "4",
-      "Name Prefix: Rapid, Effects: -1 CD, +3 Fire Rate, Gain Inaccurate"
+      "Name Prefix: Rapid, Effects: -1 CD, +3 Fire Rate, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Calibrated Powerful Receiver",
-      "+3",
-      "+68",
+      "3",
+      "135",
       "4",
-      "Name Prefix: Calibrated Powerful, Effects: +2 CD, Gain Vicious"
+      "Name Prefix: Calibrated Powerful, Effects: +2 CD, Gain Vicious",
+      "Used On: "
     ],
     [
       "Powerful Automatic Receiver",
-      "+4",
-      "+88",
       "4",
-      "Name Prefix: Powerful Auto, Effects: +1 CD, +2 Fire Rate, Gain Inaccurate"
+      "170",
+      "4",
+      "Name Prefix: Powerful Auto, Effects: +1 CD, +2 Fire Rate, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Hardened Piercing Auto Receiver",
-      "+3",
-      "+78",
+      "3",
+      "155",
       "4",
-      "Name Prefix: Hardened AP Auto, Effects: +2 Fire Rate, Gain Piercing 1, Gain Inaccurate"
+      "Name Prefix: Hardened AP Auto, Effects: +2 Fire Rate, Gain Piercing 1, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "9mm Receiver",
-      "-1",
-      "+10",
+      "1",
+      "20",
       "2",
-      "Name Prefix: 9mm, Effects: Change damage to 3 CD, ammo to 9mm, +1 Fire Rate"
+      "Name Prefix: 9mm, Effects: Change damage to 3 CD, ammo to 9mm, +1 Fire Rate",
+      "Used On: "
     ],
     [
       ".357 Receiver",
-      "+1",
-      "+35",
+      "1",
+      "70",
       "3",
-      "Name Prefix: .357, Effects: Change damage to 5 CD, ammo to .357, add Vicious."
+      "Name Prefix: .357, Effects: Change damage to 5 CD, ammo to .357, add Vicious.",
+      "Used On: "
     ],
     [
       "Gamma Wave Emitter Capacitor",
-      "+1",
-      "+14",
       "1",
-      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent"
+      "30",
+      "1",
+      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Maximized Capacitor",
-      "+1",
-      "+17",
+      "1",
+      "35",
       "2",
-      "Name Prefix: Maximized, Effects: +2 CD"
+      "Name Prefix: Maximized, Effects: +2 CD",
+      "Used On: "
     ],
     [
       "Boosted Photon Agitator Capacitor",
-      "+1",
-      "+20",
+      "1",
+      "40",
       "2",
-      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious"
+      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
+      "Used On: "
     ],
     [
       "Boosted Gamma Wave Emitter",
-      "+1",
-      "+23",
+      "1",
+      "45",
       "2",
-      "Name Prefix: Boosted, Fiery, Effects: +2 CD, Gain Persistent"
+      "Name Prefix: Boosted, Fiery, Effects: +2 CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Overcharged Capacitor",
-      "+1",
-      "+42",
+      "1",
+      "85",
       "2",
-      "Name Prefix: Overcharged, Effects: +3 CD"
+      "Name Prefix: Overcharged, Effects: +3 CD",
+      "Used On: "
     ],
     [
       "Improved Long Barrel",
-      "+1",
-      "+15",
+      "1",
+      "30",
       "2",
-      "Name Prefix: Improved Long, Effects: +1 CD, Remove Close Quarters, Increase Range by 1 step"
+      "Name Prefix: Improved Long, Effects: +1 CD, Remove Close Quarters, Increase Range by 1 step",
+      "Used On: "
     ],
     [
       "Improved Automatic Barrel",
-      "+1",
-      "+18",
+      "1",
+      "35",
       "2",
-      "Name Prefix: Improved Automatic, Effects: Gain Burst, Gain Inaccurate, Remove Close Quarters, Increase Range by 1 step, +1 Fire Rate"
+      "Name Prefix: Improved Automatic, Effects: Gain Burst, Gain Inaccurate, Remove Close Quarters, Increase Range by 1 step, +1 Fire Rate",
+      "Used On: "
     ],
     [
       "Improved Sniper Barrel",
-      "+1",
-      "+21",
+      "1",
+      "40",
       "2",
-      "Name Prefix: Improved Charging, Effects: +3 CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate"
+      "Name Prefix: Improved Charging, Effects: +3 CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
+      "Used On: "
     ],
     [
       "Improved Splitter",
-      "+1",
-      "+25",
+      "1",
+      "50",
       "2",
-      "Name Prefix: Improved Scattergun, Effects: Gain Spread, Gain Inaccurate"
+      "Name Prefix: Improved Scattergun, Effects: Gain Spread, Gain Inaccurate",
+      "Used On: "
     ],
     [
       "Amplified Beam Splitter Muzzle",
-      "+1",
-      "+15",
+      "1",
+      "30",
       "2",
-      "Name Prefix: Improved Scattered, Effects: Gain Spread, -1 Fire Rate, Reduce Range by 1 step"
+      "Name Prefix: Improved Scattered, Effects: Gain Spread, -1 Fire Rate, Reduce Range by 1 step",
+      "Used On: "
     ],
     [
       "Fine-Tuned Beam Focuser",
-      "+1",
-      "+18",
+      "1",
+      "35",
       "2",
-      "Name Prefix: Improved Focused, Effects: Increase Range by 1 step, Gain Accurate"
+      "Name Prefix: Improved Focused, Effects: Increase Range by 1 step, Gain Accurate",
+      "Used On: "
     ],
     [
       "Quantum Gyro-Compensating Lens",
-      "+1",
-      "+21",
+      "1",
+      "40",
       "3",
-      "Name Prefix: Improved Targeting, Effects: +2 Fire Rate, Remove Inaccurate"
+      "Name Prefix: Improved Targeting, Effects: +2 Fire Rate, Remove Inaccurate",
+      "Used On: "
     ],
     [
       "Gamma Wave Emitter",
-      "+3",
-      "+169",
       "3",
-      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent"
+      "320",
+      "3",
+      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Maximized Capacitor",
-      "+3",
-      "+207",
+      "3",
+      "410",
       "4",
-      "Name Prefix: Maximized, Effects: +2 CD"
+      "Name Prefix: Maximized, Effects: +2 CD",
+      "Used On: "
     ],
     [
       "Boosted Photon Agitator",
-      "+5",
-      "+244",
+      "5",
+      "450",
       "4",
-      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious"
+      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
+      "Used On: "
     ],
     [
       "Boosted Gamma Wave Emitter",
-      "+5",
-      "+282",
+      "5",
+      "500",
       "4",
-      "Name Prefix: Boosted Fiery, Effects: +2 CD, Gain Persistent"
+      "Name Prefix: Boosted Fiery, Effects: +2 CD, Gain Persistent",
+      "Used On: "
     ],
     [
       "Overcharged Capacitor",
-      "+5",
-      "+319",
+      "5",
+      "500",
       "4",
-      "Name Prefix: Overcharged, Effects: +3 CD"
+      "Name Prefix: Overcharged, Effects: +3 CD",
+      "Used On: "
     ]
   ]
 }
