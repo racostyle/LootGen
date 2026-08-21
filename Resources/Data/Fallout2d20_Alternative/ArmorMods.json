@@ -1,0 +1,279 @@
+{
+  "Type": "ArmorMods",
+  "Spotlight": 4,
+  "Data": [
+    [
+      "Welded RAIDER ARMOR",
+      "+1",
+      "+3",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Tempered RAIDER ARMOR",
+      "+1",
+      "+6",
+      "0",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Hardened RAIDER ARMOR",
+      "+2",
+      "+9",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Buttressed RAIDER ARMOR",
+      "+3",
+      "+12",
+      "1",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ],
+    [
+      "Boiled Leather LEATHER ARMOR",
+      "+1",
+      "+5",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Girded Leather LEATHER ARMOR",
+      "+1",
+      "+10",
+      "0",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Treated Leather LEATHER ARMOR",
+      "+1",
+      "+15",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed Leather LEATHER ARMOR",
+      "+1",
+      "+20",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Studded Leather LEATHER ARMOR",
+      "+2",
+      "+25",
+      "1",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ],
+    [
+      "Painted Metal METAL ARMOR",
+      "+1",
+      "+10",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Enameled Metal METAL ARMOR",
+      "+2",
+      "+20",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed Metal METAL ARMOR",
+      "+2",
+      "+25",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Alloyed Metal METAL ARMOR",
+      "+3",
+      "+30",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Polished Metal METAL ARMOR",
+      "+4",
+      "+40",
+      "2",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ],
+    [
+      "Reinforced COMBAT ARMOR",
+      "+1",
+      "+15",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed COMBAT ARMOR",
+      "+1",
+      "+15",
+      "1",
+      "Phys: +1, Energy: +1, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Fiberglass COMBAT ARMOR",
+      "+1",
+      "+30",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Polymer COMBAT ARMOR",
+      "+2",
+      "+45",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Laminated SYNTH ARMOR",
+      "+1",
+      "+5",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Resin SYNTH ARMOR",
+      "+1",
+      "+10",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Microcarbon SYNTH ARMOR",
+      "+2",
+      "+15",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Nanofilament SYNTH ARMOR",
+      "+3",
+      "+20",
+      "1",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ],
+    [
+      "Reinforced LEGION ARMOR",
+      "+0",
+      "+6",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed LEGION ARMOR",
+      "+1",
+      "+48",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Treated LEGION ARMOR",
+      "+1",
+      "+15",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Studded LEGION ARMOR",
+      "+2",
+      "+30",
+      "1",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ],
+    [
+      "Welded MARINE ARMOR",
+      "+1",
+      "+10",
+      "0",
+      "Phys: +1, Energy: +1, Rad: +1, Effects: -"
+    ],
+    [
+      "Tempered MARINE ARMOR",
+      "+2",
+      "+30",
+      "1",
+      "Phys: +2, Energy: +2, Rad: +2, Effects: -"
+    ],
+    [
+      "Hardened MARINE ARMOR",
+      "+2",
+      "+50",
+      "1",
+      "Phys: +3, Energy: +3, Rad: +3, Effects: -"
+    ],
+    [
+      "Buttressed MARINE ARMOR",
+      "+3",
+      "+75",
+      "2",
+      "Phys: +4, Energy: +4, Rad: +4, Effects: -"
+    ],
+    [
+      "Reinforced SCOUT ARMOR",
+      "+0",
+      "+6",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed SCOUT ARMOR",
+      "+1",
+      "+48",
+      "1",
+      "Phys: +1, Energy: +1, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Fiberglass SCOUT ARMOR",
+      "+0",
+      "+18",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Polymer SCOUT ARMOR",
+      "+1",
+      "+30",
+      "2",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Painted Metal ROBOT ARMOR",
+      "+1",
+      "+10",
+      "0",
+      "Phys: +1, Energy: +1, Rad: -, Effects: -"
+    ],
+    [
+      "Shadowed ROBOT ARMOR",
+      "+2",
+      "+25",
+      "1",
+      "Phys: +1, Energy: +1, Rad: -, Effects: Shadowed Armor (torso armor = 2 pieces, dim light/darkness): 1-2 pieces: Ignore the first Sneak test complication. 3+ pieces: 1/scene, re-roll one d20 on a Sneak test. 5+ pieces: Re-roll one d20 on any Sneak test."
+    ],
+    [
+      "Enameled Metal ROBOT ARMOR",
+      "+2",
+      "+20",
+      "1",
+      "Phys: +2, Energy: +2, Rad: -, Effects: -"
+    ],
+    [
+      "Alloyed Metal ROBOT ARMOR",
+      "+3",
+      "+30",
+      "1",
+      "Phys: +3, Energy: +3, Rad: -, Effects: -"
+    ],
+    [
+      "Polished Metal ROBOT ARMOR",
+      "+4",
+      "+40",
+      "2",
+      "Phys: +4, Energy: +4, Rad: -, Effects: -"
+    ]
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "Type": "MeleMods",
+  "Spotlight": 4,
+  "Data": [
+    [
+      "Serrated Blade",
+      "0",
+      "+25",
+      "2",
+      "Name Prefix: Serrated, Effects: Gain Persistent"
+    ],
+    [
+      "Electrified Blade",
+      "0",
+      "+50",
+      "2",
+      "Name Prefix: Electrified, Effects: +1CD, Damage type becomes Energy"
+    ],
+    [
+      "Electrified Serrated Blade",
+      "0",
+      "+75",
+      "3",
+      "Name Prefix: Electrified Serrated, Effects: +1CD, Damage type becomes Energy, gain Persistent (Physical)"
+    ],
+    [
+      "Stun Pack",
+      "0",
+      "+100",
+      "3",
+      "Name Prefix: Stunning, Effects: +2CD, Damage type becomes Energy, gain Stun"
+    ],
+    [
+      "Stealth Blade",
+      "0",
+      "+18",
+      "2",
+      "Name Prefix: Stealth, Effects: +1CD, Gain Persistent, +2CD on Sneak Attacks"
+    ],
+    [
+      "Curved Blade",
+      "+1",
+      "+15",
+      "0",
+      "Name Prefix: Curved, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+    ],
+    [
+      "Extended Blade",
+      "+3",
+      "+25",
+      "3",
+      "Name Prefix: Extended, Effects: +1CD, Gain Persistent"
+    ],
+    [
+      "Extra Flame Jets",
+      "+1",
+      "+100",
+      "3",
+      "Name Prefix: Searing, Effects: +1CD, Gain Persistent"
+    ],
+    [
+      "Barbed",
+      "0",
+      "+5",
+      "0",
+      "Name Prefix: Barbed, Effects: Gain Piercing 1"
+    ],
+    [
+      "Spiked",
+      "+1",
+      "+7",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Sharp",
+      "+1",
+      "+7",
+      "0",
+      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent"
+    ],
+    [
+      "Chain-Wrapped",
+      "+1",
+      "+10",
+      "1",
+      "Name Prefix: Chain-Wrapped, Effects: +2CD"
+    ],
+    [
+      "Bladed",
+      "+2",
+      "+12",
+      "2",
+      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent"
+    ],
+    [
+      "Spiked",
+      "+1",
+      "+6",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Puncturing",
+      "+1",
+      "+9",
+      "1",
+      "Name Prefix: Puncturing, Effects: +2CD"
+    ],
+    [
+      "Bladed",
+      "+2",
+      "+10",
+      "1",
+      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent"
+    ],
+    [
+      "Spiked",
+      "+1",
+      "+4",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Heavy",
+      "+2",
+      "+11",
+      "2",
+      "Name Prefix: Heavy, Effects: +2CD"
+    ],
+    [
+      "Hooked",
+      "0",
+      "+9",
+      "0",
+      "Name Prefix: Hooked, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+    ],
+    [
+      "Heavy",
+      "+7",
+      "+12",
+      "1",
+      "Name Prefix: Weighted, Effects: +2CD"
+    ],
+    [
+      "Puncturing",
+      "+1",
+      "+13",
+      "1",
+      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1"
+    ],
+    [
+      "Extra Heavy",
+      "+2",
+      "+22",
+      "2",
+      "Name Prefix: Heavy, Effects: +3CD"
+    ],
+    [
+      "Barbed",
+      "0",
+      "+2",
+      "0",
+      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Sharp",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent"
+    ],
+    [
+      "Spiked",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Electrified",
+      "0",
+      "+15",
+      "2",
+      "Name Prefix: Shock, Effects: +2CD, Change Damage Type to Energy"
+    ],
+    [
+      "Stun Pack",
+      "0",
+      "+30",
+      "2",
+      "Name Prefix: Stun, Effects: +3CD, Gain Stun, Change Damage Type to Energy"
+    ],
+    [
+      "Puncturing",
+      "+5",
+      "+18",
+      "2",
+      "Name Prefix: Puncturing, Effects: +1CD. Gain Piercing 1"
+    ],
+    [
+      "Heavy",
+      "+9",
+      "+30",
+      "2",
+      "Name Prefix: Heavy, Effects: +2CD"
+    ],
+    [
+      "Heating Coil",
+      "0",
+      "+180",
+      "2",
+      "Name Prefix: Heated, Effects: +1CD, Change Damage Type to Energy"
+    ],
+    [
+      "Stun Pack",
+      "0",
+      "+360",
+      "3",
+      "Name Prefix: Stunning, Effects: +2CD, Gain Stun, Change Damage Type to Energy"
+    ],
+    [
+      "Bladed",
+      "+1",
+      "+12",
+      "2",
+      "Name Prefix: Bladed, Effects: +1CD, gain Persistent"
+    ],
+    [
+      "Barbed",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Barbed, Effects: +1CD. Gain Piercing 1"
+    ],
+    [
+      "Spiked",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Spiked",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Spiked, Effects: Gain Piercing 1"
+    ],
+    [
+      "Puncturing",
+      "0",
+      "+4",
+      "1",
+      "Name Prefix: Puncturing, Effects: +1CD, Piercing 1"
+    ],
+    [
+      "Lead lining",
+      "+1",
+      "+7",
+      "1",
+      "Name Prefix: Lead-lined, Effects: +2CD"
+    ],
+    [
+      "Extra Claw",
+      "+2",
+      "+22",
+      "0",
+      "Name Prefix: Large, Effects: +1CD. On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away"
+    ],
+    [
+      "Sharp",
+      "0",
+      "+3",
+      "0",
+      "Name Prefix: Sharp, Effects: Gain Persistent"
+    ],
+    [
+      "Puncturing",
+      "0",
+      "+4",
+      "1",
+      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1"
+    ],
+    [
+      "Bladed",
+      "0",
+      "+5",
+      "1",
+      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent"
+    ],
+    [
+      "Puncturing",
+      "+1",
+      "+45",
+      "2",
+      "Name Prefix: Puncturing, Effects: +2CD. Gain Piercing 1"
+    ],
+    [
+      "Heating Coil",
+      "0",
+      "+100",
+      "3",
+      "Name Prefix: Heated, Effects: +2CD, Change Damage Type to Energy"
+    ]
+  ]
+}

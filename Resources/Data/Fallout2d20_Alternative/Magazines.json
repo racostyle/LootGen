@@ -1,0 +1,601 @@
+{
+  "Type": "Magazines",
+  "Spotlight": 2,
+  "Data": [
+    [
+      "Astoundingly Awesome Tales: Attack of the Fishmen!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks vs mirelurk"
+    ],
+    [
+      "Astoundingly Awesome Tales: Rise of the Mutants!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks vs super mutants"
+    ],
+    [
+      "Astoundingly Awesome Tales: Attack of the Metal Men!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Physical and Energy damage resistances vs Robots"
+    ],
+    [
+      "Astoundingly Awesome Tales: The Mad Russian’s Revenge!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Poison damage resistance"
+    ],
+    [
+      "Astoundingly Awesome Tales: The Starlet Sniper!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks with Accurate weapons"
+    ],
+    [
+      "Astoundingly Awesome Tales: Curse of the Burned!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks vs Ghouls"
+    ],
+    [
+      "Astoundingly Awesome Tales: Giant Insects Invade!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Radiation damage resistance"
+    ],
+    [
+      "Astoundingly Awesome Tales: Deadly Lasers!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks with Energy weapons"
+    ],
+    [
+      "Astoundingly Awesome Tales: Science Gone Mad!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Energy damage resistance"
+    ],
+    [
+      "Astoundingly Awesome Tales: Surrounded by the Dead!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD on attacks where you spend one or more Ammunition for bonus damage"
+    ],
+    [
+      "Backwoodsman: Get Off My Lawn",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Find twice as much meat from a butchered creature"
+    ],
+    [
+      "Backwoodsman: Down Home Cookin’",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Add +2CD damage to a Thrown weapon attack (other than an Explosive)"
+    ],
+    [
+      "Backwoodsman: Homesteading Horror",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Reduce the difficulty of crafting a weapon by 1 (min. of 0)"
+    ],
+    [
+      "Backwoodsman: Hardy as a Sasquatch",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When scavenging from plants, gain twice as much"
+    ],
+    [
+      "Backwoodsman: Carnivorous Rabbits of Appalachia",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Add +2CD damage to an attack against a Mammal or Lizard"
+    ],
+    [
+      "Backwoodsman: The Appalachia Squirrel Massacre",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One item of cooked food you make and eat heals +3 HP"
+    ],
+    [
+      "Backwoodsman: Art of the Tomahawk",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Reduce difficulty of a test to resist catching a disease by 1 (min. of 0)"
+    ],
+    [
+      "Backwoodsman: The Gunsmith of Harper’s Ferry",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you find ammo, you find +2CD more shots"
+    ],
+    [
+      "Backwoodsman: The Ohio River Hermit",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Reduce the difficulty of repairing a damaged item by 1 (min. 0)"
+    ],
+    [
+      "Backwoodsman: Nightmare in the Garden",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Heal +2HP when you consume an Alcoholic drink"
+    ],
+    [
+      "Grognak the Barbarian: Blood on the Harp",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One successful melee attack you make inflicts +2CD damage"
+    ],
+    [
+      "Grognak the Barbarian: Cometh the Trickster",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Add +1 to the difficulty of another character’s skill test to detect you"
+    ],
+    [
+      "Grognak the Barbarian: Jungle of the Bat-Babies",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you suffer Poison damage, gain +3 Poison damage resistance"
+    ],
+    [
+      "Grognak the Barbarian: In the Bosom of the Corsair Queen",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One successful melee attack you make automatically inflicts a Critical Hit"
+    ],
+    [
+      "Grognak the Barbarian: Demon Slaves, Demon Sands",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack against Ghouls inflicts +2CD damage"
+    ],
+    [
+      "Grognak the Barbarian: Enter Maula: War Maiden of Mars",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you make a melee attack with a Two-Handed melee weapon, gain the Piercing 1 damage effect (or +1 to any existing Piercing effect)"
+    ],
+    [
+      "Grognak the Barbarian: Fatherless Cur!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Ignore one complication on a melee attack"
+    ],
+    [
+      "Grognak the Barbarian: Lost in the Snows of Lust",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain +2 Physical damage resistance against one attack"
+    ],
+    [
+      "Grognak the Barbarian: The Lair of the Virgin Eaters",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain +10 Carry weight for one scene"
+    ],
+    [
+      "Grognak the Barbarian: What Sorcery is This?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain +2 Energy damage resistance against one attack"
+    ],
+    [
+      "Guns and Bullets: The Future of Hunting?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack against Robots inflicts +2CD damage"
+    ],
+    [
+      "Guns and Bullets: Lasers & Hunting: Acceptable Overkill",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack with a Laser weapon gains the Vicious damage effect if it didn’t already have it"
+    ],
+    [
+      "Guns and Bullets: Little Guns for Little Ladies",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack with a Small Guns weapon gains the Vicious damage effect if it didn’t have it already"
+    ],
+    [
+      "Guns and Bullets: Street Guns of Detroit",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain an extra 2 AP after one successful attack. This AP must be spent immediately: it cannot be saved"
+    ],
+    [
+      "Guns and Bullets: Avoid Those Pesky Gun Laws!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials"
+    ],
+    [
+      "Guns and Bullets: The Moon: A Communist Doomsday Device?!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain +2 to Physical or Energy damage resistance against one attack at night"
+    ],
+    [
+      "Guns and Bullets: Take Aim, Army Style",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One aimed attack made with a weapon which lacks the Accurate quality inflicts +2CD damage"
+    ],
+    [
+      "Guns and Bullets: Bear-Proofing your Campsite",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack against Yao Guai inflicts +3CD damage"
+    ],
+    [
+      "Guns and Bullets: Plasma: The Weapon of Tomorrow",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack with a Plasma weapon gains the Vicious damage effect if it didn’t already have it"
+    ],
+    [
+      "Guns and Bullets: Guide to Hunting Commies!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: One attack against an enemy with a lower level than you inflicts +2CD damage"
+    ],
+    [
+      "Live & Love: Life Long Best Friends!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1 Maximum Health Points to all party members for one scene"
+    ],
+    [
+      "Live & Love: Nuke-the-Man!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD damage to attacks from all party members for one scene"
+    ],
+    [
+      "Live & Love: Trim the Fat!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Regain twice as many HP from fruit or vegetables eaten in one scene"
+    ],
+    [
+      "Live & Love: The Secretary Charmer At the start of one scene, add",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1 AP to the group pool"
+    ],
+    [
+      "Live & Love: Talk Yourself Sober",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink"
+    ],
+    [
+      "Live & Love: Advice from Married Men",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1 Physical damage resistance to all party members for one scene"
+    ],
+    [
+      "Live & Love: Beware the Man Handler",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: The group AP pool may contain 1 AP more than normal for one scene"
+    ],
+    [
+      "Live & Love: An Experience to Remember",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Choose one other Magazine perk you have previously used but not learned; that now takes effect"
+    ],
+    [
+      "Live & Love: I Married a Robot",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to all damage resistances against Robots for one scene"
+    ],
+    [
+      "Tesla Science Magazine: Will Robots Rule the World?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Physical and Energy damage resistances vs Robots"
+    ],
+    [
+      "Tesla Science Magazine: What is Plasma, anyway?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2 to Physical and Energy damage resistances vs Plasma weapons"
+    ],
+    [
+      "Tesla Science Magazine: Rocket Science for Toddlers",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2CD damage inflicted by one attack with a Blast weapon"
+    ],
+    [
+      "Tesla Science Magazine: Tomorrow’s Technology for Today’s Super Soldiers",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: After spending a fusion core charge, you may spend 1 Luck point: if you do so the charge is not spent"
+    ],
+    [
+      "Tesla Science Magazine: Giant Super Weapons!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Once, when you fire a Gatling weapon, you consume ammunition at 8x the rate, rather than 10x the rate"
+    ],
+    [
+      "Tesla Science Magazine: Geckos and Gamma Radiation",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2CD damage inflicted on one attack against a Mutated creature"
+    ],
+    [
+      "Tesla Science Magazine: U.S. Army Goes to Space",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: On a single attack with an Energy weapon, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance (rather than the normal 5 or more damage)"
+    ],
+    [
+      "Tesla Science Magazine: 10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Once, when you inflict a Critical Hit, increase the total damage inflicted by +2"
+    ],
+    [
+      "Tesla Science Magazine: Future of Warfare?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: On a single attack with a Big Gun, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance (rather than the normal 5 or more damage)"
+    ],
+    [
+      "Tumblers Today: Mysteries of the Master Key Exposed!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: You may re-roll 1d20 on a single Lockpicking test"
+    ],
+    [
+      "Tumblers Today: Bobby Pins: More Effective Than Lockpicks?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When using a Bobby Pin, reduce the difficulty of a Lockpicking test by a further 1 (minimum 0)"
+    ],
+    [
+      "Tumblers Today: Confessions of a Housebreaker",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When scavenging or looting, spend 1 Luck to find 2+2CD Bobby Pins"
+    ],
+    [
+      "Tumblers Today: Open Any Lock in 5 Seconds Flat",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you successfully pick a lock, you may use the Reduce Time AP option without spending AP"
+    ],
+    [
+      "Tumblers Today: Locksmith Certification Special— Pass with Flying Colors",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications"
+    ],
+    [
+      "Unstoppables: Dr. Brainwash and His Army of De-Capitalists!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Spend 3 Luck points to avoid all damage from a single attack or hazard"
+    ],
+    [
+      "Unstoppables: Who Can Stop the Unstoppable Grog-Na-Rok?!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Spend 2 Luck points to avoid all damage from an attack from a Mutated Human (including Ghouls and super mutants)"
+    ],
+    [
+      "Unstoppables: Commie-Kazi vs. Manta Man",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Spend 1 Luck point to avoid all damage from a Blast weapon"
+    ],
+    [
+      "Unstoppables: Trapped in the Dimension of the Pterror-dactyls!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Spend 1 Luck point to avoid all damage from a single melee attack"
+    ],
+    [
+      "Unstoppables: Visit the Ux-Ron Galaxy!",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Spend 1 Luck point to avoid all Energy damage from a single attack"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-01 Whistling in the Dark",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: If you are detected while sneaking, you add +2 to Physical damage resistance against the first attack you receive after being detected"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-02 Urban Camouflage Enemies suffer",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1 difficulty on tests to detect you; this does not stack with any difficulty increases for poor light or darkness"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-03 Facepaint Fundamentals",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1 to all damage resistances against attacks from Character NPCs"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-04 Not the Soldiers You’re Looking For",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +1CD damage inflicted by attacks against Character NPCs"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-05 Who Goes There?",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you spend a Luck point to re-roll a d20 on a PER test, instead count that die as if it had rolled a 1"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-06 Squeaky Floorboard, Sudden Death",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Once, when you suffer one or more Complications on a Sneak test, ignore the complications"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-07 Getting the Drop on the Communists",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Once, when an enemy aims before making an attack against you, you may cause them to lose the benefits of aiming"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: +2CD damage inflicted by an unarmed attack or an attack made with a knife"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-09 Look Better in Black",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Once, when using a Stealth Boy, it lasts for one additional turn"
+    ],
+    [
+      "U.S. Covert Operations Manual: FH 5-10 Tiptoe Through the Tulips",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you spend a Luck point to re-roll a d20 on an AGI test, instead count that die as if it had rolled a 1"
+    ],
+    [
+      "Wasteland Survival Guide: Farming the Wastes",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Consuming a fruit or vegetable food item heals twice as many HP"
+    ],
+    [
+      "Wasteland Survival Guide: Insect Repellent Special",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Increase all damage resistances by +2 vs an attack from an Insect"
+    ],
+    [
+      "Wasteland Survival Guide: The Bright Side of Radiation Poisoning",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you consume irradiated food or drink, heal additional HP equal to the roll on the CD"
+    ],
+    [
+      "Wasteland Survival Guide: Coupon Spectacular",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When buying food or drink items, the price is shifted an additional 10% in your favor"
+    ],
+    [
+      "Wasteland Survival Guide: Water Aerobics for Ghouls",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Reduce the difficulty of an Athletics test to swim by 1 (min. 0)"
+    ],
+    [
+      "Wasteland Survival Guide: Self Defense Secrets",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: Gain +1 defense against a melee attack"
+    ],
+    [
+      "Wasteland Survival Guide: Hunting in the Wastes",
+      ".5",
+      "100",
+      "3",
+      "EFFECTS: When you butcher an animal you’ve killed, and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose (this AP is lost if not used)"
+    ]
+  ]
+}
