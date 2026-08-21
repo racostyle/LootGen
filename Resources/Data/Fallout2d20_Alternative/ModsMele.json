@@ -115,17 +115,9 @@
       "Used On: "
     ],
     [
-      "Bladed",
-      "+2",
-      "20",
-      "1",
-      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent",
-      "Used On: "
-    ]
-    [
       "Heavy",
       "+2",
-      "+11",
+      "20",
       "2",
       "Name Prefix: Heavy, Effects: +2CD",
       "Used On: "
@@ -133,31 +125,15 @@
     [
       "Hooked",
       "0",
-      "+9",
+      "20",
       "0",
       "Name Prefix: Hooked, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
       "Used On: "
     ],
     [
-      "Heavy",
-      "+7",
-      "+12",
-      "1",
-      "Name Prefix: Weighted, Effects: +2CD",
-      "Used On: "
-    ],
-    [
-      "Puncturing",
-      "+1",
-      "+13",
-      "1",
-      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1",
-      "Used On: "
-    ],
-    [
       "Extra Heavy",
       "+2",
-      "+22",
+      "45",
       "2",
       "Name Prefix: Heavy, Effects: +3CD",
       "Used On: "
@@ -165,39 +141,23 @@
     [
       "Electrified",
       "0",
-      "+15",
+      "30",
       "2",
       "Name Prefix: Shock, Effects: +2CD, Change Damage Type to Energy",
       "Used On: "
     ],
     [
-      "Puncturing",
-      "+5",
-      "+18",
-      "2",
-      "Name Prefix: Puncturing, Effects: +1CD. Gain Piercing 1",
-      "Used On: "
-    ],
-    [
       "Heating Coil",
       "0",
-      "+180",
+      "300",
       "2",
       "Name Prefix: Heated, Effects: +1CD, Change Damage Type to Energy",
       "Used On: "
     ],
     [
-      "Stun Pack",
-      "0",
-      "+360",
-      "3",
-      "Name Prefix: Stunning, Effects: +2CD, Gain Stun, Change Damage Type to Energy",
-      "Used On: "
-    ],
-    [
       "Lead lining",
       "+1",
-      "+7",
+      "15",
       "1",
       "Name Prefix: Lead-lined, Effects: +2CD",
       "Used On: "
@@ -205,49 +165,9 @@
     [
       "Extra Claw",
       "+2",
-      "+22",
+      "45",
       "0",
       "Name Prefix: Large, Effects: +1CD. On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
-      "Used On: "
-    ],
-    [
-      "Sharp",
-      "0",
-      "+3",
-      "0",
-      "Name Prefix: Sharp, Effects: Gain Persistent",
-      "Used On: "
-    ],
-    [
-      "Puncturing",
-      "0",
-      "+4",
-      "1",
-      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1",
-      "Used On: "
-    ],
-    [
-      "Bladed",
-      "0",
-      "+5",
-      "1",
-      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent",
-      "Used On: "
-    ],
-    [
-      "Puncturing",
-      "+1",
-      "+45",
-      "2",
-      "Name Prefix: Puncturing, Effects: +2CD. Gain Piercing 1",
-      "Used On: "
-    ],
-    [
-      "Heating Coil",
-      "0",
-      "+100",
-      "3",
-      "Name Prefix: Heated, Effects: +2CD, Change Damage Type to Energy",
       "Used On: "
     ]
   ]
