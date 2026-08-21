@@ -587,35 +587,11 @@
       "Used On: "
     ],
     [
-      "Photon Exciter Capacitor",
-      "1",
-      "40",
-      "3",
-      "Name Prefix: Excited, Effects: Gain Vicious",
-      "Used On: "
-    ],
-    [
-      "Beta Wave Tuner Capacitor",
-      "1",
-      "115",
-      "0",
-      "Name Prefix: Incendiary, Effects: Gain Persistent",
-      "Used On: "
-    ],
-    [
       "Boosted Capacitor",
       "1",
       "190",
       "0",
       "Name Prefix: Boosted, Effects: +1CD",
-      "Used On: "
-    ],
-    [
-      "Photon Agitator Capacitor",
-      "3",
-      "260",
-      "3",
-      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious",
       "Used On: "
     ],
     [
@@ -640,14 +616,6 @@
       "45",
       "0",
       "Name Prefix: Focused, Effects: Gain Piercing 1, Increase Range by 1 step",
-      "Used On: "
-    ],
-    [
-      "Long Barrel",
-      "2",
-      "40",
-      "1",
-      "Name Prefix: Long, Effects: Increase Range by 1 step",
       "Used On: "
     ],
     [
@@ -947,14 +915,6 @@
       "Used On: "
     ],
     [
-      "Maximized Capacitor",
-      "3",
-      "410",
-      "4",
-      "Name Prefix: Maximized, Effects: +2 CD",
-      "Used On: "
-    ],
-    [
       "Boosted Photon Agitator",
       "5",
       "450",
@@ -968,14 +928,6 @@
       "500",
       "4",
       "Name Prefix: Boosted Fiery, Effects: +2 CD, Gain Persistent",
-      "Used On: "
-    ],
-    [
-      "Overcharged Capacitor",
-      "5",
-      "500",
-      "4",
-      "Name Prefix: Overcharged, Effects: +3 CD",
       "Used On: "
     ]
   ]
