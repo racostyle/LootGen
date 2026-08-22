@@ -127,6 +127,48 @@
             "200",
             "5",
             "QUANTITY FOUND: 1"
+        ],
+        [
+            "Acid Concentrate",
+            ".5",
+            "2",
+            "3",
+            "QUANTITY FOUND: 2+3 CD"
+        ],
+        [
+            "Alien Blaster Round",
+            ".5",
+            "1",
+            "6",
+            "QUANTITY FOUND: 3+1 CD"
+        ],
+        [
+            "Cannonball",
+            "4",
+            "8",
+            "5",
+            "QUANTITY FOUND: 1+2 CD"
+        ],
+        [
+            "Cryo Cell",
+            ".5",
+            "10",
+            "5",
+            "QUANTITY FOUND: 4+3 CD"
+        ],
+        [
+            "Gas Grenade",
+            ".5",
+            "2",
+            "4",
+            "QUANTITY FOUND: 2+1 CD"
+        ],
+        [
+            "Harpoon",
+            ".5",
+            "3",
+            "4",
+            "QUANTITY FOUND: 2+1 CD"
         ]
     ]
 }

@@ -8,7 +8,7 @@
       "40",
       "0",
       "Name Prefix: Hardened, Effects: +1CD damage",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
     ],
     [
       "Powerful Receiver",
@@ -16,7 +16,7 @@
       "50",
       "1",
       "Name Prefix: Powerful, Effects: +2CD damage",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
     ],
     [
       "Advanced Receiver",
@@ -24,7 +24,7 @@
       "70",
       "2",
       "Name Prefix: Advanced, Effects: +3CD damage, +1 Fire Rate",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Double-Barrel Shotgun, 12.7mm Pistol, Lever-Action Rifle, Pump-Action Shotgun"
     ],
     [
       "Calibrated Receiver",
@@ -32,7 +32,7 @@
       "50",
       "0",
       "Name Prefix: Calibrated, Effects: Gain Vicious",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 9mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
     ],
     [
       "Automatic Receiver",
@@ -40,7 +40,7 @@
       "60",
       "1",
       "Name Prefix: Auto, Effects: -1CD damage, +2 Fire Rate, Gain Burst, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, 9mm Pistol, Radium Rifle"
     ],
     [
       "Hair Trigger Receiver",
@@ -48,7 +48,7 @@
       "40",
       "2",
       "Name Prefix: Hair Trigger, Effects: +1 Fire Rate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Gun, .357 Magnum Revolver, 12.7mm Pistol, 25mm Grenade APW, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       ".38 Receiver",
@@ -56,7 +56,7 @@
       "40",
       "4",
       "Name Prefix: .38, Effects: Change Damage to 4CD, Ammo changes to .38",
-      "Used On: "
+      "Used On: Combat Rifle, Hunting Rifle, Pipe Bolt-Action, Pipe Revolver"
     ],
     [
       ".308 Receiver",
@@ -64,7 +64,7 @@
       "80",
       "4",
       "Name Prefix: .308, Effects: Change damage to 7CD, Ammo changes to .308",
-      "Used On: "
+      "Used On: Combat Rifle, Pipe Revolver, Light Machine Gun"
     ],
     [
       ".45 Receiver",
@@ -72,7 +72,7 @@
       "40",
       "2",
       "Name Prefix: .45, Effects: Change damage to 4CD, +1 Fire Rate, Ammo changes to .45",
-      "Used On: "
+      "Used On: Pipe Gun"
     ],
     [
       ".50 Receiver",
@@ -80,7 +80,7 @@
       "60",
       "4",
       "Name Prefix: .50, Effects: Change damage to 8CD, Gain Vicious, Ammo changes to .50",
-      "Used On: "
+      "Used On: Hunting Rifle, Pipe Bolt-Action"
     ],
     [
       "Automatic Piston Receiver",
@@ -88,7 +88,7 @@
       "150",
       "2",
       "Name Prefix: Automatic, Effects: +2 Fire Rate, Reduce Range by 1 step",
-      "Used On: "
+      "Used On: Railway Rifle"
     ],
     [
       "Snubnose Barrel",
@@ -96,7 +96,7 @@
       "20",
       "0",
       "Name Prefix: Snub-noses, Effects: Gain Inaccurate",
-      "Used On: "
+      "Used On: .44 Pistol"
     ],
     [
       "Bull Barrel",
@@ -104,7 +104,7 @@
       "20",
       "3",
       "Name Prefix: Bull Barrel, Effects: Gain Reliable",
-      "Used On: "
+      "Used On: .44 Pistol"
     ],
     [
       "Long Barrel",
@@ -112,7 +112,7 @@
       "40",
       "1",
       "Name Prefix: Long, Effects: Increase Range by 1 step",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, .357 Magnum Revolver, 12.7mm Pistol, 25mm Grenade APW, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       "Ported Barrel",
@@ -120,7 +120,7 @@
       "70",
       "4",
       "Name Prefix: Ported, Effects: Increase Range by 1 step, +1 Fire Rate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       "Vented Barrel",
@@ -128,7 +128,7 @@
       "75",
       "4",
       "Name Prefix: Vented, Effects: Increase Range by 1 step, +1 Fire Rate, Gain Reliable",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Light Machine Gun"
     ],
     [
       "Sawed-Off Barrel",
@@ -136,7 +136,7 @@
       "10",
       "0",
       "Name Prefix: Sawed Off, Effects: Remove Two-Handed, Gain Close Quarters",
-      "Used On: "
+      "Used On: Double-Barrel Shotgun"
     ],
     [
       "Shielded Barrel",
@@ -144,7 +144,7 @@
       "65",
       "3",
       "Name Prefix: Shielded, Effects: +1CD damage",
-      "Used On: "
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
     ],
     [
       "Finned Barrel",
@@ -152,7 +152,7 @@
       "30",
       "2",
       "Name Prefix: Finned, Effects: +1CD damage, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Pipe Bolt-Action, Pipe Gun, Pipe Revolver"
     ],
     [
       "Full Capacitors",
@@ -160,7 +160,7 @@
       "65",
       "3",
       "Name Prefix: High Capacity, Effects: Gain Vicious",
-      "Used On: "
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
     ],
     [
       "Capacitor Boosting Coil",
@@ -168,7 +168,7 @@
       "160",
       "4",
       "Name Prefix: Maximum Capacity, Effects: +1CD damage, Gain Vicious",
-      "Used On: "
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
     ],
     [
       "Large Magazine",
@@ -176,7 +176,7 @@
       "15",
       "2",
       "Name Prefix: High Capacity, Effects: +1 Fire Rate, Unreliable",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, .357 Magnum Revolver, 12.7mm Pistol, 12.7mm SMG, 25mm Grenade APW, 9mm Pistol, Anti-Materiel Rifle, Light Machine Gun, Radium Rifle"
     ],
     [
       "Quick-Eject Mag Magazine",
@@ -184,7 +184,7 @@
       "15",
       "1",
       "Name Prefix: Quick, Effects: Gain Reliable",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, 12.7mm Pistol, Light Machine Gun, Radium Rifle"
     ],
     [
       "Large Quick-Eject Mag Magazine",
@@ -192,7 +192,7 @@
       "45",
       "2",
       "Name Prefix: Quick high capacity, Effects: +1 Fire Rate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, Light Machine Gun, Radium Rifle"
     ],
     [
       "Comfort Grip",
@@ -200,7 +200,7 @@
       "15",
       "0",
       "Name Prefix: Comfort, Effects: Remove Inaccurate",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, 12.7mm Pistol, 9mm Pistol"
     ],
     [
       "Sharpshooter’s Grip",
@@ -208,7 +208,7 @@
       "30",
       "1",
       "Name Prefix: Sharpshooter’s, Effects: Remove Inaccurate, Add Piercing 1",
-      "Used On: "
+      "Used On: 10mm Pistol, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Laser Gun, 12.7mm Pistol"
     ],
     [
       "Full Stock",
@@ -216,7 +216,7 @@
       "20",
       "0",
       "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm SMG, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, M79 Grenade Launcher"
     ],
     [
       "Marksman’s Stock",
@@ -224,7 +224,7 @@
       "40",
       "2",
       "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Syringer, Lever-Action Rifle, Radium Rifle"
     ],
     [
       "Recoil Compensating Stock",
@@ -232,7 +232,7 @@
       "20",
       "3",
       "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 12.7mm SMG, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       "Reflex Sight",
@@ -240,7 +240,7 @@
       "30",
       "0",
       "Name Prefix: Tactical, Effects: May re-roll hit location die",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Battle Rifle, Gauss Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun, Tesla Rifle"
     ],
     [
       "Short Scope Sight",
@@ -248,7 +248,7 @@
       "25",
       "0",
       "Name Prefix: Scoped, Effects: Gain Accurate",
-      "Used On: "
+      "Used On: .44 Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Radium Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Long Scope Sight",
@@ -256,7 +256,7 @@
       "60",
       "2",
       "Name Prefix: Scoped, Effects: Gain Accurate, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Short Night Vision Scope Sight",
@@ -264,7 +264,7 @@
       "65",
       "2",
       "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Long Night Vision Scope Sight",
@@ -272,7 +272,7 @@
       "100",
       "3",
       "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Recon Scope Sight",
@@ -280,7 +280,7 @@
       "120",
       "3",
       "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
-      "Used On: "
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Bayonet Muzzle",
@@ -288,7 +288,7 @@
       "20",
       "0",
       "Name Prefix: Bayoneted, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
-      "Used On: "
+      "Used On: Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Battle Rifle, Black Powder Rifle, Pump-Action Shotgun"
     ],
     [
       "Compensator Muzzle",
@@ -296,7 +296,7 @@
       "30",
       "1",
       "Name Prefix: Compensated, Effects: Remove Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       "Muzzle Break",
@@ -304,7 +304,7 @@
       "60",
       "1",
       "Name Prefix: Muzzled, Effects: Remove Inaccurate, +1 Fire Rate",
-      "Used On: "
+      "Used On: Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
     ],
     [
       "Suppressor Muzzle",
@@ -312,7 +312,7 @@
       "90",
       "2",
       "Name Prefix: Suppressed, Effects: Gain Suppressed",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Anti-Materiel Rifle, Lever-Action Rifle, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
     ],
     [
       "Deep Dish",
@@ -320,7 +320,7 @@
       "140",
       "4",
       "Name Prefix: Long, Effects: +1CD, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Gamma Gun"
     ],
     [
       "Electric Signal Carrier Antennae Muzzle",
@@ -328,7 +328,7 @@
       "60",
       "4",
       "Name Prefix: Electrified, Effects: Change damage to 7CD, Change damage type to Energy, Gain Radioactive",
-      "Used On: "
+      "Used On: Gamma Gun"
     ],
     [
       "Signal Repeater Muzzle",
@@ -336,7 +336,7 @@
       "120",
       "4",
       "Name Prefix: Automatic, Effects: +2 Fire Rate, Gain Burst, Remove Blast",
-      "Used On: "
+      "Used On: Gamma Gun"
     ],
     [
       "Three-crank capacitor",
@@ -344,7 +344,7 @@
       "10",
       "0",
       "Name Prefix: Three-crank, Effects: +1CD, consumes 3 shots per attack",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Four-crank capacitor",
@@ -352,7 +352,7 @@
       "20",
       "1",
       "Name Prefix: Four-crank, Effects: +2CD, consumes 4 shots per attack",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Five-crank capacitor",
@@ -360,7 +360,7 @@
       "30",
       "2",
       "Name Prefix: Five-crank, Effects: +3CD, consumes 5 shots per attack",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Six-crank capacitor",
@@ -368,7 +368,7 @@
       "40",
       "3",
       "Name Prefix: Six-crank, Effects: +4CD, consumes 6 shots per attack",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Beta Wave Tuner Capacitor",
@@ -376,7 +376,7 @@
       "60",
       "0",
       "Name Prefix: Incendiary, Effects: Gain Persistent",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Boosted Capacitor",
@@ -384,7 +384,7 @@
       "70",
       "0",
       "Name Prefix: Boosted, Effects: +1CD, -1 Fire Rate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Photon Exciter Capacitor",
@@ -392,7 +392,7 @@
       "60",
       "1",
       "Name Prefix: Excited, Effects: Gain Vicious",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Photon Agitator Capacitor",
@@ -400,7 +400,7 @@
       "70",
       "2",
       "Name Prefix: Agitated, Effects: +1CD, Gain Vicious",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Bracketed Short Barrel",
@@ -408,7 +408,7 @@
       "15",
       "0",
       "Name Prefix: –, Effects: Allows the weapon to take a Muzzle mod",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Long Barrel",
@@ -416,7 +416,7 @@
       "40",
       "0",
       "Name Prefix: Long, Effects: Remove Close-Quarters, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
     ],
     [
       "Splitter Barrel",
@@ -424,7 +424,7 @@
       "60",
       "0",
       "Name Prefix: Scattergun, Effects: -1CD, Gain Spread, Gain Inaccurate",
-      "Used On: "
+      "Used On: Plasma Gun, Tesla Rifle"
     ],
     [
       "Automatic Barrel",
@@ -432,7 +432,7 @@
       "50",
       "1",
       "Name Prefix: Automatic, Effects: -1CD, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun, Tesla Rifle"
     ],
     [
       "Bracketed Long Barrel",
@@ -440,7 +440,7 @@
       "50",
       "1",
       "Name Prefix: –, Effects: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Improved Barrel",
@@ -448,7 +448,7 @@
       "50",
       "1",
       "Name Prefix: Improved, Effects: +1CD",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun, Tesla Rifle"
     ],
     [
       "Sniper Barrel",
@@ -456,7 +456,7 @@
       "60",
       "1",
       "Name Prefix: Sniper, Effects: +2CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
-      "Used On: "
+      "Used On: Laser Gun, Plasma Gun"
     ],
     [
       "Flamer Barrel",
@@ -464,7 +464,7 @@
       "70",
       "2",
       "Name Prefix: Thrower, Effects: -2CD, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate",
-      "Used On: "
+      "Used On: Plasma Gun"
     ],
     [
       "Standard Stock",
@@ -472,7 +472,7 @@
       "20",
       "0",
       "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Full Stock",
@@ -480,7 +480,7 @@
       "30",
       "0",
       "Name Prefix: –, Effects: Gain Two-handed, Gain Piercing 1, Remove Close Quarters",
-      "Used On: "
+      "Used On: Laser Musket"
     ],
     [
       "Marksman’s Stock",
@@ -488,7 +488,7 @@
       "40",
       "2",
       "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate, Remove Close Quarters",
-      "Used On: "
+      "Used On: Laser Gun, Plasma Gun"
     ],
     [
       "Recoil Compensating Stock",
@@ -496,7 +496,7 @@
       "10",
       "3",
       "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate, Remove Close Quarters",
-      "Used On: "
+      "Used On: Laser Gun, Plasma Gun"
     ],
     [
       "Long Night Vision Scope Stock",
@@ -504,7 +504,7 @@
       "100",
       "3",
       "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Recon Scope Stock",
@@ -512,7 +512,7 @@
       "120",
       "3",
       "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
     ],
     [
       "Beam Splitter Muzzle",
@@ -520,7 +520,7 @@
       "30",
       "1",
       "Name Prefix: Scattered, Effects: -1CD, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
     ],
     [
       "Beam Focuser Muzzle",
@@ -528,7 +528,7 @@
       "40",
       "1",
       "Name Prefix: Focused, Effects: Increase Range by 1 Step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
     ],
     [
       "Gyro Compensating Lens Muzzle",
@@ -536,7 +536,7 @@
       "50",
       "1",
       "Name Prefix: Targeting, Effects: +1 Fire Rate, Remove Inaccurate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
     ],
     [
       "Napalm Fuel",
@@ -544,7 +544,7 @@
       "120",
       "1",
       "Name Prefix: Napalmer, Effects: +1CD",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Long Barrel",
@@ -552,7 +552,7 @@
       "50",
       "1",
       "Name Prefix: Long, Effects: Remove Inaccurate",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Large Tank Propellant Tank",
@@ -560,7 +560,7 @@
       "50",
       "1",
       "Name Prefix: High Capacity, Effects: +1 Fire Rate",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Huge Tank Propellant Tank",
@@ -568,7 +568,7 @@
       "70",
       "2",
       "Name Prefix: Max. Capacity, Effects: +2 Fire Rate",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Compression Nozzle",
@@ -576,7 +576,7 @@
       "45",
       "1",
       "Name Prefix: Compressed, Effects: +1CD",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Vaporization Nozzle",
@@ -584,7 +584,7 @@
       "85",
       "2",
       "Name Prefix: Vaporizing, Effects: +1CD, Vicious",
-      "Used On: "
+      "Used On: Flamer"
     ],
     [
       "Boosted Capacitor",
@@ -592,7 +592,7 @@
       "190",
       "0",
       "Name Prefix: Boosted, Effects: +1CD",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Charging barrels",
@@ -600,7 +600,7 @@
       "500",
       "4",
       "Name Prefix: Charging, Effects: +4CD, -3 Fire Rate, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Reflex Sight",
@@ -608,7 +608,7 @@
       "300",
       "4",
       "Name Prefix: Tactical, Effects: Remove Inaccurate",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Beam Focuser Nozzle",
@@ -616,7 +616,7 @@
       "45",
       "0",
       "Name Prefix: Focused, Effects: Gain Piercing 1, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Recoil Compensating Stock",
@@ -624,7 +624,7 @@
       "80",
       "0",
       "Name Prefix: Recoil Compensated, Effects: +1 Fire Rate",
-      "Used On: "
+      "Used On: Junk Jet"
     ],
     [
       "Gunner Sight",
@@ -632,7 +632,7 @@
       "10",
       "0",
       "Name Prefix: Tactical, Effects: May re-roll hit location die",
-      "Used On: "
+      "Used On: Junk Jet"
     ],
     [
       "Electrification Module Muzzle",
@@ -640,7 +640,7 @@
       "140",
       "2",
       "Name Prefix: Electrified, Effects: Gain Vicious, Change damage type to Energy",
-      "Used On: "
+      "Used On: Junk Jet"
     ],
     [
       "Ignition Module Muzzle",
@@ -648,7 +648,7 @@
       "260",
       "3",
       "Name Prefix: Flaming, Effects: Gain Persistent (Energy)",
-      "Used On: "
+      "Used On: Junk Jet"
     ],
     [
       "Accelerated Barrel",
@@ -656,7 +656,7 @@
       "90",
       "3",
       "Name Prefix: High-Speed, Effects: +1CD, +1 Fire Rate, Reduce Range by 1 step",
-      "Used On: "
+      "Used On: Minigun"
     ],
     [
       "Tri-Barrel",
@@ -664,7 +664,7 @@
       "150",
       "4",
       "Name Prefix: High-Powered, Effects: +2CD, -2 Fire Rate",
-      "Used On: "
+      "Used On: Minigun"
     ],
     [
       "Gunner Sight",
@@ -672,7 +672,7 @@
       "140",
       "0",
       "Name Prefix: Tactical, Effects: Remove Inaccurate",
-      "Used On: "
+      "Used On: Minigun"
     ],
     [
       "Shredder Bayoneted Muzzle",
@@ -680,7 +680,7 @@
       "10",
       "2",
       "Name Prefix: Shredding, Effects: Melee weapon, Deals CD of Physical damage equal to Fire Rate",
-      "Used On: "
+      "Used On: Minigun"
     ],
     [
       "Triple Barrel",
@@ -688,7 +688,7 @@
       "280",
       "2",
       "Name Prefix: Triple Barrel, Effects: +1 Fire Rate",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Quad Barrel",
@@ -696,7 +696,7 @@
       "400",
       "3",
       "Name Prefix: Quad Barrel, Effects: +2 Fire Rate",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Scope Sight",
@@ -704,7 +704,7 @@
       "280",
       "2",
       "Name Prefix: Scoped, Effects: Gain Accurate",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Night Vision Scope Sight",
@@ -712,7 +712,7 @@
       "480",
       "4",
       "Name Prefix: Night-vision, Effects: Gain Accurate, Gain Night Vision",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Targeting Computer Sight",
@@ -720,7 +720,7 @@
       "500",
       "2",
       "Name Prefix: Targeting, Effects: When you Aim at a target, the target does not benefit from being in cover, and the bonus for aiming applies to the next attack on any subsequent turn during the scene",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Bayonet Bayoneted Muzzle",
@@ -728,7 +728,7 @@
       "60",
       "0",
       "Name Prefix: Shredding, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Stabilizer Muzzle",
@@ -736,7 +736,7 @@
       "120",
       "2",
       "Name Prefix: Muzzled, Effects: Gain Piercing 1",
-      "Used On: "
+      "Used On: Missile Launcher"
     ],
     [
       "Armor Piercing Receiver",
@@ -744,7 +744,7 @@
       "10",
       "1",
       "Name Prefix: Armor Piercing, Effects: Add Piercing 1",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Pipe Gun, 12.7mm Pistol, 12.7mm SMG"
     ],
     [
       "Armor Piercing Automatic Receiver",
@@ -752,7 +752,7 @@
       "80",
       "3",
       "Name Prefix: AP Auto, Effects: -1 CD, +2 Fire Rate, Add Piercing 1, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Pipe Gun"
     ],
     [
       "Hardened Automatic Receiver",
@@ -760,7 +760,7 @@
       "120",
       "3",
       "Name Prefix: Hardened Auto, Effects: +2 Fire Rate, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, 9mm Pistol, Radium Rifle"
     ],
     [
       "Rapid Automatic Receiver",
@@ -768,7 +768,7 @@
       "125",
       "4",
       "Name Prefix: Rapid, Effects: -1 CD, +3 Fire Rate, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, Radium Rifle"
     ],
     [
       "Calibrated Powerful Receiver",
@@ -776,7 +776,7 @@
       "135",
       "4",
       "Name Prefix: Calibrated Powerful, Effects: +2 CD, Gain Vicious",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
     ],
     [
       "Powerful Automatic Receiver",
@@ -784,7 +784,7 @@
       "170",
       "4",
       "Name Prefix: Powerful Auto, Effects: +1 CD, +2 Fire Rate, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun"
     ],
     [
       "Hardened Piercing Auto Receiver",
@@ -792,7 +792,7 @@
       "155",
       "4",
       "Name Prefix: Hardened AP Auto, Effects: +2 Fire Rate, Gain Piercing 1, Gain Inaccurate",
-      "Used On: "
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Pipe Gun"
     ],
     [
       "9mm Receiver",
@@ -800,7 +800,7 @@
       "20",
       "2",
       "Name Prefix: 9mm, Effects: Change damage to 3 CD, ammo to 9mm, +1 Fire Rate",
-      "Used On: "
+      "Used On: Submachine Gun, Pipe Gun"
     ],
     [
       ".357 Receiver",
@@ -808,7 +808,7 @@
       "70",
       "3",
       "Name Prefix: .357, Effects: Change damage to 5 CD, ammo to .357, add Vicious.",
-      "Used On: "
+      "Used On: Pipe Revolver, Lever-Action Rifle"
     ],
     [
       "Gamma Wave Emitter Capacitor",
@@ -816,7 +816,7 @@
       "30",
       "1",
       "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Maximized Capacitor",
@@ -824,7 +824,7 @@
       "35",
       "2",
       "Name Prefix: Maximized, Effects: +2 CD",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Boosted Photon Agitator Capacitor",
@@ -832,7 +832,7 @@
       "40",
       "2",
       "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Boosted Gamma Wave Emitter",
@@ -840,7 +840,7 @@
       "45",
       "2",
       "Name Prefix: Boosted, Fiery, Effects: +2 CD, Gain Persistent",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Overcharged Capacitor",
@@ -848,7 +848,7 @@
       "85",
       "2",
       "Name Prefix: Overcharged, Effects: +3 CD",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Improved Long Barrel",
@@ -856,7 +856,7 @@
       "30",
       "2",
       "Name Prefix: Improved Long, Effects: +1 CD, Remove Close Quarters, Increase Range by 1 step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Improved Automatic Barrel",
@@ -864,7 +864,7 @@
       "35",
       "2",
       "Name Prefix: Improved Automatic, Effects: Gain Burst, Gain Inaccurate, Remove Close Quarters, Increase Range by 1 step, +1 Fire Rate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
     ],
     [
       "Improved Sniper Barrel",
@@ -872,7 +872,7 @@
       "40",
       "2",
       "Name Prefix: Improved Charging, Effects: +3 CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
-      "Used On: "
+      "Used On: Laser Gun, Plasma Gun"
     ],
     [
       "Improved Splitter",
@@ -880,7 +880,7 @@
       "50",
       "2",
       "Name Prefix: Improved Scattergun, Effects: Gain Spread, Gain Inaccurate",
-      "Used On: "
+      "Used On: Plasma Gun"
     ],
     [
       "Amplified Beam Splitter Muzzle",
@@ -888,7 +888,7 @@
       "30",
       "2",
       "Name Prefix: Improved Scattered, Effects: Gain Spread, -1 Fire Rate, Reduce Range by 1 step",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
     ],
     [
       "Fine-Tuned Beam Focuser",
@@ -896,7 +896,7 @@
       "35",
       "2",
       "Name Prefix: Improved Focused, Effects: Increase Range by 1 step, Gain Accurate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
     ],
     [
       "Quantum Gyro-Compensating Lens",
@@ -904,7 +904,7 @@
       "40",
       "3",
       "Name Prefix: Improved Targeting, Effects: +2 Fire Rate, Remove Inaccurate",
-      "Used On: "
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
     ],
     [
       "Gamma Wave Emitter",
@@ -912,7 +912,7 @@
       "320",
       "3",
       "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Boosted Photon Agitator",
@@ -920,7 +920,7 @@
       "450",
       "4",
       "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
-      "Used On: "
+      "Used On: Gatling Laser"
     ],
     [
       "Boosted Gamma Wave Emitter",
@@ -928,7 +928,175 @@
       "500",
       "4",
       "Name Prefix: Boosted Fiery, Effects: +2 CD, Gain Persistent",
-      "Used On: "
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Long Barrel",
+      "2",
+      "80",
+      "1",
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: M79 Grenade Launcher, Broadsider"
+    ],
+    [
+      "Caustic Concentrate",
+      "2",
+      "60",
+      "0",
+      "Name Prefix: Caustic, Effects: +1 CD",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Large Ampoule",
+      "2",
+      "45",
+      "0",
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Large Vial",
+      "4",
+      "80",
+      "0",
+      "Name Prefix: Maximum Capacity, Effects: +3 Fire Rate",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Fusion Mag Magazine",
+      "0",
+      "40",
+      "1",
+      "Name Prefix: Converted, Effects: Change damage to 3 CD, -1 Fire Rate, Ammo changes to Fusion Cell",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Capacitor Mk III",
+      "0",
+      "10",
+      "0",
+      "Name Prefix: Mk III, Effects: +1 CD, consumes 3 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk IV",
+      "1",
+      "15",
+      "1",
+      "Name Prefix: Mk IV, Effects: +2 CD, consumes 4 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk V",
+      "1",
+      "25",
+      "2",
+      "Name Prefix: Mk V, Effects: +3 CD, consumes 5 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk VI",
+      "2",
+      "30",
+      "3",
+      "Name Prefix: Mk VI, Effects: +4 CD, consumes 6 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Light Barrel",
+      "3",
+      "60",
+      "2",
+      "Name Prefix: Fluted, Effects: +2 CD, Remove Blast",
+      "Used On: Broadsider"
+    ],
+    [
+      "Multi Shot Canister",
+      "1",
+      "90",
+      "3",
+      "Name Prefix: Repeating, Effects: +1 Fire Rate, Gain Inaccurate",
+      "Used On: Broadsider"
+    ],
+    [
+      "M79 Launcher",
+      "0",
+      "5",
+      "1",
+      "Name Prefix: Converted, Effects: Increase Range by 1 step, Changes ammo to 40mm Grenades",
+      "Used On: Broadsider"
+    ],
+    [
+      "Crystallizing Barrel",
+      "5",
+      "80",
+      "2",
+      "Name Prefix: Crystallized, Effects: +2 CD, Increase Range by 1 step, -1 Fire Rate, Remove Stun, Remove Unreliable",
+      "Used On: Cryolator"
+    ],
+    [
+      "Fusion Mag Magazine",
+      "0",
+      "40",
+      "1",
+      "Name Prefix: Converted, Effects: Change damage to 2 CD, -1 Fire Rate, Ammo changes to Fusion Cell",
+      "Used On: Cryolator"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "2",
+      "90",
+      "0",
+      "Name Prefix: Recoil Compensating, Effects: +1 Fire Rate",
+      "Used On: Cryolator"
+    ],
+    [
+      "Reflex Sight",
+      "0",
+      "35",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Cryolator"
+    ],
+    [
+      "Barbed Harpoon",
+      "0",
+      "40",
+      "0",
+      "Name Prefix: Barbed, Effects: Gain Vicious, Gain Persistent",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Flechette Darts",
+      "0",
+      "30",
+      "2",
+      "Name Prefix: Tiny, Effects: Gain Spread, Reduce Range by 1 step",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "15",
+      "90",
+      "0",
+      "Name Prefix: Recoil Compensating, Effects: +1 Fire Rate",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Gunner Sight",
+      "0",
+      "35",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Short Scope Sight",
+      "1",
+      "55",
+      "1",
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: Harpoon Gun"
     ]
   ]
 }

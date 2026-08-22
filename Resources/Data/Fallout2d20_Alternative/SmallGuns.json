@@ -225,6 +225,13 @@
       "300",
       "4",
       "WEAPON TYPE: Small Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Accurate, Two-Handed"
+    ],
+    [
+      "M79 Grenade Launcher",
+      "6",
+      "300",
+      "3",
+      "WEAPON TYPE: Small Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 0, RANGE: L, QUALITIES: Blast, Inaccurate, Slow Load, Two-Handed"
     ]
   ]
 }

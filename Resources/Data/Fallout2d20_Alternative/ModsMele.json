@@ -8,7 +8,7 @@
       "50",
       "2",
       "Name Prefix: Serrated, Effects: Gain Persistent",
-      "Used On: "
+      "Used On: Sword"
     ],
     [
       "Electrified Blade",
@@ -16,7 +16,7 @@
       "100",
       "2",
       "Name Prefix: Electrified, Effects: +1CD, Damage type becomes Energy",
-      "Used On: "
+      "Used On: Sword, Assaultron Blade"
     ],
     [
       "Electrified Serrated Blade",
@@ -24,7 +24,7 @@
       "150",
       "3",
       "Name Prefix: Electrified Serrated, Effects: +1CD, Damage type becomes Energy, gain Persistent (Physical)",
-      "Used On: "
+      "Used On: Sword"
     ],
     [
       "Stun Pack",
@@ -32,7 +32,15 @@
       "200",
       "3",
       "Name Prefix: Stunning, Effects: +2CD, Damage type becomes Energy, gain Stun",
-      "Used On: "
+      "Used On: Sword"
+    ],
+    [
+      "Serrated Blade",
+      "0",
+      "25",
+      "1",
+      "Name Prefix: Serrated, Effects: +1CD, Gain Persistent",
+      "Used On: Combat Knife"
     ],
     [
       "Stealth Blade",
@@ -40,7 +48,15 @@
       "35",
       "2",
       "Name Prefix: Stealth, Effects: +1CD, Gain Persistent, +2CD on Sneak Attacks",
-      "Used On: "
+      "Used On: Combat Knife"
+    ],
+    [
+      "Serrated Blade",
+      "0",
+      "25",
+      "2",
+      "Name Prefix: Serrated, Effects: +2CD, Gain Persistent",
+      "Used On: Machete"
     ],
     [
       "Curved Blade",
@@ -48,7 +64,7 @@
       "30",
       "0",
       "Name Prefix: Curved, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
-      "Used On: "
+      "Used On: Ripper"
     ],
     [
       "Extended Blade",
@@ -56,7 +72,7 @@
       "50",
       "3",
       "Name Prefix: Extended, Effects: +1CD, Gain Persistent",
-      "Used On: "
+      "Used On: Ripper"
     ],
     [
       "Extra Flame Jets",
@@ -64,7 +80,15 @@
       "200",
       "3",
       "Name Prefix: Searing, Effects: +1CD, Gain Persistent",
-      "Used On: "
+      "Used On: Shishkebab"
+    ],
+    [
+      "Serrated Blade",
+      "0",
+      "20",
+      "1",
+      "Name Prefix: Serrated, Effects: +1CD, Gain Persistent",
+      "Used On: Switchblade"
     ],
     [
       "Barbed",
@@ -72,7 +96,15 @@
       "10",
       "0",
       "Name Prefix: Barbed, Effects: Gain Piercing 1",
-      "Used On: "
+      "Used On: Baseball Bat, Aluminum Baseball Bat"
+    ],
+    [
+      "Spiked",
+      "+1",
+      "15",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1",
+      "Used On: Baseball Bat, Aluminum Baseball Bat"
     ],
     [
       "Sharp",
@@ -80,7 +112,7 @@
       "15",
       "0",
       "Name Prefix: Sharp, Effects: +1CD, Gain Persistent",
-      "Used On: "
+      "Used On: Baseball Bat, Aluminum Baseball Bat"
     ],
     [
       "Chain-Wrapped",
@@ -88,7 +120,7 @@
       "20",
       "1",
       "Name Prefix: Chain-Wrapped, Effects: +2CD",
-      "Used On: "
+      "Used On: Baseball Bat, Aluminum Baseball Bat"
     ],
     [
       "Bladed",
@@ -96,7 +128,7 @@
       "25",
       "2",
       "Name Prefix: Bladed, Effects: +2CD, Gain Persistent",
-      "Used On: "
+      "Used On: Baseball Bat, Aluminum Baseball Bat"
     ],
     [
       "Spiked",
@@ -104,7 +136,7 @@
       "10",
       "0",
       "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1",
-      "Used On: "
+      "Used On: Board, Lead Pipe"
     ],
     [
       "Puncturing",
@@ -112,7 +144,15 @@
       "20",
       "1",
       "Name Prefix: Puncturing, Effects: +2CD",
-      "Used On: "
+      "Used On: Board"
+    ],
+    [
+      "Bladed",
+      "+2",
+      "20",
+      "1",
+      "Name Prefix: Bladed, Effects: +2CD, Gain Persistent",
+      "Used On: Board"
     ],
     [
       "Heavy",
@@ -120,7 +160,7 @@
       "20",
       "2",
       "Name Prefix: Heavy, Effects: +2CD",
-      "Used On: "
+      "Used On: Lead Pipe"
     ],
     [
       "Hooked",
@@ -128,7 +168,23 @@
       "20",
       "0",
       "Name Prefix: Hooked, Effects: +1CD, On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
-      "Used On: "
+      "Used On: Pipe Wrench"
+    ],
+    [
+      "Heavy",
+      "+7",
+      "25",
+      "1",
+      "Name Prefix: Weighted, Effects: +2CD",
+      "Used On: Pipe Wrench"
+    ],
+    [
+      "Puncturing",
+      "+1",
+      "25",
+      "1",
+      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1",
+      "Used On: Pipe Wrench"
     ],
     [
       "Extra Heavy",
@@ -136,7 +192,31 @@
       "45",
       "2",
       "Name Prefix: Heavy, Effects: +3CD",
-      "Used On: "
+      "Used On: Pipe Wrench"
+    ],
+    [
+      "Barbed",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1",
+      "Used On: Pool cue, Walking Cane"
+    ],
+    [
+      "Sharp",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Sharp, Effects: +1CD, Gain Persistent",
+      "Used On: Pool cue, Rolling Pin"
+    ],
+    [
+      "Spiked",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Barbed, Effects: +1CD, Gain Piercing 1",
+      "Used On: Rolling Pin"
     ],
     [
       "Electrified",
@@ -144,15 +224,79 @@
       "30",
       "2",
       "Name Prefix: Shock, Effects: +2CD, Change Damage Type to Energy",
-      "Used On: "
+      "Used On: Baton"
+    ],
+    [
+      "Stun Pack",
+      "0",
+      "60",
+      "2",
+      "Name Prefix: Stun, Effects: +3CD, Gain Stun, Change Damage Type to Energy",
+      "Used On: Baton"
+    ],
+    [
+      "Puncturing",
+      "+5",
+      "35",
+      "2",
+      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1",
+      "Used On: Sledgehammer"
+    ],
+    [
+      "Heavy",
+      "+9",
+      "60",
+      "2",
+      "Name Prefix: Heavy, Effects: +2CD",
+      "Used On: Sledgehammer"
     ],
     [
       "Heating Coil",
       "0",
-      "300",
+      "360",
       "2",
       "Name Prefix: Heated, Effects: +1CD, Change Damage Type to Energy",
-      "Used On: "
+      "Used On: Super Sledge"
+    ],
+    [
+      "Stun Pack",
+      "0",
+      "720",
+      "3",
+      "Name Prefix: Stunning, Effects: +2CD, Gain Stun, Change Damage Type to Energy",
+      "Used On: Super Sledge"
+    ],
+    [
+      "Bladed",
+      "+1",
+      "25",
+      "2",
+      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent",
+      "Used On: Tire Iron"
+    ],
+    [
+      "Spiked",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Spiked, Effects: +1CD, Gain Piercing 1",
+      "Used On: Walking Cane"
+    ],
+    [
+      "Spiked",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Spiked, Effects: Gain Piercing 1",
+      "Used On: Boxing Glove, Knuckles"
+    ],
+    [
+      "Puncturing",
+      "0",
+      "10",
+      "1",
+      "Name Prefix: Puncturing, Effects: +1CD, Gain Piercing 1",
+      "Used On: Boxing Glove, Knuckles"
     ],
     [
       "Lead lining",
@@ -160,7 +304,7 @@
       "15",
       "1",
       "Name Prefix: Lead-lined, Effects: +2CD",
-      "Used On: "
+      "Used On: Boxing Glove"
     ],
     [
       "Extra Claw",
@@ -168,7 +312,119 @@
       "45",
       "0",
       "Name Prefix: Large, Effects: +1CD. On successful attack, spend 2 AP to disarm opponent, knocking one held weapon away",
-      "Used On: "
+      "Used On: Deathclaw Gauntlet"
+    ],
+    [
+      "Sharp",
+      "0",
+      "5",
+      "0",
+      "Name Prefix: Sharp, Effects: Gain Persistent",
+      "Used On: Knuckles"
+    ],
+    [
+      "Bladed",
+      "0",
+      "10",
+      "1",
+      "Name Prefix: Bladed, Effects: +1CD, Gain Persistent",
+      "Used On: Knuckles"
+    ],
+    [
+      "Puncturing",
+      "+1",
+      "90",
+      "2",
+      "Name Prefix: Puncturing, Effects: +2CD, Gain Piercing 1",
+      "Used On: Power Fist"
+    ],
+    [
+      "Heating Coil",
+      "0",
+      "200",
+      "3",
+      "Name Prefix: Heated, Effects: +2CD, Change Damage Type to Energy",
+      "Used On: Power Fist"
+    ],
+    [
+      "Electrified",
+      "0",
+      "100",
+      "2",
+      "Name Prefix: Electrified, Effects: +1CD, Damage type becomes Energy",
+      "Used On: Auto-Axe"
+    ],
+    [
+      "Burning",
+      "0",
+      "100",
+      "2",
+      "Name Prefix: Burning, Effects: Damage type becomes Energy, Gain Persistent",
+      "Used On: Auto-Axe"
+    ],
+    [
+      "Poisoned",
+      "0",
+      "100",
+      "2",
+      "Name Prefix: Toxic, Effects: Gain Persistent (Poison)",
+      "Used On: Auto-Axe"
+    ],
+    [
+      "Turbo",
+      "+2",
+      "100",
+      "2",
+      "Name Prefix: Turbo, Effects: Each AP spent for extra damage adds +2CD instead of +1CD",
+      "Used On: Auto-Axe"
+    ],
+    [
+      "Dual Bar",
+      "+1",
+      "60",
+      "2",
+      "Name Prefix: Dual, Effects: +2CD",
+      "Used On: Chainsaw"
+    ],
+    [
+      "Bow Bar",
+      "+2",
+      "90",
+      "3",
+      "Name Prefix: Bow Bar, Effects: Gain Piercing 1",
+      "Used On: Chainsaw"
+    ],
+    [
+      "Long Bow Bar",
+      "+3",
+      "120",
+      "3",
+      "Name Prefix: Long Bow Bar, Effects: Gain Persistent",
+      "Used On: Chainsaw"
+    ],
+    [
+      "Flamer",
+      "+2",
+      "180",
+      "3",
+      "Name Prefix: Flaming, Effects: +1CD, Damage type becomes Energy. Can be installed in addition to other Chainsaw mods",
+      "Used On: Chainsaw"
+    ],
+    [
+      "Shock Mod",
+      "0",
+      "30",
+      "2",
+      "Name Prefix: Shock, Effects: +2CD, Change damage type to Energy",
+      "Used On: Claw"
+    ],
+    [
+      "Stun Mod",
+      "0",
+      "60",
+      "2",
+      "Name Prefix: Stun, Effects: +3CD, Gain Stun, Change damage type to Energy",
+      "Used On: Claw"
     ]
   ]
 }

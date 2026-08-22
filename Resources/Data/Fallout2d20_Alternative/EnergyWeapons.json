@@ -78,6 +78,34 @@
       "180",
       "4",
       "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Arc, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
+    ],
+    [
+      "Acid Soaker",
+      "3",
+      "125",
+      "3",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Breaking, Persistent, DAMAGE TYPE: Poison, FIRE RATE: 2, RANGE: C, QUALITIES: Debilitating, Inaccurate"
+    ],
+    [
+      "Alien Blaster",
+      "2",
+      "90",
+      "5",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy/Radiation, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
+    ],
+    [
+      "Cryojet",
+      "8",
+      "261",
+      "4",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, Freeze, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate"
+    ],
+    [
+      "Mesmetron",
+      "2",
+      "120",
+      "4",
+      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: -"
     ]
   ]
 }

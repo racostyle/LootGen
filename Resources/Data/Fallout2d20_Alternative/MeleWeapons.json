@@ -246,6 +246,41 @@
       "115",
       "3",
       "WEAPON TYPE: Melee Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Two-Handed"
+    ],
+    [
+      "Buzz Saw",
+      "3",
+      "25",
+      "2",
+      "WEAPON TYPE: Melee Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: -"
+    ],
+    [
+      "Claw",
+      "2",
+      "25",
+      "1",
+      "WEAPON TYPE: Unarmed, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: -"
+    ],
+    [
+      "Construction Claw",
+      "3",
+      "25",
+      "0",
+      "WEAPON TYPE: Unarmed, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: -"
+    ],
+    [
+      "Drill",
+      "20",
+      "50",
+      "1",
+      "WEAPON TYPE: Unarmed, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: Debilitating"
+    ],
+    [
+      "Vice Grip",
+      "15",
+      "30",
+      "2",
+      "WEAPON TYPE: Unarmed, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: -, QUALITIES: -"
     ]
   ]
 }
