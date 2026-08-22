@@ -1,0 +1,334 @@
+{
+  "Type": "ModsBigGuns",
+  "Spotlight": 3,
+  "Data": [
+    [
+      "Napalm Fuel",
+      "7",
+      "120",
+      "1",
+      "Name Prefix: Napalmer, Effects: +1CD",
+      "Used On: Flamer"
+    ],
+    [
+      "Long Barrel",
+      "2",
+      "50",
+      "1",
+      "Name Prefix: Long, Effects: Remove Inaccurate",
+      "Used On: Flamer"
+    ],
+    [
+      "Large Tank Propellant Tank",
+      "3",
+      "50",
+      "1",
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate",
+      "Used On: Flamer"
+    ],
+    [
+      "Huge Tank Propellant Tank",
+      "6",
+      "70",
+      "2",
+      "Name Prefix: Max. Capacity, Effects: +2 Fire Rate",
+      "Used On: Flamer"
+    ],
+    [
+      "Compression Nozzle",
+      "1",
+      "45",
+      "1",
+      "Name Prefix: Compressed, Effects: +1CD",
+      "Used On: Flamer"
+    ],
+    [
+      "Vaporization Nozzle",
+      "1",
+      "85",
+      "2",
+      "Name Prefix: Vaporizing, Effects: +1CD, Vicious",
+      "Used On: Flamer"
+    ],
+    [
+      "Boosted Capacitor",
+      "1",
+      "190",
+      "0",
+      "Name Prefix: Boosted, Effects: +1CD",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Charging barrels",
+      "10",
+      "500",
+      "4",
+      "Name Prefix: Charging, Effects: +4CD, -3 Fire Rate, Increase Range by 1 step",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Reflex Sight",
+      "1",
+      "300",
+      "4",
+      "Name Prefix: Tactical, Effects: Remove Inaccurate",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Beam Focuser Nozzle",
+      "1",
+      "45",
+      "0",
+      "Name Prefix: Focused, Effects: Gain Piercing 1, Increase Range by 1 step",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "2",
+      "80",
+      "0",
+      "Name Prefix: Recoil Compensated, Effects: +1 Fire Rate",
+      "Used On: Junk Jet"
+    ],
+    [
+      "Gunner Sight",
+      "1",
+      "10",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Junk Jet"
+    ],
+    [
+      "Electrification Module Muzzle",
+      "1",
+      "140",
+      "2",
+      "Name Prefix: Electrified, Effects: Gain Vicious, Change damage type to Energy",
+      "Used On: Junk Jet"
+    ],
+    [
+      "Ignition Module Muzzle",
+      "1",
+      "260",
+      "3",
+      "Name Prefix: Flaming, Effects: Gain Persistent (Energy)",
+      "Used On: Junk Jet"
+    ],
+    [
+      "Accelerated Barrel",
+      "5",
+      "90",
+      "3",
+      "Name Prefix: High-Speed, Effects: +1CD, +1 Fire Rate, Reduce Range by 1 step",
+      "Used On: Minigun"
+    ],
+    [
+      "Tri-Barrel",
+      "3",
+      "150",
+      "4",
+      "Name Prefix: High-Powered, Effects: +2CD, -2 Fire Rate",
+      "Used On: Minigun"
+    ],
+    [
+      "Gunner Sight",
+      "1",
+      "140",
+      "0",
+      "Name Prefix: Tactical, Effects: Remove Inaccurate",
+      "Used On: Minigun"
+    ],
+    [
+      "Shredder Bayoneted Muzzle",
+      "5",
+      "10",
+      "2",
+      "Name Prefix: Shredding, Effects: Melee weapon, Deals CD of Physical damage equal to Fire Rate",
+      "Used On: Minigun"
+    ],
+    [
+      "Triple Barrel",
+      "16",
+      "280",
+      "2",
+      "Name Prefix: Triple Barrel, Effects: +1 Fire Rate",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Quad Barrel",
+      "20",
+      "400",
+      "3",
+      "Name Prefix: Quad Barrel, Effects: +2 Fire Rate",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Scope Sight",
+      "6",
+      "280",
+      "2",
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Night Vision Scope Sight",
+      "6",
+      "480",
+      "4",
+      "Name Prefix: Night-vision, Effects: Gain Accurate, Gain Night Vision",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Targeting Computer Sight",
+      "7",
+      "500",
+      "2",
+      "Name Prefix: Targeting, Effects: When you Aim at a target, the target does not benefit from being in cover, and the bonus for aiming applies to the next attack on any subsequent turn during the scene",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Bayonet Bayoneted Muzzle",
+      "1",
+      "60",
+      "0",
+      "Name Prefix: Shredding, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Stabilizer Muzzle",
+      "2",
+      "120",
+      "2",
+      "Name Prefix: Muzzled, Effects: Gain Piercing 1",
+      "Used On: Missile Launcher"
+    ],
+    [
+      "Gamma Wave Emitter",
+      "3",
+      "320",
+      "3",
+      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Boosted Photon Agitator",
+      "5",
+      "450",
+      "4",
+      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Boosted Gamma Wave Emitter",
+      "5",
+      "500",
+      "4",
+      "Name Prefix: Boosted Fiery, Effects: +2 CD, Gain Persistent",
+      "Used On: Gatling Laser"
+    ],
+    [
+      "Long Barrel",
+      "2",
+      "80",
+      "1",
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: Broadsider"
+    ],
+    [
+      "Light Barrel",
+      "3",
+      "60",
+      "2",
+      "Name Prefix: Fluted, Effects: +2 CD, Remove Blast",
+      "Used On: Broadsider"
+    ],
+    [
+      "Multi Shot Canister",
+      "1",
+      "90",
+      "3",
+      "Name Prefix: Repeating, Effects: +1 Fire Rate, Gain Inaccurate",
+      "Used On: Broadsider"
+    ],
+    [
+      "M79 Launcher",
+      "0",
+      "5",
+      "1",
+      "Name Prefix: Converted, Effects: Increase Range by 1 step, Changes ammo to 40mm Grenades",
+      "Used On: Broadsider"
+    ],
+    [
+      "Crystallizing Barrel",
+      "5",
+      "80",
+      "2",
+      "Name Prefix: Crystallized, Effects: +2 CD, Increase Range by 1 step, -1 Fire Rate, Remove Stun, Remove Unreliable",
+      "Used On: Cryolator"
+    ],
+    [
+      "Fusion Mag Magazine",
+      "0",
+      "40",
+      "1",
+      "Name Prefix: Converted, Effects: Change damage to 2 CD, -1 Fire Rate, Ammo changes to Fusion Cell",
+      "Used On: Cryolator"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "2",
+      "90",
+      "0",
+      "Name Prefix: Recoil Compensating, Effects: +1 Fire Rate",
+      "Used On: Cryolator"
+    ],
+    [
+      "Reflex Sight",
+      "0",
+      "35",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Cryolator"
+    ],
+    [
+      "Barbed Harpoon",
+      "0",
+      "40",
+      "0",
+      "Name Prefix: Barbed, Effects: Gain Vicious, Gain Persistent",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Flechette Darts",
+      "0",
+      "30",
+      "2",
+      "Name Prefix: Tiny, Effects: Gain Spread, Reduce Range by 1 step",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "15",
+      "90",
+      "0",
+      "Name Prefix: Recoil Compensating, Effects: +1 Fire Rate",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Gunner Sight",
+      "0",
+      "35",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Harpoon Gun"
+    ],
+    [
+      "Short Scope Sight",
+      "1",
+      "55",
+      "1",
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: Harpoon Gun"
+    ]
+  ]
+}

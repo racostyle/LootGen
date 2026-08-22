@@ -1,0 +1,446 @@
+{
+  "Type": "ModsEnergyWeapons",
+  "Spotlight": 3,
+  "Data": [
+    [
+      "Sharpshooter’s Grip",
+      "1",
+      "30",
+      "1",
+      "Name Prefix: Sharpshooter’s, Effects: Remove Inaccurate, Add Piercing 1",
+      "Used On: Laser Gun"
+    ],
+    [
+      "Reflex Sight",
+      "1",
+      "30",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun, Tesla Rifle"
+    ],
+    [
+      "Short Scope Sight",
+      "1",
+      "25",
+      "0",
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Long Scope Sight",
+      "1",
+      "60",
+      "2",
+      "Name Prefix: Scoped, Effects: Gain Accurate, Increase Range by 1 step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Short Night Vision Scope Sight",
+      "1",
+      "65",
+      "2",
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Long Night Vision Scope Sight",
+      "1",
+      "100",
+      "3",
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Recon Scope Sight",
+      "1",
+      "120",
+      "3",
+      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Deep Dish",
+      "2",
+      "140",
+      "4",
+      "Name Prefix: Long, Effects: +1CD, Increase Range by 1 step",
+      "Used On: Gamma Gun"
+    ],
+    [
+      "Electric Signal Carrier Antennae Muzzle",
+      "1",
+      "60",
+      "4",
+      "Name Prefix: Electrified, Effects: Change damage to 7CD, Change damage type to Energy, Gain Radioactive",
+      "Used On: Gamma Gun"
+    ],
+    [
+      "Signal Repeater Muzzle",
+      "1",
+      "120",
+      "4",
+      "Name Prefix: Automatic, Effects: +2 Fire Rate, Gain Burst, Remove Blast",
+      "Used On: Gamma Gun"
+    ],
+    [
+      "Three-crank capacitor",
+      "1",
+      "10",
+      "0",
+      "Name Prefix: Three-crank, Effects: +1CD, consumes 3 shots per attack",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Four-crank capacitor",
+      "1",
+      "20",
+      "1",
+      "Name Prefix: Four-crank, Effects: +2CD, consumes 4 shots per attack",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Five-crank capacitor",
+      "1",
+      "30",
+      "2",
+      "Name Prefix: Five-crank, Effects: +3CD, consumes 5 shots per attack",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Six-crank capacitor",
+      "2",
+      "40",
+      "3",
+      "Name Prefix: Six-crank, Effects: +4CD, consumes 6 shots per attack",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Beta Wave Tuner Capacitor",
+      "1",
+      "60",
+      "0",
+      "Name Prefix: Incendiary, Effects: Gain Persistent",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Boosted Capacitor",
+      "1",
+      "70",
+      "0",
+      "Name Prefix: Boosted, Effects: +1CD, -1 Fire Rate",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Photon Exciter Capacitor",
+      "1",
+      "60",
+      "1",
+      "Name Prefix: Excited, Effects: Gain Vicious",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Photon Agitator Capacitor",
+      "1",
+      "70",
+      "2",
+      "Name Prefix: Agitated, Effects: +1CD, Gain Vicious",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Bracketed Short Barrel",
+      "1",
+      "15",
+      "0",
+      "Name Prefix: –, Effects: Allows the weapon to take a Muzzle mod",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Long Barrel",
+      "2",
+      "40",
+      "0",
+      "Name Prefix: Long, Effects: Remove Close-Quarters, Increase Range by 1 step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
+    ],
+    [
+      "Splitter Barrel",
+      "1",
+      "60",
+      "0",
+      "Name Prefix: Scattergun, Effects: -1CD, Gain Spread, Gain Inaccurate",
+      "Used On: Plasma Gun, Tesla Rifle"
+    ],
+    [
+      "Automatic Barrel",
+      "1",
+      "50",
+      "1",
+      "Name Prefix: Automatic, Effects: -1CD, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun, Tesla Rifle"
+    ],
+    [
+      "Bracketed Long Barrel",
+      "2",
+      "50",
+      "1",
+      "Name Prefix: –, Effects: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Improved Barrel",
+      "1",
+      "50",
+      "1",
+      "Name Prefix: Improved, Effects: +1CD",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun, Tesla Rifle"
+    ],
+    [
+      "Sniper Barrel",
+      "2",
+      "60",
+      "1",
+      "Name Prefix: Sniper, Effects: +2CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
+      "Used On: Laser Gun, Plasma Gun"
+    ],
+    [
+      "Flamer Barrel",
+      "1",
+      "70",
+      "2",
+      "Name Prefix: Thrower, Effects: -2CD, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate",
+      "Used On: Plasma Gun"
+    ],
+    [
+      "Standard Stock",
+      "1",
+      "20",
+      "0",
+      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Full Stock",
+      "1",
+      "30",
+      "0",
+      "Name Prefix: –, Effects: Gain Two-handed, Gain Piercing 1, Remove Close Quarters",
+      "Used On: Laser Musket"
+    ],
+    [
+      "Marksman’s Stock",
+      "2",
+      "40",
+      "2",
+      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate, Remove Close Quarters",
+      "Used On: Laser Gun, Plasma Gun"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "2",
+      "10",
+      "3",
+      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate, Remove Close Quarters",
+      "Used On: Laser Gun, Plasma Gun"
+    ],
+    [
+      "Long Night Vision Scope Stock",
+      "1",
+      "100",
+      "3",
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Recon Scope Stock",
+      "1",
+      "120",
+      "3",
+      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
+      "Used On: Institute Laser, Laser Musket, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Beam Splitter Muzzle",
+      "1",
+      "30",
+      "1",
+      "Name Prefix: Scattered, Effects: -1CD, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
+    ],
+    [
+      "Beam Focuser Muzzle",
+      "1",
+      "40",
+      "1",
+      "Name Prefix: Focused, Effects: Increase Range by 1 Step",
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
+    ],
+    [
+      "Gyro Compensating Lens Muzzle",
+      "1",
+      "50",
+      "1",
+      "Name Prefix: Targeting, Effects: +1 Fire Rate, Remove Inaccurate",
+      "Used On: Institute Laser, Laser Musket, Laser Gun"
+    ],
+    [
+      "Gamma Wave Emitter Capacitor",
+      "1",
+      "30",
+      "1",
+      "Name Prefix: Fiery, Effects: +1 CD, Gain Persistent",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Maximized Capacitor",
+      "1",
+      "35",
+      "2",
+      "Name Prefix: Maximized, Effects: +2 CD",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Boosted Photon Agitator Capacitor",
+      "1",
+      "40",
+      "2",
+      "Name Prefix: Boosted, Agitated, Effects: +2 CD, Gain Vicious",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Boosted Gamma Wave Emitter",
+      "1",
+      "45",
+      "2",
+      "Name Prefix: Boosted, Fiery, Effects: +2 CD, Gain Persistent",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Overcharged Capacitor",
+      "1",
+      "85",
+      "2",
+      "Name Prefix: Overcharged, Effects: +3 CD",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Improved Long Barrel",
+      "1",
+      "30",
+      "2",
+      "Name Prefix: Improved Long, Effects: +1 CD, Remove Close Quarters, Increase Range by 1 step",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Improved Automatic Barrel",
+      "1",
+      "35",
+      "2",
+      "Name Prefix: Improved Automatic, Effects: Gain Burst, Gain Inaccurate, Remove Close Quarters, Increase Range by 1 step, +1 Fire Rate",
+      "Used On: Institute Laser, Laser Gun, Plasma Gun"
+    ],
+    [
+      "Improved Sniper Barrel",
+      "1",
+      "40",
+      "2",
+      "Name Prefix: Improved Charging, Effects: +3 CD, Remove Close Quarters, increase Range by 1 step, -1 Fire Rate",
+      "Used On: Laser Gun, Plasma Gun"
+    ],
+    [
+      "Improved Splitter",
+      "1",
+      "50",
+      "2",
+      "Name Prefix: Improved Scattergun, Effects: Gain Spread, Gain Inaccurate",
+      "Used On: Plasma Gun"
+    ],
+    [
+      "Amplified Beam Splitter Muzzle",
+      "1",
+      "30",
+      "2",
+      "Name Prefix: Improved Scattered, Effects: Gain Spread, -1 Fire Rate, Reduce Range by 1 step",
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
+    ],
+    [
+      "Fine-Tuned Beam Focuser",
+      "1",
+      "35",
+      "2",
+      "Name Prefix: Improved Focused, Effects: Increase Range by 1 step, Gain Accurate",
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
+    ],
+    [
+      "Quantum Gyro-Compensating Lens",
+      "1",
+      "40",
+      "3",
+      "Name Prefix: Improved Targeting, Effects: +2 Fire Rate, Remove Inaccurate",
+      "Used On: Institute Laser, Laser Gun, Tesla Rifle"
+    ],
+    [
+      "Caustic Concentrate",
+      "2",
+      "60",
+      "0",
+      "Name Prefix: Caustic, Effects: +1 CD",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Large Ampoule",
+      "2",
+      "45",
+      "0",
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Large Vial",
+      "4",
+      "80",
+      "0",
+      "Name Prefix: Maximum Capacity, Effects: +3 Fire Rate",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Fusion Mag Magazine",
+      "0",
+      "40",
+      "1",
+      "Name Prefix: Converted, Effects: Change damage to 3 CD, -1 Fire Rate, Ammo changes to Fusion Cell",
+      "Used On: Acid Soaker"
+    ],
+    [
+      "Capacitor Mk III",
+      "0",
+      "10",
+      "0",
+      "Name Prefix: Mk III, Effects: +1 CD, consumes 3 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk IV",
+      "1",
+      "15",
+      "1",
+      "Name Prefix: Mk IV, Effects: +2 CD, consumes 4 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk V",
+      "1",
+      "25",
+      "2",
+      "Name Prefix: Mk V, Effects: +3 CD, consumes 5 shots per attack",
+      "Used On: Assaultron Head"
+    ],
+    [
+      "Capacitor Mk VI",
+      "2",
+      "30",
+      "3",
+      "Name Prefix: Mk VI, Effects: +4 CD, consumes 6 shots per attack",
+      "Used On: Assaultron Head"
+    ]
+  ]
+}

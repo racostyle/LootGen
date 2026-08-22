@@ -1,0 +1,398 @@
+{
+  "Type": "ModsSmallGuns",
+  "Spotlight": 3,
+  "Data": [
+    [
+      "Hardened Receiver",
+      "1",
+      "40",
+      "0",
+      "Name Prefix: Hardened, Effects: +1CD damage",
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Powerful Receiver",
+      "1",
+      "50",
+      "1",
+      "Name Prefix: Powerful, Effects: +2CD damage",
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Advanced Receiver",
+      "2",
+      "70",
+      "2",
+      "Name Prefix: Advanced, Effects: +3CD damage, +1 Fire Rate",
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Double-Barrel Shotgun, 12.7mm Pistol, Lever-Action Rifle, Pump-Action Shotgun"
+    ],
+    [
+      "Calibrated Receiver",
+      "1",
+      "50",
+      "0",
+      "Name Prefix: Calibrated, Effects: Gain Vicious",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 9mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Automatic Receiver",
+      "1",
+      "60",
+      "1",
+      "Name Prefix: Auto, Effects: -1CD damage, +2 Fire Rate, Gain Burst, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, 9mm Pistol, Radium Rifle"
+    ],
+    [
+      "Hair Trigger Receiver",
+      "1",
+      "40",
+      "2",
+      "Name Prefix: Hair Trigger, Effects: +1 Fire Rate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Gun, .357 Magnum Revolver, 12.7mm Pistol, 25mm Grenade APW, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      ".38 Receiver",
+      "3",
+      "40",
+      "4",
+      "Name Prefix: .38, Effects: Change Damage to 4CD, Ammo changes to .38",
+      "Used On: Combat Rifle, Hunting Rifle, Pipe Bolt-Action, Pipe Revolver"
+    ],
+    [
+      ".308 Receiver",
+      "4",
+      "80",
+      "4",
+      "Name Prefix: .308, Effects: Change damage to 7CD, Ammo changes to .308",
+      "Used On: Combat Rifle, Pipe Revolver, Light Machine Gun"
+    ],
+    [
+      ".45 Receiver",
+      "2",
+      "40",
+      "2",
+      "Name Prefix: .45, Effects: Change damage to 4CD, +1 Fire Rate, Ammo changes to .45",
+      "Used On: Pipe Gun"
+    ],
+    [
+      ".50 Receiver",
+      "4",
+      "60",
+      "4",
+      "Name Prefix: .50, Effects: Change damage to 8CD, Gain Vicious, Ammo changes to .50",
+      "Used On: Hunting Rifle, Pipe Bolt-Action"
+    ],
+    [
+      "Automatic Piston Receiver",
+      "2",
+      "150",
+      "2",
+      "Name Prefix: Automatic, Effects: +2 Fire Rate, Reduce Range by 1 step",
+      "Used On: Railway Rifle"
+    ],
+    [
+      "Snubnose Barrel",
+      "1",
+      "20",
+      "0",
+      "Name Prefix: Snub-noses, Effects: Gain Inaccurate",
+      "Used On: .44 Pistol"
+    ],
+    [
+      "Bull Barrel",
+      "1",
+      "20",
+      "3",
+      "Name Prefix: Bull Barrel, Effects: Gain Reliable",
+      "Used On: .44 Pistol"
+    ],
+    [
+      "Long Barrel",
+      "1",
+      "40",
+      "1",
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, .357 Magnum Revolver, 12.7mm Pistol, 25mm Grenade APW, Battle Rifle, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Ported Barrel",
+      "1",
+      "70",
+      "4",
+      "Name Prefix: Ported, Effects: Increase Range by 1 step, +1 Fire Rate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Vented Barrel",
+      "1",
+      "75",
+      "4",
+      "Name Prefix: Vented, Effects: Increase Range by 1 step, +1 Fire Rate, Gain Reliable",
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Light Machine Gun"
+    ],
+    [
+      "Sawed-Off Barrel",
+      "1",
+      "10",
+      "0",
+      "Name Prefix: Sawed Off, Effects: Remove Two-Handed, Gain Close Quarters",
+      "Used On: Double-Barrel Shotgun"
+    ],
+    [
+      "Shielded Barrel",
+      "1",
+      "65",
+      "3",
+      "Name Prefix: Shielded, Effects: +1CD damage",
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
+    ],
+    [
+      "Finned Barrel",
+      "2",
+      "30",
+      "2",
+      "Name Prefix: Finned, Effects: +1CD damage, Increase Range by 1 step",
+      "Used On: Pipe Bolt-Action, Pipe Gun, Pipe Revolver"
+    ],
+    [
+      "Full Capacitors",
+      "1",
+      "65",
+      "3",
+      "Name Prefix: High Capacity, Effects: Gain Vicious",
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
+    ],
+    [
+      "Capacitor Boosting Coil",
+      "2",
+      "160",
+      "4",
+      "Name Prefix: Maximum Capacity, Effects: +1CD damage, Gain Vicious",
+      "Used On: Gauss Rifle, Gauss Pistol, Gauss Shotgun"
+    ],
+    [
+      "Large Magazine",
+      "1",
+      "15",
+      "2",
+      "Name Prefix: High Capacity, Effects: +1 Fire Rate, Unreliable",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, .357 Magnum Revolver, 12.7mm Pistol, 12.7mm SMG, 25mm Grenade APW, 9mm Pistol, Anti-Materiel Rifle, Light Machine Gun, Radium Rifle"
+    ],
+    [
+      "Quick-Eject Mag Magazine",
+      "1",
+      "15",
+      "1",
+      "Name Prefix: Quick, Effects: Gain Reliable",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, 12.7mm Pistol, Light Machine Gun, Radium Rifle"
+    ],
+    [
+      "Large Quick-Eject Mag Magazine",
+      "1",
+      "45",
+      "2",
+      "Name Prefix: Quick high capacity, Effects: +1 Fire Rate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Gun, Light Machine Gun, Radium Rifle"
+    ],
+    [
+      "Comfort Grip",
+      "1",
+      "15",
+      "0",
+      "Name Prefix: Comfort, Effects: Remove Inaccurate",
+      "Used On: .44 Pistol, 10mm Pistol, 12.7mm Pistol, 9mm Pistol"
+    ],
+    [
+      "Sharpshooter’s Grip",
+      "1",
+      "30",
+      "1",
+      "Name Prefix: Sharpshooter’s, Effects: Remove Inaccurate, Add Piercing 1",
+      "Used On: 10mm Pistol, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol"
+    ],
+    [
+      "Full Stock",
+      "1",
+      "20",
+      "0",
+      "Name Prefix: –, Effects: Gain Two-Handed, Remove Inaccurate",
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm SMG, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, M79 Grenade Launcher"
+    ],
+    [
+      "Marksman’s Stock",
+      "2",
+      "40",
+      "2",
+      "Name Prefix: Marksman’s, Effects: Gain Two-Handed, Remove Inaccurate, Gain Accurate",
+      "Used On: Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Syringer, Lever-Action Rifle, Radium Rifle"
+    ],
+    [
+      "Recoil Compensating Stock",
+      "2",
+      "20",
+      "3",
+      "Name Prefix: Recoil Compensated, Effects: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate",
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 12.7mm SMG, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Reflex Sight",
+      "1",
+      "30",
+      "0",
+      "Name Prefix: Tactical, Effects: May re-roll hit location die",
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Battle Rifle, Gauss Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Short Scope Sight",
+      "1",
+      "25",
+      "0",
+      "Name Prefix: Scoped, Effects: Gain Accurate",
+      "Used On: .44 Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, 9mm Pistol, Anti-Materiel Rifle, Battle Rifle, Lever-Action Rifle, Radium Rifle"
+    ],
+    [
+      "Long Scope Sight",
+      "1",
+      "60",
+      "2",
+      "Name Prefix: Scoped, Effects: Gain Accurate, Increase Range by 1 step",
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Short Night Vision Scope Sight",
+      "1",
+      "65",
+      "2",
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision",
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Long Night Vision Scope Sight",
+      "1",
+      "100",
+      "3",
+      "Name Prefix: Night Vision, Effects: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+      "Used On: Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle, Lever-Action Rifle, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Recon Scope Sight",
+      "1",
+      "120",
+      "3",
+      "Name Prefix: Recon, Effects: Gain Accurate, Gain Recon",
+      "Used On: .44 Pistol, 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Syringer, Anti-Materiel Rifle"
+    ],
+    [
+      "Bayonet Muzzle",
+      "2",
+      "20",
+      "0",
+      "Name Prefix: Bayoneted, Effects: Melee weapon, deals 4CD Piercing 1 physical damage",
+      "Used On: Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Railway Rifle, Battle Rifle, Black Powder Rifle, Pump-Action Shotgun"
+    ],
+    [
+      "Compensator Muzzle",
+      "1",
+      "30",
+      "1",
+      "Name Prefix: Compensated, Effects: Remove Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Muzzle Break",
+      "1",
+      "60",
+      "1",
+      "Name Prefix: Muzzled, Effects: Remove Inaccurate, +1 Fire Rate",
+      "Used On: Submachine Gun, Combat Shotgun, Double-Barrel Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, Light Machine Gun, Pump-Action Shotgun, Radium Rifle"
+    ],
+    [
+      "Suppressor Muzzle",
+      "2",
+      "90",
+      "2",
+      "Name Prefix: Suppressed, Effects: Gain Suppressed",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Gauss Rifle, Hunting Rifle, Submachine Gun, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, 12.7mm SMG, 9mm Pistol, Anti-Materiel Rifle, Lever-Action Rifle, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Armor Piercing Receiver",
+      "1",
+      "10",
+      "1",
+      "Name Prefix: Armor Piercing, Effects: Add Piercing 1",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Submachine Gun, Pipe Gun, 12.7mm Pistol, 12.7mm SMG"
+    ],
+    [
+      "Armor Piercing Automatic Receiver",
+      "1",
+      "80",
+      "3",
+      "Name Prefix: AP Auto, Effects: -1 CD, +2 Fire Rate, Add Piercing 1, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Pipe Gun"
+    ],
+    [
+      "Hardened Automatic Receiver",
+      "2",
+      "120",
+      "3",
+      "Name Prefix: Hardened Auto, Effects: +2 Fire Rate, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, 9mm Pistol, Radium Rifle"
+    ],
+    [
+      "Rapid Automatic Receiver",
+      "2",
+      "125",
+      "4",
+      "Name Prefix: Rapid, Effects: -1 CD, +3 Fire Rate, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun, Radium Rifle"
+    ],
+    [
+      "Calibrated Powerful Receiver",
+      "3",
+      "135",
+      "4",
+      "Name Prefix: Calibrated Powerful, Effects: +2 CD, Gain Vicious",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Hunting Rifle, Combat Shotgun, Pipe Bolt-Action, Pipe Gun, Pipe Revolver, 12.7mm Pistol, Lever-Action Rifle, Light Machine Gun, Pump-Action Shotgun, Radium Rifle, Sniper Rifle"
+    ],
+    [
+      "Powerful Automatic Receiver",
+      "4",
+      "170",
+      "4",
+      "Name Prefix: Powerful Auto, Effects: +1 CD, +2 Fire Rate, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Combat Shotgun, Pipe Gun"
+    ],
+    [
+      "Hardened Piercing Auto Receiver",
+      "3",
+      "155",
+      "4",
+      "Name Prefix: Hardened AP Auto, Effects: +2 Fire Rate, Gain Piercing 1, Gain Inaccurate",
+      "Used On: 10mm Pistol, Assault Rifle, Combat Rifle, Pipe Gun"
+    ],
+    [
+      "9mm Receiver",
+      "1",
+      "20",
+      "2",
+      "Name Prefix: 9mm, Effects: Change damage to 3 CD, ammo to 9mm, +1 Fire Rate",
+      "Used On: Submachine Gun, Pipe Gun"
+    ],
+    [
+      ".357 Receiver",
+      "1",
+      "70",
+      "3",
+      "Name Prefix: .357, Effects: Change damage to 5 CD, ammo to .357, add Vicious.",
+      "Used On: Pipe Revolver, Lever-Action Rifle"
+    ],
+    [
+      "Long Barrel",
+      "2",
+      "80",
+      "1",
+      "Name Prefix: Long, Effects: Increase Range by 1 step",
+      "Used On: M79 Grenade Launcher"
+    ]
+  ]
+}

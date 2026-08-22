@@ -56,56 +56,56 @@
       "31",
       "350",
       "3",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Two-Handed, Recoil (9)"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 7 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Two-Handed, Recoil (9)"
     ],
     [
       "Auto Grenade Launcher",
       "30",
       "450",
       "4",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: L, QUALITIES: Bombard, Inaccurate"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: L, QUALITIES: Bombard, Inaccurate"
     ],
     [
       "Drone Cannon",
       "18",
       "600",
       "5",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Ammo-Hungry (20), Blast, Inaccurate, Slow Load"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Breaking, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Ammo-Hungry (20), Blast, Inaccurate, Slow Load"
     ],
     [
       "Gatling Gun",
       "20",
       "350",
       "1",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, Spread, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Gatling, Inaccurate, Recoil (6), Two-Handed"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, Spread, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: M, QUALITIES: Gatling, Inaccurate, Recoil (6), Two-Handed"
     ],
     [
       "Gatling Plasma",
       "24",
       "1000",
       "4",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical/Energy, FIRE RATE: 4, RANGE: M, QUALITIES: Gatling, Inaccurate, Two-Handed"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical/Energy, FIRE RATE: 4, RANGE: M, QUALITIES: Gatling, Inaccurate, Two-Handed"
     ],
     [
       "Gauss Minigun",
       "38",
       "912",
       "6",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Burst, Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: L, QUALITIES: Gatling, Two-Handed"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Burst, Piercing 1, DAMAGE TYPE: Physical, FIRE RATE: 3, RANGE: L, QUALITIES: Gatling, Two-Handed"
     ],
     [
       "Plasma Caster",
       "30",
       "700",
       "5",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical/Energy, FIRE RATE: 3, RANGE: M, QUALITIES: Inaccurate, Recoil (8), Two-Handed"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Physical/Energy, FIRE RATE: 3, RANGE: M, QUALITIES: Inaccurate, Recoil (8), Two-Handed"
     ],
     [
       "Tesla Cannon",
       "24",
       "870",
       "5",
-      "WEAPON TYPE: Big Gun, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Arc, Piercing 2, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: L, QUALITIES: Accurate, Ammo-Hungry (5), Surge, Two-Handed"
+      "WEAPON TYPE: Big Guns, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Arc, Piercing 2, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: L, QUALITIES: Accurate, Ammo-Hungry (5), Surge, Two-Handed"
     ],
     [
       "Broadsider",
