@@ -1,0 +1,286 @@
+{
+  "Type": "Weapons",
+  "Spotlight": 6,
+  "Data": [
+    [
+      "Club",
+      "2",
+      "10",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d4 bludgeoning, PROPERTIES: Light"
+    ],
+    [
+      "Dagger",
+      "1",
+      "200",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d4 piercing, PROPERTIES: Finesse, light, thrown (20/60)"
+    ],
+    [
+      "Greatclub",
+      "10",
+      "20",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d8 bludgeoning, PROPERTIES: Two-handed"
+    ],
+    [
+      "Handaxe",
+      "2",
+      "500",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d6 slashing, PROPERTIES: Light, thrown (20/60)"
+    ],
+    [
+      "Javelin",
+      "2",
+      "50",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Thrown (30/120)"
+    ],
+    [
+      "Light hammer",
+      "2",
+      "200",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d4 bludgeoning, PROPERTIES: Light, thrown (20/60)"
+    ],
+    [
+      "Mace",
+      "4",
+      "500",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d6 bludgeoning, PROPERTIES: -"
+    ],
+    [
+      "Quarterstaff",
+      "4",
+      "20",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d6 bludgeoning, PROPERTIES: Versatile (1d8)"
+    ],
+    [
+      "Sickle",
+      "2",
+      "100",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d4 slashing, PROPERTIES: Light"
+    ],
+    [
+      "Spear",
+      "3",
+      "100",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Thrown (20/60), versatile (1d8)"
+    ],
+    [
+      "Crossbow, light",
+      "5",
+      "2500",
+      "1",
+      "WEAPON TYPE: Simple Ranged Weapons, DAMAGE: 1d8 piercing, PROPERTIES: Ammunition, range (80/320), loading, two-handed"
+    ],
+    [
+      "Dart",
+      ".25",
+      "5",
+      "1",
+      "WEAPON TYPE: Simple Ranged Weapons, DAMAGE: 1d4 piercing, PROPERTIES: Finesse, thrown (20/60)"
+    ],
+    [
+      "Shortbow",
+      "2",
+      "2500",
+      "1",
+      "WEAPON TYPE: Simple Ranged Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Ammunition, range (80/320), two-handed"
+    ],
+    [
+      "Sling",
+      "0",
+      "10",
+      "1",
+      "WEAPON TYPE: Simple Ranged Weapons, DAMAGE: 1d4 bludgeoning, PROPERTIES: Ammunition, range (30/120)"
+    ],
+    [
+      "Battleaxe",
+      "4",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 slashing, PROPERTIES: Versatile (1d10)"
+    ],
+    [
+      "Flail",
+      "2",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 bludgeoning, PROPERTIES: -"
+    ],
+    [
+      "Glaive",
+      "6",
+      "2000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d10 slashing, PROPERTIES: Heavy, reach, two-handed"
+    ],
+    [
+      "Greataxe",
+      "7",
+      "3000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d12 slashing, PROPERTIES: Heavy, two-handed"
+    ],
+    [
+      "Greatsword",
+      "6",
+      "5000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 2d6 slashing, PROPERTIES: Heavy, two-handed"
+    ],
+    [
+      "Halberd",
+      "6",
+      "2000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d10 slashing, PROPERTIES: Heavy, reach, two-handed"
+    ],
+    [
+      "Lance",
+      "6",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d12 piercing, PROPERTIES: Reach, special"
+    ],
+    [
+      "Longsword",
+      "3",
+      "1500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 slashing, PROPERTIES: Versatile (1d10)"
+    ],
+    [
+      "Maul",
+      "10",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 2d6 bludgeoning, PROPERTIES: Heavy, two-handed"
+    ],
+    [
+      "Morningstar",
+      "4",
+      "1500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 piercing, PROPERTIES: -"
+    ],
+    [
+      "Pike",
+      "18",
+      "500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d10 piercing, PROPERTIES: Heavy, reach, two-handed"
+    ],
+    [
+      "Rapier",
+      "2",
+      "2500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 piercing, PROPERTIES: Finesse"
+    ],
+    [
+      "Scimitar",
+      "3",
+      "2500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d6 slashing, PROPERTIES: Finesse, light"
+    ],
+    [
+      "Shortsword",
+      "2",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Finesse, light"
+    ],
+    [
+      "Trident",
+      "4",
+      "500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Thrown (20/60), versatile (1d8)"
+    ],
+    [
+      "War pick",
+      "2",
+      "500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 piercing, PROPERTIES: -"
+    ],
+    [
+      "Warhammer",
+      "2",
+      "1500",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d8 bludgeoning, PROPERTIES: Versatile (1d10)"
+    ],
+    [
+      "Whip",
+      "3",
+      "200",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d4 slashing, PROPERTIES: Finesse, reach"
+    ],
+    [
+      "Blowgun",
+      "1",
+      "1000",
+      "1",
+      "WEAPON TYPE: Martial Ranged Weapons, DAMAGE: 1 piercing, PROPERTIES: Ammunition, range (25/100), loading"
+    ],
+    [
+      "Crossbow, hand",
+      "3",
+      "7500",
+      "1",
+      "WEAPON TYPE: Martial Ranged Weapons, DAMAGE: 1d6 piercing, PROPERTIES: Ammunition, range (30/120), light, loading"
+    ],
+    [
+      "Crossbow, heavy",
+      "18",
+      "5000",
+      "1",
+      "WEAPON TYPE: Martial Ranged Weapons, DAMAGE: 1d10 piercing, PROPERTIES: Ammunition, range (100/400), heavy, loading, two-handed"
+    ],
+    [
+      "Longbow",
+      "2",
+      "5000",
+      "1",
+      "WEAPON TYPE: Martial Ranged Weapons, DAMAGE: 1d8 piercing, PROPERTIES: Ammunition, range (150/600), heavy, two-Handed"
+    ],
+    [
+      "Net",
+      "3",
+      "100",
+      "1",
+      "WEAPON TYPE: Martial Ranged Weapons, DAMAGE: -, PROPERTIES: Special, thrown (5/15)"
+    ],
+    [
+      "Yklwa",
+      "3",
+      "100",
+      "1",
+      "WEAPON TYPE: Simple Melee Weapons, DAMAGE: 1d8 Piercing, PROPERTIES: Thrown (10/30)"
+    ],
+    [
+      "Hoopak",
+      "2",
+      "100",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 1d6 piercing (melee) or 1d4 bludgeoning (ranged), PROPERTIES: Ammunition (range 40/160), finesse, special, two-handed, NOTES: A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other."
+    ],
+    [
+      "Double-Bladed Scimitar",
+      "6",
+      "10000",
+      "1",
+      "WEAPON TYPE: Martial Melee Weapons, DAMAGE: 2d4 Slashing, PROPERTIES: Special, two-handed"
+    ]
+  ]
+}

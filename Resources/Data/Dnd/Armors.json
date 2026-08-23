@@ -1,0 +1,104 @@
+{
+  "Type": "Armors",
+  "Spotlight": 5,
+  "Data": [
+    [
+      "Padded",
+      "8",
+      "500",
+      "1",
+      "ARMOR TYPE: Light Armor, ARMOR CLASS: 11 + Dex modifier, STRENGTH: -, STEALTH: Disadvantage"
+    ],
+    [
+      "Leather",
+      "10",
+      "1000",
+      "1",
+      "ARMOR TYPE: Light Armor, ARMOR CLASS: 11 + Dex modifier, STRENGTH: -, STEALTH: -"
+    ],
+    [
+      "Studded Leather",
+      "13",
+      "4500",
+      "1",
+      "ARMOR TYPE: Light Armor, ARMOR CLASS: 12 + Dex Modifier, STRENGTH: -, STEALTH: -"
+    ],
+    [
+      "Hide",
+      "12",
+      "1000",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 12 + Dex modifier (max 2), STRENGTH: -, STEALTH: -"
+    ],
+    [
+      "Chain Shirt",
+      "20",
+      "5000",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 13 + Dex modifier (max 2), STRENGTH: -, STEALTH: -"
+    ],
+    [
+      "Scale Mail",
+      "45",
+      "5000",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 14 + Dex modifier (max 2), STRENGTH: -, STEALTH: Disadvantage"
+    ],
+    [
+      "Spiked Armor",
+      "45",
+      "7500",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 14 + Dex modifier (max 2), STRENGTH: -, STEALTH: Disadvantage"
+    ],
+    [
+      "Breastplate",
+      "20",
+      "40000",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 14 + Dex modifier (max 2), STRENGTH: -, STEALTH: -"
+    ],
+    [
+      "Halfplate",
+      "40",
+      "75000",
+      "1",
+      "ARMOR TYPE: Medium Armor, ARMOR CLASS: 15 + Dex modifier (max 2), STRENGTH: -, STEALTH: Disadvantage"
+    ],
+    [
+      "Ring Mail",
+      "40",
+      "3000",
+      "1",
+      "ARMOR TYPE: Heavy Armor, ARMOR CLASS: 14, STRENGTH: -, STEALTH: Disadvantage"
+    ],
+    [
+      "Chain Mail",
+      "55",
+      "7500",
+      "1",
+      "ARMOR TYPE: Heavy Armor, ARMOR CLASS: 16, STRENGTH: Str 13, STEALTH: Disadvantage"
+    ],
+    [
+      "Splint",
+      "60",
+      "20000",
+      "1",
+      "ARMOR TYPE: Heavy Armor, ARMOR CLASS: 17, STRENGTH: Str 15, STEALTH: Disadvantage"
+    ],
+    [
+      "Plate",
+      "65",
+      "150000",
+      "1",
+      "ARMOR TYPE: Heavy Armor, ARMOR CLASS: 18, STRENGTH: Str 15, STEALTH: Disadvantage"
+    ],
+    [
+      "Shield",
+      "6",
+      "1000",
+      "1",
+      "ARMOR TYPE: Shield, ARMOR CLASS: +2, STRENGTH: -, STEALTH: -"
+    ]
+  ]
+}

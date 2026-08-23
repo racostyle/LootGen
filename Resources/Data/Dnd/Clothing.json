@@ -1,0 +1,41 @@
+{
+  "Type": "Clothing",
+  "Spotlight": 8,
+  "Data": [
+    [
+      "Common Clothes",
+      "3",
+      "50",
+      "1",
+      "Clothes"
+    ],
+    [
+      "Costume",
+      "4",
+      "500",
+      "1",
+      "Clothes"
+    ],
+    [
+      "Fine Clothes",
+      "6",
+      "1500",
+      "1",
+      "Clothes"
+    ],
+    [
+      "Robes",
+      "4",
+      "100",
+      "1",
+      "Clothes"
+    ],
+    [
+      "Traveler's Clothes",
+      "4",
+      "200",
+      "1",
+      "Clothes"
+    ]
+  ]
+}
