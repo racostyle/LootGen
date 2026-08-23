@@ -1,0 +1,146 @@
+{
+  "Type": "Potions",
+  "Spotlight": 6,
+  "Data": [
+    [
+      "Potion of Healing",
+      ".5",
+      "5000",
+      "1",
+      "Regain 2d4 + 2 HP"
+    ],
+    [
+      "Potion of Climbing",
+      ".5",
+      "5000",
+      "1",
+      "Gain climbing speed equal to walking speed for 1 hour"
+    ],
+    [
+      "Potion of Greater Healing",
+      ".5",
+      "17500",
+      "0",
+      "Regain 4d4 + 4 HP"
+    ],
+    [
+      "Potion of Resistance",
+      ".5",
+      "20000",
+      "0",
+      "Resistance to one damage type for 1 hour"
+    ],
+    [
+      "Potion of Water Breathing",
+      ".5",
+      "12500",
+      "0",
+      "Breathe underwater for 1 hour"
+    ],
+    [
+      "Potion of Animal Friendship",
+      ".5",
+      "12500",
+      "0",
+      "Cast Animal Friendship for 1 hour"
+    ],
+    [
+      "Potion of Growth",
+      ".5",
+      "22500",
+      "0",
+      "Gain effects of Enlarge for 1d4 hours"
+    ],
+    [
+      "Potion of Hill Giant Strength",
+      ".5",
+      "25000",
+      "0",
+      "Strength becomes 21 for 1 hour"
+    ],
+    [
+      "Potion of Superior Healing",
+      ".5",
+      "62500",
+      "2",
+      "Regain 8d4 + 8 HP"
+    ],
+    [
+      "Potion of Heroism",
+      ".5",
+      "50000",
+      "2",
+      "Gain Bless and 10 temporary HP for 1 hour"
+    ],
+    [
+      "Potion of Invulnerability",
+      ".5",
+      "87500",
+      "2",
+      "Resistance to all damage for 1 minute"
+    ],
+    [
+      "Potion of Gaseous Form",
+      ".5",
+      "50000",
+      "2",
+      "Become a gaseous cloud for 1 hour"
+    ],
+    [
+      "Potion of Diminution",
+      ".5",
+      "40000",
+      "2",
+      "Gain effects of Reduce for 1d4 hours"
+    ],
+    [
+      "Potion of Fire Giant Strength",
+      ".5",
+      "75000",
+      "2",
+      "Strength becomes 25 for 1 hour"
+    ],
+    [
+      "Potion of Frost Giant Strength",
+      ".5",
+      "60000",
+      "2",
+      "Strength becomes 23 for 1 hour"
+    ],
+    [
+      "Potion of Supreme Healing",
+      ".5",
+      "175000",
+      "3",
+      "Regain 10d4 + 20 HP"
+    ],
+    [
+      "Potion of Flying",
+      ".5",
+      "200000",
+      "3",
+      "Gain flying speed equal to walking speed for 1 hour"
+    ],
+    [
+      "Potion of Invisibility",
+      ".5",
+      "200000",
+      "3",
+      "Become invisible for 1 hour or until attacking/casting"
+    ],
+    [
+      "Potion of Speed",
+      ".5",
+      "200000",
+      "3",
+      "Gain effects of Haste for 1 minute"
+    ],
+    [
+      "Potion of Cloud Giant Strength",
+      ".5",
+      "200000",
+      "3",
+      "Strength becomes 27 for 1 hour"
+    ]
+  ]
+}
