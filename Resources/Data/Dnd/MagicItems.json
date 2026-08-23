@@ -1,0 +1,317 @@
+{
+  "Type": "MagicItems",
+  "Spotlight": 5,
+  "Data": [
+    [
+      "Bag of Holding",
+      "0",
+      "50000",
+      "1",
+      "Stores 500 lb in an extradimensional space"
+    ],
+    [
+      "Cloak of Protection",
+      "0",
+      "75000",
+      "1",
+      "+1 AC and +1 to saving throws"
+    ],
+    [
+      "Ring of Protection",
+      "0",
+      "250000",
+      "2",
+      "+1 AC and +1 to saving throws"
+    ],
+    [
+      "Boots of Elvenkind",
+      "0",
+      "40000",
+      "1",
+      "Your footsteps make no sound; advantage on Stealth movement"
+    ],
+    [
+      "Boots of Striding and Springing",
+      "0",
+      "40000",
+      "1",
+      "Walking speed is at least 30 ft; triple jump distance"
+    ],
+    [
+      "Boots of the Winterlands",
+      "0",
+      "50000",
+      "1",
+      "Cold resistance; ignore difficult terrain from snow and ice"
+    ],
+    [
+      "Goggles of Night",
+      "0",
+      "30000",
+      "1",
+      "Gain 60 ft darkvision"
+    ],
+    [
+      "Gloves of Thievery",
+      "0",
+      "50000",
+      "1",
+      "+5 to Sleight of Hand and lockpicking"
+    ],
+    [
+      "Gauntlets of Ogre Power",
+      "0",
+      "75000",
+      "1",
+      "Strength becomes 19"
+    ],
+    [
+      "Headband of Intellect",
+      "0",
+      "75000",
+      "1",
+      "Intelligence becomes 19"
+    ],
+    [
+      "Amulet of Health",
+      "0",
+      "250000",
+      "2",
+      "Constitution becomes 19"
+    ],
+    [
+      "Periapt of Wound Closure",
+      "0",
+      "50000",
+      "1",
+      "Automatically stabilize at 0 HP; double Hit Dice healing"
+    ],
+    [
+      "Pearl of Power",
+      "0",
+      "75000",
+      "1",
+      "Recover one expended spell slot of 3rd level or lower"
+    ],
+    [
+      "Wand of Magic Missiles",
+      "0",
+      "50000",
+      "1",
+      "Cast Magic Missile using charges"
+    ],
+    [
+      "Wand of Web",
+      "0",
+      "75000",
+      "1",
+      "Cast Web using charges"
+    ],
+    [
+      "Wand of the War Mage +1",
+      "0",
+      "50000",
+      "1",
+      "+1 to spell attack rolls"
+    ],
+    [
+      "Rod of the Pact Keeper +1",
+      "0",
+      "75000",
+      "1",
+      "+1 to warlock spell attacks and save DC; recover one spell slot"
+    ],
+    [
+      "Bloodwell Vial +1",
+      "0",
+      "75000",
+      "1",
+      "+1 to sorcerer spell attacks and save DC; recover Sorcery Points"
+    ],
+    [
+      "Moon Sickle +1",
+      "0",
+      "75000",
+      "1",
+      "+1 to druid/ranger spell attacks and save DC; spells restore +1d4 HP"
+    ],
+    [
+      "Sentinel Shield",
+      "0",
+      "50000",
+      "1",
+      "Advantage on Initiative and Perception"
+    ],
+    [
+      "Adamantine Armor",
+      "0",
+      "75000",
+      "1",
+      "Critical hits against you become normal hits",
+      "Price varies: 750-1,000 gp"
+    ],
+    [
+      "Mithral Armor",
+      "0",
+      "75000",
+      "1",
+      "No Strength requirement and no Stealth disadvantage",
+      "plus armor cost"
+    ],
+    [
+      "Weapon +1",
+      "0",
+      "50000",
+      "1",
+      "+1 to attack and damage rolls"
+    ],
+    [
+      "Weapon +2",
+      "0",
+      "250000",
+      "2",
+      "+2 to attack and damage rolls"
+    ],
+    [
+      "Shield +1",
+      "0",
+      "75000",
+      "1",
+      "+1 additional AC"
+    ],
+    [
+      "Armor +1",
+      "0",
+      "300000",
+      "2",
+      "+1 AC",
+      "plus armor cost"
+    ],
+    [
+      "Bracers of Archery",
+      "0",
+      "50000",
+      "1",
+      "Proficiency with longbows and shortbows; +2 damage with those weapons"
+    ],
+    [
+      "Quiver of Ehlonna",
+      "0",
+      "40000",
+      "1",
+      "Extradimensional storage for bows and arrows"
+    ],
+    [
+      "Javelin of Lightning",
+      "0",
+      "50000",
+      "1",
+      "Becomes a 4d6 lightning line once per day"
+    ],
+    [
+      "Weapon of Warning",
+      "0",
+      "60000",
+      "1",
+      "Advantage on initiative; you and nearby allies can't be surprised"
+    ],
+    [
+      "Immovable Rod",
+      "0",
+      "50000",
+      "1",
+      "Locks in place and can hold up to 8,000 lb"
+    ],
+    [
+      "Alchemy Jug",
+      "0",
+      "30000",
+      "1",
+      "Produces a chosen liquid each day"
+    ],
+    [
+      "Decanter of Endless Water",
+      "0",
+      "50000",
+      "1",
+      "Produces unlimited water"
+    ],
+    [
+      "Sending Stones",
+      "0",
+      "50000",
+      "1",
+      "Cast Sending once per day"
+    ],
+    [
+      "Lantern of Revealing",
+      "0",
+      "40000",
+      "1",
+      "Reveals invisible creatures in its light"
+    ],
+    [
+      "Rope of Climbing",
+      "0",
+      "30000",
+      "1",
+      "Rope moves and ties itself on command"
+    ],
+    [
+      "Broom of Flying",
+      "0",
+      "100000",
+      "1",
+      "50 ft flying speed"
+    ],
+    [
+      "Winged Boots",
+      "0",
+      "150000",
+      "1",
+      "Gain a flying speed equal to your walking speed"
+    ],
+    [
+      "Cloak of Elvenkind",
+      "0",
+      "50000",
+      "1",
+      "Advantage on Stealth to hide; creatures have disadvantage to spot you"
+    ],
+    [
+      "Hat of Disguise",
+      "0",
+      "60000",
+      "1",
+      "Cast Disguise Self at will"
+    ],
+    [
+      "Eyes of Minute Seeing",
+      "0",
+      "25000",
+      "1",
+      "Advantage on Investigation checks to inspect things within 1 foot"
+    ],
+    [
+      "Stone of Good Luck",
+      "0",
+      "75000",
+      "1",
+      "+1 to ability checks and saving throws"
+    ],
+    [
+      "Dust of Disappearance",
+      "0",
+      "20000",
+      "1",
+      "Makes nearby creatures invisible for 2d4 minutes"
+    ],
+    [
+      "Deck of Illusions",
+      "0",
+      "40000",
+      "1",
+      "Draw cards to create illusory creatures"
+    ]
+  ]
+}
