@@ -22,11 +22,6 @@ namespace GUI.Pages
             await ReloadAsync();
         }
 
-        private async void OnAddTypeClicked(object? sender, EventArgs e)
-        {
-            await AddAsync(SettingsCategory.Type, TypeEntry);
-        }
-
         private async void OnAddRarityClicked(object? sender, EventArgs e)
         {
             await AddAsync(SettingsCategory.Rarity, RarityEntry);
@@ -43,7 +38,7 @@ namespace GUI.Pages
             {
                 var confirmed = await DisplayAlert(
                     "Restore defaults",
-                    $"This will replace Type, Rarity, and Size for the current profile with the built-in defaults. Confirm {step} of 3.",
+                    $"This will replace Rarity and Size for the current profile with the built-in defaults. Confirm {step} of 3.",
                     "Yes",
                     "No");
                 if (!confirmed)
@@ -79,7 +74,6 @@ namespace GUI.Pages
             try
             {
                 var settings = await _settingsService.GetAsync();
-                BindList(TypeItemsLayout, SettingsCategory.Type, settings.Types);
                 BindList(RarityItemsLayout, SettingsCategory.Rarity, settings.Rarities);
                 BindList(SizeItemsLayout, SettingsCategory.Size, settings.Sizes);
             }

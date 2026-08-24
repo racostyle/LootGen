@@ -117,7 +117,6 @@ namespace GUI.Services
         {
             return category switch
             {
-                SettingsCategory.Type => _settings!.Types,
                 SettingsCategory.Rarity => _settings!.Rarities,
                 SettingsCategory.Size => _settings!.Sizes,
                 _ => throw new ArgumentOutOfRangeException(nameof(category), category, "Unknown settings category.")
@@ -165,7 +164,6 @@ namespace GUI.Services
         private static AppSettings Normalize(AppSettings? loaded)
         {
             var settings = loaded ?? DefaultSettings.Create();
-            settings.Types ??= [];
             settings.Rarities ??= [];
             settings.Sizes ??= [];
             return settings;

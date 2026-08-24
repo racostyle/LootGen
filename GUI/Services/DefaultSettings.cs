@@ -4,16 +4,6 @@ namespace GUI.Services
 {
     public static class DefaultSettings
     {
-        public static IReadOnlyList<string> Types { get; } =
-        [
-            "Weapons",
-            "Armor",
-            "Drinks",
-            "Food",
-            "Clothing",
-            "Medical"
-        ];
-
         public static IReadOnlyList<string> Rarities { get; } =
         [
             "Uncommon",
@@ -37,7 +27,6 @@ namespace GUI.Services
         {
             return new AppSettings
             {
-                Types = [.. Types],
                 Rarities = [.. Rarities],
                 Sizes = [.. Sizes]
             };

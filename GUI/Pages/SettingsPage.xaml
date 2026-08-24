@@ -29,26 +29,6 @@
             <Border Style="{StaticResource CategoryCard}">
                 <VerticalStackLayout Spacing="0">
                     <Grid Style="{StaticResource CategoryBanner}">
-                        <Label Text="Type" Style="{StaticResource CategoryBannerLabel}" />
-                    </Grid>
-                    <VerticalStackLayout Padding="12" Spacing="8">
-                        <VerticalStackLayout x:Name="TypeItemsLayout" Spacing="4" />
-                        <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
-                            <Entry x:Name="TypeEntry"
-                                   Placeholder="Add type"
-                                   Completed="OnAddTypeClicked"
-                                   Grid.Column="0" />
-                            <Button Text="Add"
-                                    Clicked="OnAddTypeClicked"
-                                    Grid.Column="1" />
-                        </Grid>
-                    </VerticalStackLayout>
-                </VerticalStackLayout>
-            </Border>
-
-            <Border Style="{StaticResource CategoryCard}">
-                <VerticalStackLayout Spacing="0">
-                    <Grid Style="{StaticResource CategoryBanner}">
                         <Label Text="Rarity" Style="{StaticResource CategoryBannerLabel}" />
                     </Grid>
                     <VerticalStackLayout Padding="12" Spacing="8">

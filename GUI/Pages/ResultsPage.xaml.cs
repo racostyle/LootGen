@@ -32,8 +32,13 @@ namespace GUI.Pages
             }
 
             var resources = Application.Current?.Resources;
-            var evenColor = resources is null ? Colors.LightGray : (Color)resources["Gray100"];
-            var oddColor = resources is null ? Colors.Silver : (Color)resources["Gray200"];
+            var evenColor = Application.Current?.RequestedTheme == AppTheme.Dark
+                ? Color.FromArgb("#252525")
+                : Color.FromArgb("#F2F2F2");
+
+            var oddColor = Application.Current?.RequestedTheme == AppTheme.Dark
+                ? Color.FromArgb("#303030")
+                : Color.FromArgb("#E6E6E6");
 
             for (var i = 0; i < items.Count; i++)
             {
@@ -50,10 +55,12 @@ namespace GUI.Pages
                 BackgroundColor = background
             };
 
-            block.Children.Add(CreateLine($"{item.Category.PadRight(15)}{item.Name.PadRight(25)}{item.Cost.PadRight(10)}{item.Weight.PadRight(6)}{item.Description}"));
+            block.Children.Add(CreateLine($"Name: {item.Name.PadRight(25)}"));
+            block.Children.Add(CreateLine($"Category: {item.Category.PadRight(15)}Cost: {item.Cost.PadRight(10)}Weight: {item.Weight.PadRight(6)}"));
+            block.Children.Add(CreateLine($"{item.Description}"));
             if (!string.IsNullOrWhiteSpace(item.Notes))
             {
-                block.Children.Add(CreateLine($"Notes: {item.Notes}"));
+                block.Children.Add(CreateLine($"{item.Notes}"));
             }
 
             return block;
