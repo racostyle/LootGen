@@ -20,12 +20,15 @@ namespace GUI
                 });
 
             builder.Services.AddSingleton<IAppFileSystem, MauiFileSystem>();
+            builder.Services.AddSingleton<IResourceCatalog, ResourceCatalog>();
             builder.Services.AddSingleton<IProfileService, ProfileService>();
             builder.Services.AddSingleton<IAppSettingsService, AppSettingsService>();
+            builder.Services.AddSingleton<IGenerateResultStore, GenerateResultStore>();
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<ProfilesPage>();
             builder.Services.AddTransient<GeneratePage>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<ResultsPage>();
             builder.Services.AddSingleton<AppShell>();
 
 #if DEBUG

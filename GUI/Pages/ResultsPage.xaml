@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GUI.Pages.ResultsPage"
+             Title="Results">
+
+    <ScrollView>
+        <VerticalStackLayout x:Name="ResultsLayout"
+                             Padding="16"
+                             Spacing="8" />
+    </ScrollView>
+
+</ContentPage>

@@ -6,19 +6,9 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="24" Spacing="16">
-            <Label Text="Profiles can be added. Tap a profile to select it." />
+            <Label Text="Profiles come from resource data folders. Tap a profile to select it." />
 
             <VerticalStackLayout x:Name="ProfilesLayout" Spacing="8" />
-
-            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
-                <Entry x:Name="NewProfileEntry"
-                       Placeholder="New profile name"
-                       Completed="OnAddClicked"
-                       Grid.Column="0" />
-                <Button Text="Add"
-                        Clicked="OnAddClicked"
-                        Grid.Column="1" />
-            </Grid>
         </VerticalStackLayout>
     </ScrollView>
 

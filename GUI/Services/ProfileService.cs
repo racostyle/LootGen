@@ -17,13 +17,18 @@ namespace GUI.Services
         };
 
         private readonly IAppFileSystem _fileSystem;
+        private readonly IResourceCatalog _resourceCatalog;
         private readonly ILogger<ProfileService> _logger;
         private readonly SemaphoreSlim _gate = new(1, 1);
         private MainSettings? _settings;
 
-        public ProfileService(IAppFileSystem fileSystem, ILogger<ProfileService> logger)
+        public ProfileService(
+            IAppFileSystem fileSystem,
+            IResourceCatalog resourceCatalog,
+            ILogger<ProfileService> logger)
         {
             _fileSystem = fileSystem;
+            _resourceCatalog = resourceCatalog;
             _logger = logger;
         }
 
@@ -55,35 +60,6 @@ namespace GUI.Services
             }
         }
 
-        public async Task<bool> AddAsync(string name)
-        {
-            var trimmed = name.Trim();
-            if (!IsValidProfileName(trimmed))
-            {
-                return false;
-            }
-
-            await _gate.WaitAsync().ConfigureAwait(false);
-            try
-            {
-                await EnsureLoadedAsync().ConfigureAwait(false);
-                if (_settings!.Profiles.Any(profile => string.Equals(profile, trimmed, StringComparison.OrdinalIgnoreCase)))
-                {
-                    return false;
-                }
-
-                _settings.Profiles.Add(trimmed);
-                EnsureProfileData(trimmed);
-                SaveMainSettings();
-                _logger.LogInformation("Added profile {Profile}", trimmed);
-                return true;
-            }
-            finally
-            {
-                _gate.Release();
-            }
-        }
-
         public async Task<bool> SelectAsync(string name)
         {
             await _gate.WaitAsync().ConfigureAwait(false);
@@ -100,6 +76,7 @@ namespace GUI.Services
                 if (!string.Equals(_settings.SelectedProfile, match, StringComparison.Ordinal))
                 {
                     _settings.SelectedProfile = match;
+                    EnsureProfileData(match);
                     SaveMainSettings();
                     _logger.LogInformation("Selected profile {Profile}", match);
                 }
@@ -116,6 +93,11 @@ namespace GUI.Services
         {
             if (_settings is not null)
             {
+                if (SyncProfilesFromResources())
+                {
+                    SaveMainSettings();
+                }
+
                 return Task.CompletedTask;
             }
 
@@ -139,7 +121,6 @@ namespace GUI.Services
                     else
                     {
                         _settings = loaded;
-                        repaired = Normalize();
                     }
                 }
                 catch (Exception ex)
@@ -150,6 +131,7 @@ namespace GUI.Services
                 }
             }
 
+            repaired = SyncProfilesFromResources() || repaired;
             EnsureProfileData(_settings!.SelectedProfile);
             if (repaired)
             {
@@ -159,22 +141,34 @@ namespace GUI.Services
             return Task.CompletedTask;
         }
 
-        private bool Normalize()
+        private bool SyncProfilesFromResources()
         {
+            var discovered = _resourceCatalog.GetProfileNames().ToList();
             var changed = false;
-            _settings!.Profiles ??= [];
 
-            if (_settings.Profiles.Count == 0)
+            if (!ProfilesEqual(_settings!.Profiles, discovered))
             {
-                _settings.Profiles.Add(ProfileDefaults.DefaultProfileName);
+                _settings.Profiles = discovered;
                 changed = true;
             }
 
-            if (string.IsNullOrWhiteSpace(_settings.SelectedProfile)
-                || !_settings.Profiles.Any(profile =>
+            if (discovered.Count == 0)
+            {
+                if (string.IsNullOrWhiteSpace(_settings.SelectedProfile))
+                {
+                    _settings.SelectedProfile = ProfileDefaults.DefaultProfileName;
+                    changed = true;
+                }
+
+                return changed;
+            }
+
+            if (!_settings.Profiles.Any(profile =>
                     string.Equals(profile, _settings.SelectedProfile, StringComparison.OrdinalIgnoreCase)))
             {
-                _settings.SelectedProfile = _settings.Profiles[0];
+                var preferred = discovered.FirstOrDefault(profile =>
+                    string.Equals(profile, ProfileDefaults.DefaultProfileName, StringComparison.OrdinalIgnoreCase));
+                _settings.SelectedProfile = preferred ?? discovered[0];
                 changed = true;
             }
 
@@ -183,6 +177,11 @@ namespace GUI.Services
 
         private void EnsureProfileData(string profile)
         {
+            if (string.IsNullOrWhiteSpace(profile))
+            {
+                return;
+            }
+
             var settingsPath = Path.Combine(profile, ProfileSettingsFileName);
             if (_fileSystem.FileExists(settingsPath))
             {
@@ -205,19 +204,27 @@ namespace GUI.Services
         {
             return new MainSettings
             {
-                Profiles = [ProfileDefaults.DefaultProfileName],
+                Profiles = [],
                 SelectedProfile = ProfileDefaults.DefaultProfileName
             };
         }
 
-        private static bool IsValidProfileName(string name)
+        private static bool ProfilesEqual(IReadOnlyList<string> left, IReadOnlyList<string> right)
         {
-            if (string.IsNullOrWhiteSpace(name) || name is "." or "..")
+            if (left.Count != right.Count)
             {
                 return false;
             }
 
-            return name.IndexOfAny(Path.GetInvalidFileNameChars()) < 0;
+            for (var i = 0; i < left.Count; i++)
+            {
+                if (!string.Equals(left[i], right[i], StringComparison.Ordinal))
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

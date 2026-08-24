@@ -22,20 +22,6 @@ namespace GUI.Pages
             await ReloadAsync();
         }
 
-        private async void OnAddClicked(object? sender, EventArgs e)
-        {
-            var name = NewProfileEntry.Text ?? string.Empty;
-            var added = await _profileService.AddAsync(name);
-            if (!added)
-            {
-                await DisplayAlert("Profile", "Enter a unique profile name that is a valid folder name.", "OK");
-                return;
-            }
-
-            NewProfileEntry.Text = string.Empty;
-            await ReloadAsync();
-        }
-
         private async Task ReloadAsync()
         {
             try
@@ -43,6 +29,15 @@ namespace GUI.Pages
                 var settings = await _profileService.GetAsync();
                 _selectedProfile = settings.SelectedProfile;
                 ProfilesLayout.Children.Clear();
+
+                if (settings.Profiles.Count == 0)
+                {
+                    ProfilesLayout.Children.Add(new Label
+                    {
+                        Text = "No resource profiles found."
+                    });
+                    return;
+                }
 
                 foreach (var profile in settings.Profiles)
                 {

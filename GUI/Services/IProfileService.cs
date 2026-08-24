@@ -8,8 +8,6 @@ namespace GUI.Services
 
         Task<string> GetSelectedNameAsync();
 
-        Task<bool> AddAsync(string name);
-
         Task<bool> SelectAsync(string name);
     }
 }

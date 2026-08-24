@@ -16,10 +16,12 @@ namespace GUI.Services
 
         public static IReadOnlyList<string> Rarities { get; } =
         [
-            "Common",
             "Uncommon",
+            "Common",
             "Rare",
-            "Legendary"
+            "Very Rare",
+            "Legendary",
+            "Artifact"
         ];
 
         public static IReadOnlyList<string> Sizes { get; } =

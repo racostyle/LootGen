@@ -1,6 +1,7 @@
 using GUI.Models;
 using GUI.Services;
 using Microsoft.Extensions.Logging;
+using TableLib;
 
 namespace GUI.Pages
 {
@@ -9,16 +10,28 @@ namespace GUI.Pages
         private const string MerchantSource = "Merchant";
         private const string LocationSource = "Location";
 
-        private readonly IAppSettingsService _settingsService;
+        private readonly IProfileService _profileService;
+        private readonly IResourceCatalog _resourceCatalog;
+        private readonly IGenerateResultStore _resultStore;
         private readonly ILogger<GeneratePage> _logger;
         private readonly HashSet<string> _selectedTypes = new(StringComparer.Ordinal);
+        private IReadOnlyList<IDataBatch> _batches = [];
         private string _source = LocationSource;
+        private string _loadedProfile = string.Empty;
 
-        public GeneratePage(IAppSettingsService settingsService, ILogger<GeneratePage> logger)
+        public GeneratePage(
+            IProfileService profileService,
+            IResourceCatalog resourceCatalog,
+            IGenerateResultStore resultStore,
+            ILogger<GeneratePage> logger)
         {
             InitializeComponent();
-            _settingsService = settingsService;
+            _profileService = profileService;
+            _resourceCatalog = resourceCatalog;
+            _resultStore = resultStore;
             _logger = logger;
+            BindPicker(SizePicker, LootScale.Sizes);
+            BindPicker(RarityPicker, LootScale.Rarities);
             ApplySourceVisuals();
             UpdateGenerateEnabled();
         }
@@ -26,7 +39,7 @@ namespace GUI.Pages
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await LoadFromSettingsAsync();
+            await LoadProfileDataAsync();
         }
 
         private void OnSourceClicked(object? sender, EventArgs e)
@@ -43,18 +56,30 @@ namespace GUI.Pages
             ApplySourceVisuals();
         }
 
-        private void OnGenerateClicked(object? sender, EventArgs e)
+        private async void OnGenerateClicked(object? sender, EventArgs e)
         {
+            if (RarityPicker.SelectedIndex < 0
+                || SizePicker.SelectedIndex < 0
+                || _selectedTypes.Count == 0)
+            {
+                return;
+            }
+
+            var rarity = LootScale.Rarities[RarityPicker.SelectedIndex];
+            var size = LootScale.Sizes[SizePicker.SelectedIndex];
+
+            var categories = TypeButtonsLayout.Children
+                .OfType<Button>()
+                .Select(button => button.Text)
+                .Where(type => _selectedTypes.Contains(type))
+                .ToArray();
+
             var request = new SGenerateRequest
             {
                 Source = _source,
-                Types = TypeButtonsLayout.Children
-                    .OfType<Button>()
-                    .Select(button => button.Text)
-                    .Where(type => _selectedTypes.Contains(type))
-                    .ToList(),
-                Size = SizePicker.SelectedItem as string ?? string.Empty,
-                Rarity = RarityPicker.SelectedItem as string ?? string.Empty
+                Types = [.. categories],
+                Size = size.ToString(),
+                Rarity = rarity.ToString()
             };
 
             _logger.LogInformation(
@@ -63,21 +88,44 @@ namespace GUI.Pages
                 string.Join(", ", request.Types),
                 request.Size,
                 request.Rarity);
+
+            var generator = new TableGenerator(_batches);
+            _resultStore.Items = generator.Fetch(rarity.Value, size.Value, categories);
+            await Shell.Current.GoToAsync(nameof(ResultsPage));
         }
 
-        private async Task LoadFromSettingsAsync()
+        private async Task LoadProfileDataAsync()
         {
             try
             {
-                var settings = await _settingsService.GetAsync();
-                RebuildTypeButtons(settings.Types);
-                BindPicker(SizePicker, settings.Sizes);
-                BindPicker(RarityPicker, settings.Rarities);
+                var profile = await _profileService.GetSelectedNameAsync();
+                if (string.Equals(profile, _loadedProfile, StringComparison.Ordinal)
+                    && _batches.Count > 0)
+                {
+                    return;
+                }
+
+                var path = _resourceCatalog.GetProfilePath(profile);
+                var loader = new FileLoader(path);
+                _batches = loader.Batches;
+                _loadedProfile = profile;
+
+                var types = _batches
+                    .Select(batch => batch.Category)
+                    .Where(category => !string.IsNullOrWhiteSpace(category))
+                    .Distinct(StringComparer.Ordinal)
+                    .OrderBy(category => category, StringComparer.OrdinalIgnoreCase)
+                    .ToList();
+
+                RebuildTypeButtons(types);
                 UpdateGenerateEnabled();
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to load generate options");
+                _batches = [];
+                RebuildTypeButtons([]);
+                UpdateGenerateEnabled();
             }
         }
 
@@ -113,26 +161,15 @@ namespace GUI.Pages
             UpdateGenerateEnabled();
         }
 
-        private void BindPicker(Picker picker, IReadOnlyList<string> items)
+        private static void BindPicker(Picker picker, IReadOnlyList<SLabeledValue> items)
         {
-            var previous = picker.SelectedItem as string;
-            var list = items.ToList();
-            picker.ItemsSource = list;
-            if (list.Count == 0)
-            {
-                picker.SelectedIndex = -1;
-                return;
-            }
-
-            var index = previous is null
-                ? 0
-                : list.FindIndex(item => string.Equals(item, previous, StringComparison.Ordinal));
-            picker.SelectedIndex = index >= 0 ? index : 0;
+            picker.ItemsSource = items.ToList();
+            picker.SelectedIndex = items.Count == 0 ? -1 : 0;
         }
 
         private void UpdateGenerateEnabled()
         {
-            GenerateButton.IsEnabled = _selectedTypes.Count > 0;
+            GenerateButton.IsEnabled = _selectedTypes.Count > 0 && _batches.Count > 0;
         }
 
         private void ApplySourceVisuals()

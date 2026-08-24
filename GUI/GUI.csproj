@@ -64,4 +64,15 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.8" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\TableLib\TableLib.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="..\Resources\Data\**\*.json">
+			<Link>Data\%(RecursiveDir)%(Filename)%(Extension)</Link>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>
