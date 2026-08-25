@@ -81,8 +81,21 @@
 		</Content>
 	</ItemGroup>
 
-	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'windows'">
-		<MauiAsset Include="..\Resources\Data\**\*.json" LogicalName="Data\%(RecursiveDir)%(Filename)%(Extension)" />
-	</ItemGroup>
+	<!--
+	  Non-Windows (Android/iOS/etc): package every JSON under Resources/Data via MauiAsset.
+	  A Target is required so new files are picked up on each build; a static ItemGroup glob
+	  from outside the project is unreliable for Android asset packaging.
+	-->
+	<Target Name="IncludeSharedLootDataAssets"
+	        BeforeTargets="GetMauiItems;ResizetizeCollectItems;_ComputeAndroidAssetsPaths"
+	        Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'windows'">
+		<ItemGroup>
+			<_SharedLootJson Include="$(MSBuildThisFileDirectory)..\Resources\Data\**\*.json" />
+			<MauiAsset Include="@(_SharedLootJson)">
+				<Link>Data\%(RecursiveDir)%(Filename)%(Extension)</Link>
+				<LogicalName>Data\%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
+			</MauiAsset>
+		</ItemGroup>
+	</Target>
 
 </Project>

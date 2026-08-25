@@ -13,49 +13,49 @@
       "Bedroll",
       "7",
       "100",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Blanket",
       "3",
       "50",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Candle",
       "0",
       "1",
-      "1",
+      "0",
       "Common Items, For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for another 5 feet."
     ],
     [
       "Ink (1 oz)",
       "0",
       "1000",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Ink Pen",
       "0",
       "2",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Paper (1 sheet)",
       "0",
       "20",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Parchment (1 sheet)",
       "0",
       "10",
-      "1",
+      "0",
       "Common Items"
     ],
     [
@@ -69,49 +69,49 @@
       "Shovel",
       "5",
       "200",
-      "1",
+      "0",
       "Common Items"
     ],
     [
       "Oil (flask)",
       "1",
       "10",
-      "1",
+      "0",
       "Usable Items, Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
     ],
     [
       "Tinderbox",
       "1",
       "50",
-      "1",
+      "0",
       "Usable Items, This small container holds flint, fire steel, an tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minutes."
     ],
     [
       "Torch",
       "1",
       "1",
-      "1",
+      "0",
       "Usable Items, A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
     ],
     [
       "Glass Bottle",
       "2",
       "200",
-      "1",
+      "0",
       "Containers, CAPACITY: 1.5 pints liquid"
     ],
     [
       "Waterskin",
       "5",
       "20",
-      "1",
+      "0",
       "Containers, CAPACITY: 4 pints liquid"
     ],
     [
       "Potion of Healing",
       ".5",
       "5000",
-      "1",
+      "0",
       "Regain 2d4 + 2 HP"
     ]
   ]

@@ -6,105 +6,105 @@
       "Ale (mug)",
       "0",
       "4",
-      "1",
+      "0",
       "The default order at any bar."
     ],
     [
       "Bread (loaf)",
       "0",
       "2",
-      "1",
+      "0",
       "Often thrown in with a meal."
     ],
     [
       "Cheese (wedge)",
       "0",
       "10",
-      "1",
+      "0",
       "Pairs with bread and ale."
     ],
     [
       "Wine, common (pitcher)",
       "0",
       "20",
-      "1",
+      "0",
       "House wine, shared at the table."
     ],
     [
       "Wine, fine (bottle)",
       "0",
       "1000",
-      "1",
+      "0",
       "What the noble in the back booth orders."
     ],
     [
       "Meal, squalid",
       "0",
       "1",
-      "1",
+      "0",
       "Gruel, stale bread, no questions."
     ],
     [
       "Meal, poor",
       "0",
       "2",
-      "1",
+      "0",
       "Thin stew and bread."
     ],
     [
       "Meal, modest",
       "0",
       "10",
-      "1",
+      "0",
       "The common meal most taverns serve."
     ],
     [
       "Meal, comfortable",
       "0",
       "20",
-      "1",
+      "0",
       "Meat, vegetables, a decent ale."
     ],
     [
       "Meal, wealthy",
       "0",
       "30",
-      "1",
+      "0",
       "Several courses, good wine."
     ],
     [
       "Meal, aristocratic",
       "0",
       "60",
-      "1",
+      "0",
       "The best the kitchen can do."
     ],
     [
       "Inn stay, squalid (per day)",
       "0",
       "7",
-      "1",
+      "0",
       "A spot on the floor in a shared room."
     ],
     [
       "Inn stay, poor (per day)",
       "0",
       "10",
-      "1",
+      "0",
       "A shared room, a straw mattress."
     ],
     [
       "Inn stay, modest (per day)",
       "0",
       "50",
-      "1",
+      "0",
       "A private room, a lock on the door."
     ],
     [
       "Inn stay, comfortable (per day)",
       "0",
       "80",
-      "1",
+      "0",
       "A real bed and a hot bath."
     ],
     [
