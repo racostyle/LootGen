@@ -1,0 +1,125 @@
+{
+  "Type": "Tavern",
+  "Spotlight": 10,
+  "Data": [
+    [
+      "Ale (mug)",
+      "0",
+      "4",
+      "1",
+      "The default order at any bar."
+    ],
+    [
+      "Bread (loaf)",
+      "0",
+      "2",
+      "1",
+      "Often thrown in with a meal."
+    ],
+    [
+      "Cheese (wedge)",
+      "0",
+      "10",
+      "1",
+      "Pairs with bread and ale."
+    ],
+    [
+      "Wine, common (pitcher)",
+      "0",
+      "20",
+      "1",
+      "House wine, shared at the table."
+    ],
+    [
+      "Wine, fine (bottle)",
+      "0",
+      "1000",
+      "1",
+      "What the noble in the back booth orders."
+    ],
+    [
+      "Meal, squalid",
+      "0",
+      "1",
+      "1",
+      "Gruel, stale bread, no questions."
+    ],
+    [
+      "Meal, poor",
+      "0",
+      "2",
+      "1",
+      "Thin stew and bread."
+    ],
+    [
+      "Meal, modest",
+      "0",
+      "10",
+      "1",
+      "The common meal most taverns serve."
+    ],
+    [
+      "Meal, comfortable",
+      "0",
+      "20",
+      "1",
+      "Meat, vegetables, a decent ale."
+    ],
+    [
+      "Meal, wealthy",
+      "0",
+      "30",
+      "1",
+      "Several courses, good wine."
+    ],
+    [
+      "Meal, aristocratic",
+      "0",
+      "60",
+      "1",
+      "The best the kitchen can do."
+    ],
+    [
+      "Inn stay, squalid (per day)",
+      "0",
+      "7",
+      "1",
+      "A spot on the floor in a shared room."
+    ],
+    [
+      "Inn stay, poor (per day)",
+      "0",
+      "10",
+      "1",
+      "A shared room, a straw mattress."
+    ],
+    [
+      "Inn stay, modest (per day)",
+      "0",
+      "50",
+      "1",
+      "A private room, a lock on the door."
+    ],
+    [
+      "Inn stay, comfortable (per day)",
+      "0",
+      "80",
+      "1",
+      "A real bed and a hot bath."
+    ],
+    [
+      "Inn stay, wealthy (per day)",
+      "0",
+      "200",
+      "1",
+      "A suite with a servant."
+    ],
+    [
+      "Inn stay, aristocratic (per day)",
+      "0",
+      "400",
+      "1",
+      "The best rooms in the city."
+    ]
+  ]
+}
