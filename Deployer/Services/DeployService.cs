@@ -37,7 +37,11 @@ namespace Deployer.Services
                 };
             }
 
-            var outputDirectory = _fileSystem.GetFullPath(request.OutputDirectory);
+            var outputRoot = _fileSystem.GetFullPath(request.OutputDirectory);
+            var platformFolder = request.Target == DeployTarget.WindowsPackage
+                ? PublishConstants.WindowsDistFolderName
+                : PublishConstants.AndroidDistFolderName;
+            var outputDirectory = _fileSystem.Combine(outputRoot, platformFolder);
             var normalized = request with
             {
                 RepositoryRoot = _fileSystem.GetFullPath(request.RepositoryRoot),

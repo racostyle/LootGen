@@ -75,7 +75,7 @@ namespace Deployer.Services
                 return string.Empty;
             }
 
-            return _fileSystem.Combine(repositoryRoot, "dist");
+            return _fileSystem.Combine(repositoryRoot, PublishConstants.DistFolderName);
         }
     }
 }

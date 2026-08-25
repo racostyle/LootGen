@@ -30,8 +30,7 @@ namespace Deployer.Services
                     "-p:ApplicationTitle=" + PublishConstants.AppTitle,
                     "-p:ApplicationId=" + PublishConstants.ApplicationId,
                     "-p:ApplicationDisplayVersion=" + displayVersion,
-                    "-p:ApplicationVersion=" + applicationVersion,
-                    "-p:AssemblyName=" + PublishConstants.AppTitle
+                    "-p:ApplicationVersion=" + applicationVersion
                 ]
             };
         }
