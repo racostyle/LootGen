@@ -2,10 +2,9 @@
 {
     public class DataBatch : IDataBatch
     {
-        public string Category { get; set; }
-        public int Spotlight { get; set; }
-
-        public TableItem[] Table { get; set; }
+        public string Category { get; private set; }
+        public int Spotlight { get; private set; }
+        public TableItem[] Table { get; private set; }
 
         internal DataBatch(DataFile file)
         {

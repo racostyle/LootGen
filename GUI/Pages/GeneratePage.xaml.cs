@@ -7,8 +7,8 @@ namespace GUI.Pages
 {
     public partial class GeneratePage : ContentPage
     {
-        private const string MerchantSource = "Merchant";
-        private const string LocationSource = "Location";
+        private enum SelectionMode { Unique, Repeatable }
+        private SelectionMode _selectionMode = SelectionMode.Unique;
 
         private readonly IProfileService _profileService;
         private readonly IResourceCatalog _resourceCatalog;
@@ -16,7 +16,7 @@ namespace GUI.Pages
         private readonly ILogger<GeneratePage> _logger;
         private readonly HashSet<string> _selectedTypes = new(StringComparer.Ordinal);
         private IReadOnlyList<IDataBatch> _batches = [];
-        private string _source = LocationSource;
+
         private string _loadedProfile = string.Empty;
 
         public GeneratePage(
@@ -49,10 +49,11 @@ namespace GUI.Pages
                 return;
             }
 
-            var clickedSource = clicked == MerchantButton ? MerchantSource : LocationSource;
-            _source = string.Equals(clickedSource, _source, StringComparison.Ordinal)
+            var clickedSource = clicked == UniqueButton ? SelectionMode.Unique : SelectionMode.Repeatable;
+            _selectionMode = _selectionMode == clickedSource
                 ? OppositeSource(clickedSource)
                 : clickedSource;
+
             ApplySourceVisuals();
         }
 
@@ -74,23 +75,18 @@ namespace GUI.Pages
                 .Where(type => _selectedTypes.Contains(type))
                 .ToArray();
 
-            var request = new SGenerateRequest
-            {
-                Source = _source,
-                Types = [.. categories],
-                Size = size.ToString(),
-                Rarity = rarity.ToString()
-            };
+            bool isUniqueSelection = _selectionMode == SelectionMode.Unique;
 
             _logger.LogInformation(
-                "Generate requested. Source={Source}, Types={Types}, Size={Size}, Rarity={Rarity}",
-                request.Source,
-                string.Join(", ", request.Types),
-                request.Size,
-                request.Rarity);
+                    "Generate requested. Source={Source}, Types={Types}, Size={Size}, Rarity={Rarity}",
+                    isUniqueSelection,
+                    string.Join(", ", categories),
+                    size.ToString(),
+                    rarity.ToString());
 
             var generator = new TableGenerator(_batches);
-            _resultStore.Items = generator.Fetch(rarity.Value, size.Value, categories);
+            _resultStore.Items = generator.Fetch(rarity.Value, size.Value, isUniqueSelection, categories);
+
             await Shell.Current.GoToAsync(nameof(ResultsPage));
         }
 
@@ -174,8 +170,8 @@ namespace GUI.Pages
 
         private void ApplySourceVisuals()
         {
-            ApplyToggleVisual(MerchantButton, string.Equals(_source, MerchantSource, StringComparison.Ordinal));
-            ApplyToggleVisual(LocationButton, string.Equals(_source, LocationSource, StringComparison.Ordinal));
+            ApplyToggleVisual(UniqueButton, _selectionMode == SelectionMode.Unique);
+            ApplyToggleVisual(RepeatableButton, _selectionMode == SelectionMode.Repeatable);
         }
 
         private static void ApplyToggleVisual(Button button, bool isSelected)
@@ -191,11 +187,11 @@ namespace GUI.Pages
                 : (Color)resources["Gray500"];
         }
 
-        private static string OppositeSource(string source)
+        private static SelectionMode OppositeSource(SelectionMode source)
         {
-            return string.Equals(source, MerchantSource, StringComparison.Ordinal)
-                ? LocationSource
-                : MerchantSource;
+            return source == SelectionMode.Unique
+                ? SelectionMode.Repeatable
+                : SelectionMode.Unique;
         }
     }
 }

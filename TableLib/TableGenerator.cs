@@ -13,7 +13,7 @@
                 : _dataBatches.Max(x => x.Spotlight) + 1;
         }
 
-        public TableItem[] Fetch(int rarity, int size, params string[] categories)
+        public TableItem[] Fetch(int rarity, int size, bool isUniqueSelection, params string[] categories)
         {
             var filtered = GetFilteredBatch(categories);
             if (filtered.Length == 0)
@@ -25,7 +25,7 @@
             var store = new List<TableItem>();
             var attempts = 0;
 
-            while (item_count >= 0 && attempts < 10_000)
+            while (item_count >= 0 && attempts < 1_000)
             {
                 attempts++;
                 var selectedDataBatch = filtered[Random.Shared.Next(0, filtered.Length)];
@@ -35,17 +35,22 @@
                     : true;
 
                 if (!isSpotlight)
-                {
                     continue;
-                }
 
                 var availableItems = selectedDataBatch.Table.Where(x => x.Rarity <= rarity).ToArray();
                 if (availableItems.Length == 0)
-                {
                     continue;
+
+
+                var selected = availableItems[Random.Shared.Next(0, availableItems.Length)];
+
+                if (isUniqueSelection)
+                {
+                    if (store.Where(x => x.Hash == selected.Hash).Any())
+                        continue;
                 }
 
-                store.Add(availableItems[Random.Shared.Next(0, availableItems.Length)]);
+                store.Add(selected);
                 item_count--;
             }
 

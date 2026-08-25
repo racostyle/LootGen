@@ -2,7 +2,7 @@ namespace GUI.Models
 {
     public struct SGenerateRequest
     {
-        public string Source;
+        public bool IsUniqueSelection;
 
         public List<string> Types;
 

@@ -8,12 +8,12 @@
         <VerticalStackLayout Padding="24" Spacing="16">
             <Label Text="Source" FontAttributes="Bold" />
             <Grid ColumnDefinitions="*,*" ColumnSpacing="8">
-                <Button x:Name="MerchantButton"
-                        Text="Merchant"
+                <Button x:Name="UniqueButton"
+                        Text="Unique"
                         Clicked="OnSourceClicked"
                         Grid.Column="0" />
-                <Button x:Name="LocationButton"
-                        Text="Location"
+                <Button x:Name="RepeatableButton"
+                        Text="Repeatable"
                         Clicked="OnSourceClicked"
                         Grid.Column="1" />
             </Grid>

@@ -9,6 +9,7 @@
         public string Description { get; }
         public string Notes { get; }
         public string Category { get; }
+        public int Hash { get; }
 
         public TableItem(string[] data, string category)
         {
@@ -24,6 +25,9 @@
             Description = data[4];
             Notes = data.Length > 5 ? data[5] : string.Empty;
             Category = category;
+
+            var raw = $"{Name}{Cost}{Description}{Notes}{Category}";
+            Hash = raw.GetHashCode();
         }
     }
 }
