@@ -1,3 +1,4 @@
+using GUI.Abstractions;
 using GUI.Services;
 using Microsoft.Extensions.Logging;
 
@@ -8,8 +9,10 @@ namespace GUI.Infrastructure
         private readonly ILogger<ResourceCatalog> _logger;
         private readonly string _dataRoot;
 
-        public ResourceCatalog(ILogger<ResourceCatalog> logger)
-            : this(logger, Path.Combine(AppContext.BaseDirectory, "Data"))
+        public ResourceCatalog(
+            ILogger<ResourceCatalog> logger,
+            IPackagedLootDataSource packagedLootDataSource)
+            : this(logger, packagedLootDataSource.EnsureMaterialized())
         {
         }
 

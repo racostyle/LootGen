@@ -13,5 +13,11 @@ namespace GUI.Abstractions
         bool DirectoryExists(string relativePath);
 
         void CreateDirectory(string relativePath);
+
+        void DeleteDirectory(string relativePath);
+
+        IReadOnlyList<string> GetDirectoryNames(string relativePath);
+
+        string GetAbsolutePath(string relativePath);
     }
 }

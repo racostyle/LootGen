@@ -20,6 +20,12 @@ namespace GUI
                 });
 
             builder.Services.AddSingleton<IAppFileSystem, MauiFileSystem>();
+#if ANDROID
+            builder.Services.AddSingleton<IAppPackage, AndroidAppPackage>();
+#else
+            builder.Services.AddSingleton<IAppPackage, FileAppPackage>();
+#endif
+            builder.Services.AddSingleton<IPackagedLootDataSource, PackagedLootDataSource>();
             builder.Services.AddSingleton<IResourceCatalog, ResourceCatalog>();
             builder.Services.AddSingleton<IProfileService, ProfileService>();
             builder.Services.AddSingleton<IAppSettingsService, AppSettingsService>();

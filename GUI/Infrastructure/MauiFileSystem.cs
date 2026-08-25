@@ -50,6 +50,35 @@ namespace GUI.Infrastructure
             Directory.CreateDirectory(GetFullPath(relativePath));
         }
 
+        public void DeleteDirectory(string relativePath)
+        {
+            var fullPath = GetFullPath(relativePath);
+            if (Directory.Exists(fullPath))
+            {
+                Directory.Delete(fullPath, recursive: true);
+            }
+        }
+
+        public IReadOnlyList<string> GetDirectoryNames(string relativePath)
+        {
+            var fullPath = GetFullPath(relativePath);
+            if (!Directory.Exists(fullPath))
+            {
+                return [];
+            }
+
+            return Directory.GetDirectories(fullPath)
+                .Select(Path.GetFileName)
+                .Where(name => !string.IsNullOrWhiteSpace(name))
+                .OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
+                .ToArray()!;
+        }
+
+        public string GetAbsolutePath(string relativePath)
+        {
+            return GetFullPath(relativePath);
+        }
+
         private string GetFullPath(string relativePath)
         {
             ArgumentException.ThrowIfNullOrWhiteSpace(relativePath);

@@ -73,11 +73,15 @@
 		<ProjectReference Include="..\TableLib\TableLib.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
 		<Content Include="..\Resources\Data\**\*.json">
 			<Link>Data\%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
+	</ItemGroup>
+
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) != 'windows'">
+		<MauiAsset Include="..\Resources\Data\**\*.json" LogicalName="Data\%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
 </Project>

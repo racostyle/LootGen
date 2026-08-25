@@ -154,9 +154,9 @@ namespace GUI.Services
 
             if (discovered.Count == 0)
             {
-                if (string.IsNullOrWhiteSpace(_settings.SelectedProfile))
+                if (!string.IsNullOrEmpty(_settings.SelectedProfile))
                 {
-                    _settings.SelectedProfile = ProfileDefaults.DefaultProfileName;
+                    _settings.SelectedProfile = string.Empty;
                     changed = true;
                 }
 
