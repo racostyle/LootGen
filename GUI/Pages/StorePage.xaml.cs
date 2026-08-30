@@ -1,3 +1,4 @@
+using GUI.Infrastructure;
 using GUI.Models;
 using GUI.Services;
 using Microsoft.Extensions.Logging;
@@ -8,7 +9,7 @@ namespace GUI.Pages
     public partial class StorePage : ContentPage
     {
         private enum SelectionMode { Unique, Repeatable }
-        private SelectionMode _selectionMode = SelectionMode.Unique;
+        private SelectionMode _selectionMode = SelectionMode.Repeatable;
 
         private readonly IProfileService _profileService;
         private readonly IResourceCatalog _resourceCatalog;
@@ -140,7 +141,7 @@ namespace GUI.Pages
                     Text = type,
                     Margin = new Thickness(0, 0, 8, 8)
                 };
-                ApplyToggleVisual(button, isSelected);
+                ToggleButtonVisuals.Apply(button, isSelected);
                 var captured = type;
                 button.Clicked += (_, _) => ToggleType(captured, button);
                 TypeButtonsLayout.Children.Add(button);
@@ -154,7 +155,7 @@ namespace GUI.Pages
                 _selectedTypes.Remove(type);
             }
 
-            ApplyToggleVisual(button, _selectedTypes.Contains(type));
+            ToggleButtonVisuals.Apply(button, _selectedTypes.Contains(type));
             UpdateGenerateEnabled();
         }
 
@@ -171,21 +172,8 @@ namespace GUI.Pages
 
         private void ApplySourceVisuals()
         {
-            ApplyToggleVisual(UniqueButton, _selectionMode == SelectionMode.Unique);
-            ApplyToggleVisual(RepeatableButton, _selectionMode == SelectionMode.Repeatable);
-        }
-
-        private static void ApplyToggleVisual(Button button, bool isSelected)
-        {
-            var resources = Application.Current?.Resources;
-            if (resources is null)
-            {
-                return;
-            }
-
-            button.BackgroundColor = isSelected
-                ? (Color)resources["Primary"]
-                : (Color)resources["Gray500"];
+            ToggleButtonVisuals.Apply(UniqueButton, _selectionMode == SelectionMode.Unique);
+            ToggleButtonVisuals.Apply(RepeatableButton, _selectionMode == SelectionMode.Repeatable);
         }
 
         private static SelectionMode OppositeSource(SelectionMode source)

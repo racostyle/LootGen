@@ -15,7 +15,7 @@
             HorizontalOptions="Fill" />
 
         <Button
-            Text="Location/Store"
+            Text="Store"
             Clicked="OnLocationStoreClicked"
             HorizontalOptions="Fill" />
 

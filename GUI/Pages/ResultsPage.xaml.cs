@@ -57,7 +57,7 @@ namespace GUI.Pages
             };
 
             block.Children.Add(CreateLine($"Name: {item.Name.PadRight(25)}"));
-            block.Children.Add(CreateLine($"Category: {item.Category.PadRight(25)}\tCost: {item.Cost.PadRight(12)}\tWeight: {item.Weight.PadRight(6)}"));
+            block.Children.Add(CreateLine($"Category: {item.Category.PadRight(20)}\tCost: {item.Cost.PadRight(12)}\tWeight: {item.Weight.PadRight(6)}"));
             block.Children.Add(CreateLine($"{item.Description}"));
             if (!string.IsNullOrWhiteSpace(item.Notes))
             {

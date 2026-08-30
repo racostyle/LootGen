@@ -1,3 +1,4 @@
+using GUI.Infrastructure;
 using GUI.Models;
 using GUI.Services;
 using Microsoft.Extensions.Logging;
@@ -112,7 +113,7 @@ namespace GUI.Pages
                     Text = type,
                     Margin = new Thickness(0, 0, 8, 8)
                 };
-                ApplyToggleVisual(button, isSelected);
+                ToggleButtonVisuals.Apply(button, isSelected);
                 var captured = type;
                 button.Clicked += (_, _) => ToggleType(captured, button);
                 TypeButtonsLayout.Children.Add(button);
@@ -126,7 +127,7 @@ namespace GUI.Pages
                 _selectedTypes.Remove(type);
             }
 
-            ApplyToggleVisual(button, _selectedTypes.Contains(type));
+            ToggleButtonVisuals.Apply(button, _selectedTypes.Contains(type));
             UpdateListEnabled();
         }
 
@@ -139,19 +140,6 @@ namespace GUI.Pages
         private void UpdateListEnabled()
         {
             ListItemsButton.IsEnabled = _selectedTypes.Count > 0 && _batches.Count > 0;
-        }
-
-        private static void ApplyToggleVisual(Button button, bool isSelected)
-        {
-            var resources = Application.Current?.Resources;
-            if (resources is null)
-            {
-                return;
-            }
-
-            button.BackgroundColor = isSelected
-                ? (Color)resources["Primary"]
-                : (Color)resources["Gray500"];
         }
     }
 }
