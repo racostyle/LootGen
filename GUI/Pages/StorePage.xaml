@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GUI.Pages.GeneratePage"
-             Title="Generate">
+             x:Class="GUI.Pages.StorePage"
+             Title="Location/Store">
 
     <ScrollView>
         <VerticalStackLayout Padding="24" Spacing="16">

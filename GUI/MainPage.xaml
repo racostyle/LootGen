@@ -15,8 +15,13 @@
             HorizontalOptions="Fill" />
 
         <Button
-            Text="Generate"
-            Clicked="OnGenerateClicked"
+            Text="Location/Store"
+            Clicked="OnLocationStoreClicked"
+            HorizontalOptions="Fill" />
+
+        <Button
+            Text="Item List"
+            Clicked="OnItemListClicked"
             HorizontalOptions="Fill" />
 
         <Button

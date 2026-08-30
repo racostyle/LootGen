@@ -64,6 +64,16 @@
                 .ToArray();
         }
 
+        public TableItem[] ListAll(int rarity, params string[] categories)
+        {
+            var filtered = GetFilteredBatch(categories);
+            return filtered
+                .SelectMany(batch => batch.Table.Where(x => x.Rarity <= rarity))
+                .OrderBy(x => x.Category)
+                .ThenBy(x => x.Name)
+                .ToArray();
+        }
+
         private bool IsInSpotlight(IDataBatch[] filtered, IDataBatch selectedDataBatch)
         {
             return filtered.Length > 1

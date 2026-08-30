@@ -16,6 +16,7 @@ namespace GUI.Pages
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            Title = _resultStore.Title;
             Render(_resultStore.Items);
         }
 
@@ -26,7 +27,7 @@ namespace GUI.Pages
             {
                 ResultsLayout.Children.Add(new Label
                 {
-                    Text = "No items generated."
+                    Text = "No items found."
                 });
                 return;
             }

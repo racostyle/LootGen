@@ -5,35 +5,30 @@ using TableLib;
 
 namespace GUI.Pages
 {
-    public partial class GeneratePage : ContentPage
+    public partial class ItemListPage : ContentPage
     {
-        private enum SelectionMode { Unique, Repeatable }
-        private SelectionMode _selectionMode = SelectionMode.Unique;
-
         private readonly IProfileService _profileService;
         private readonly IResourceCatalog _resourceCatalog;
         private readonly IGenerateResultStore _resultStore;
-        private readonly ILogger<GeneratePage> _logger;
+        private readonly ILogger<ItemListPage> _logger;
         private readonly HashSet<string> _selectedTypes = new(StringComparer.Ordinal);
         private IReadOnlyList<IDataBatch> _batches = [];
 
         private string _loadedProfile = string.Empty;
 
-        public GeneratePage(
+        public ItemListPage(
             IProfileService profileService,
             IResourceCatalog resourceCatalog,
             IGenerateResultStore resultStore,
-            ILogger<GeneratePage> logger)
+            ILogger<ItemListPage> logger)
         {
             InitializeComponent();
             _profileService = profileService;
             _resourceCatalog = resourceCatalog;
             _resultStore = resultStore;
             _logger = logger;
-            BindPicker(SizePicker, LootScale.Sizes);
             BindPicker(RarityPicker, LootScale.Rarities);
-            ApplySourceVisuals();
-            UpdateGenerateEnabled();
+            UpdateListEnabled();
         }
 
         protected override async void OnAppearing()
@@ -42,50 +37,28 @@ namespace GUI.Pages
             await LoadProfileDataAsync();
         }
 
-        private void OnSourceClicked(object? sender, EventArgs e)
+        private async void OnListItemsClicked(object? sender, EventArgs e)
         {
-            if (sender is not Button clicked)
-            {
-                return;
-            }
-
-            var clickedSource = clicked == UniqueButton ? SelectionMode.Unique : SelectionMode.Repeatable;
-            _selectionMode = _selectionMode == clickedSource
-                ? OppositeSource(clickedSource)
-                : clickedSource;
-
-            ApplySourceVisuals();
-        }
-
-        private async void OnGenerateClicked(object? sender, EventArgs e)
-        {
-            if (RarityPicker.SelectedIndex < 0
-                || SizePicker.SelectedIndex < 0
-                || _selectedTypes.Count == 0)
+            if (RarityPicker.SelectedIndex < 0 || _selectedTypes.Count == 0)
             {
                 return;
             }
 
             var rarity = LootScale.Rarities[RarityPicker.SelectedIndex];
-            var size = LootScale.Sizes[SizePicker.SelectedIndex];
-
             var categories = TypeButtonsLayout.Children
                 .OfType<Button>()
                 .Select(button => button.Text)
                 .Where(type => _selectedTypes.Contains(type))
                 .ToArray();
 
-            bool isUniqueSelection = _selectionMode == SelectionMode.Unique;
-
             _logger.LogInformation(
-                    "Generate requested. Source={Source}, Types={Types}, Size={Size}, Rarity={Rarity}",
-                    isUniqueSelection,
-                    string.Join(", ", categories),
-                    size.ToString(),
-                    rarity.ToString());
+                "Item list requested. Types={Types}, Rarity={Rarity}",
+                string.Join(", ", categories),
+                rarity.ToString());
 
             var generator = new TableGenerator(_batches);
-            _resultStore.Items = generator.Fetch(rarity.Value, size.Value, isUniqueSelection, categories);
+            _resultStore.Title = "Item List";
+            _resultStore.Items = generator.ListAll(rarity.Value, categories);
 
             await Shell.Current.GoToAsync(nameof(ResultsPage));
         }
@@ -114,14 +87,14 @@ namespace GUI.Pages
                     .ToList();
 
                 RebuildTypeButtons(types);
-                UpdateGenerateEnabled();
+                UpdateListEnabled();
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to load generate options");
+                _logger.LogError(ex, "Failed to load item list options");
                 _batches = [];
                 RebuildTypeButtons([]);
-                UpdateGenerateEnabled();
+                UpdateListEnabled();
             }
         }
 
@@ -154,7 +127,7 @@ namespace GUI.Pages
             }
 
             ApplyToggleVisual(button, _selectedTypes.Contains(type));
-            UpdateGenerateEnabled();
+            UpdateListEnabled();
         }
 
         private static void BindPicker(Picker picker, IReadOnlyList<SLabeledValue> items)
@@ -163,15 +136,9 @@ namespace GUI.Pages
             picker.SelectedIndex = items.Count == 0 ? -1 : 0;
         }
 
-        private void UpdateGenerateEnabled()
+        private void UpdateListEnabled()
         {
-            GenerateButton.IsEnabled = _selectedTypes.Count > 0 && _batches.Count > 0;
-        }
-
-        private void ApplySourceVisuals()
-        {
-            ApplyToggleVisual(UniqueButton, _selectionMode == SelectionMode.Unique);
-            ApplyToggleVisual(RepeatableButton, _selectionMode == SelectionMode.Repeatable);
+            ListItemsButton.IsEnabled = _selectedTypes.Count > 0 && _batches.Count > 0;
         }
 
         private static void ApplyToggleVisual(Button button, bool isSelected)
@@ -185,13 +152,6 @@ namespace GUI.Pages
             button.BackgroundColor = isSelected
                 ? (Color)resources["Primary"]
                 : (Color)resources["Gray500"];
-        }
-
-        private static SelectionMode OppositeSource(SelectionMode source)
-        {
-            return source == SelectionMode.Unique
-                ? SelectionMode.Repeatable
-                : SelectionMode.Unique;
         }
     }
 }

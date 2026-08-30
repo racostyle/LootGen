@@ -32,7 +32,8 @@ namespace GUI
             builder.Services.AddSingleton<IGenerateResultStore, GenerateResultStore>();
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<ProfilesPage>();
-            builder.Services.AddTransient<GeneratePage>();
+            builder.Services.AddTransient<StorePage>();
+            builder.Services.AddTransient<ItemListPage>();
             builder.Services.AddTransient<SettingsPage>();
             builder.Services.AddTransient<ResultsPage>();
             builder.Services.AddSingleton<AppShell>();

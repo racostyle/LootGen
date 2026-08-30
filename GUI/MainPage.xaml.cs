@@ -27,9 +27,14 @@ namespace GUI
             await Shell.Current.GoToAsync(nameof(ProfilesPage));
         }
 
-        private async void OnGenerateClicked(object? sender, EventArgs e)
+        private async void OnLocationStoreClicked(object? sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(GeneratePage));
+            await Shell.Current.GoToAsync(nameof(StorePage));
+        }
+
+        private async void OnItemListClicked(object? sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(ItemListPage));
         }
 
         private async void OnSettingsClicked(object? sender, EventArgs e)
