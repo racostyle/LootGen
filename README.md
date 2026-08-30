@@ -10,8 +10,8 @@ This is a fan-made tool for game nights. It is not an official product of any ga
 
 Pick the one that matches the device you will use at the table:
 
-- **[Windows](https://github.com/racostyle/LootGen/raw/main/dist/Windows/LootGen-1.1.0-win-x64.zip)** — `dist/Windows/LootGen-1.1.0-win-x64.zip`
-- **[Android](https://github.com/racostyle/LootGen/raw/main/dist/Android/LootGen-1.1.0.apk)** — `dist/Android/LootGen-1.1.0.apk`
+- **[Windows](https://github.com/racostyle/LootGen/raw/main/dist/Windows/LootGen-1.1.1-win-x64.zip)** — `dist/Windows/LootGen-1.1.1-win-x64.zip`
+- **[Android](https://github.com/racostyle/LootGen/raw/main/dist/Android/LootGen-1.1.1.apk)** — `dist/Android/LootGen-1.1.1.apk`
 
 ### Windows
 
