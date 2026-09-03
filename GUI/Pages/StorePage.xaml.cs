@@ -32,7 +32,7 @@ namespace GUI.Pages
             _resultStore = resultStore;
             _logger = logger;
             BindPicker(SizePicker, LootScale.Sizes);
-            BindPicker(RarityPicker, LootScale.Rarities);
+            BindPicker(RarityPicker, LootScale.Rarities, LootScale.DefaultRarityValue);
             ApplySourceVisuals();
             UpdateGenerateEnabled();
         }
@@ -159,10 +159,10 @@ namespace GUI.Pages
             UpdateGenerateEnabled();
         }
 
-        private static void BindPicker(Picker picker, IReadOnlyList<SLabeledValue> items)
+        private static void BindPicker(Picker picker, IReadOnlyList<SLabeledValue> items, int? defaultValue = null)
         {
             picker.ItemsSource = items.ToList();
-            picker.SelectedIndex = items.Count == 0 ? -1 : 0;
+            picker.SelectedIndex = LootScale.IndexOfOrFirst(items, defaultValue);
         }
 
         private void UpdateGenerateEnabled()

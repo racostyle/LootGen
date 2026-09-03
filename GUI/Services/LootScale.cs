@@ -4,6 +4,8 @@ namespace GUI.Services
 {
     public static class LootScale
     {
+        public const int DefaultRarityValue = 1;
+
         public static IReadOnlyList<SLabeledValue> Rarities { get; } =
         [
             new("Uncommon", 0),
@@ -22,5 +24,26 @@ namespace GUI.Services
             new("Big", 3),
             new("Large", 4)
         ];
+
+        public static int IndexOfOrFirst(IReadOnlyList<SLabeledValue> items, int? value)
+        {
+            if (items.Count == 0)
+            {
+                return -1;
+            }
+
+            if (value is int target)
+            {
+                for (var i = 0; i < items.Count; i++)
+                {
+                    if (items[i].Value == target)
+                    {
+                        return i;
+                    }
+                }
+            }
+
+            return 0;
+        }
     }
 }
