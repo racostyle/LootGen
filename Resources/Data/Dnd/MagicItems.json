@@ -1,5 +1,5 @@
 {
-  "Type": "MagicItems",
+  "Type": "Magic_Items",
   "Spotlight": 5,
   "Data": [
     [
@@ -7,147 +7,147 @@
       "0",
       "50000",
       "1",
-      "Stores 500 lb in an extradimensional space"
+      "Holds up to 500 lb or 64 cubic feet in an extradimensional space while the bag itself weighs 15 lb. If overloaded, pierced, or torn, it is destroyed and its contents are scattered in the Astral Plane."
     ],
     [
       "Cloak of Protection",
       "0",
       "75000",
       "1",
-      "+1 AC and +1 to saving throws"
+      "While wearing and attuned to the cloak, gain +1 AC. You also gain +1 to all saving throws."
     ],
     [
       "Ring of Protection",
       "0",
       "250000",
       "2",
-      "+1 AC and +1 to saving throws"
+      "While wearing and attuned to the ring, gain +1 AC. You also gain +1 to all saving throws."
     ],
     [
       "Boots of Elvenkind",
       "0",
       "40000",
       "1",
-      "Your footsteps make no sound; advantage on Stealth movement"
+      "Your footsteps make no sound while wearing these boots. You have advantage on Dexterity (Stealth) checks that rely on moving silently."
     ],
     [
       "Boots of Striding and Springing",
       "0",
       "40000",
       "1",
-      "Walking speed is at least 30 ft; triple jump distance"
+      "Your walking speed becomes 30 ft unless it is already higher, and heavy armor or encumbrance cannot reduce it. Your jump distance is tripled, but you still cannot jump farther than your remaining movement."
     ],
     [
       "Boots of the Winterlands",
       "0",
       "50000",
       "1",
-      "Cold resistance; ignore difficult terrain from snow and ice"
+      "You have resistance to cold damage and ignore difficult terrain caused by ice or snow. You can tolerate temperatures down to -50°F without protection, or -100°F while wearing heavy clothes."
     ],
     [
       "Goggles of Night",
       "0",
       "30000",
       "1",
-      "Gain 60 ft darkvision"
+      "Gain darkvision out to 60 ft while wearing the goggles. If you already have darkvision, its range increases by 60 ft."
     ],
     [
       "Gloves of Thievery",
       "0",
       "50000",
       "1",
-      "+5 to Sleight of Hand and lockpicking"
+      "These invisible gloves give +5 to Dexterity (Sleight of Hand) checks. They also give +5 to Dexterity checks made to pick locks with thieves' tools."
     ],
     [
       "Gauntlets of Ogre Power",
       "0",
       "75000",
       "1",
-      "Strength becomes 19"
+      "Your Strength score becomes 19 while wearing and attuned to the gauntlets. They have no effect if your Strength is already 19 or higher."
     ],
     [
       "Headband of Intellect",
       "0",
       "75000",
       "1",
-      "Intelligence becomes 19"
+      "Your Intelligence score becomes 19 while wearing and attuned to the headband. It has no effect if your Intelligence is already 19 or higher."
     ],
     [
       "Amulet of Health",
       "0",
       "250000",
       "2",
-      "Constitution becomes 19"
+      "Your Constitution score becomes 19 while wearing and attuned to the amulet. It has no effect if your Constitution is already 19 or higher."
     ],
     [
       "Periapt of Wound Closure",
       "0",
       "50000",
       "1",
-      "Automatically stabilize at 0 HP; double Hit Dice healing"
+      "While wearing and attuned to it, you automatically stabilize whenever you are dying at the start of your turn. Whenever you roll a Hit Die to regain HP, double the HP restored."
     ],
     [
       "Pearl of Power",
       "0",
       "75000",
       "1",
-      "Recover one expended spell slot of 3rd level or lower"
+      "Once per dawn, use an action to speak its command word and regain one expended spell slot of 3rd level or lower. You must be attuned to the pearl to use it."
     ],
     [
       "Wand of Magic Missiles",
       "0",
       "50000",
       "1",
-      "Cast Magic Missile using charges"
+      "Has 7 charges; spend 1 charge to cast 1st-level Magic Missile, plus 1 extra charge for each higher spell level. Regains 1d6 + 1 charges at dawn; spending the last charge has a 1-in-20 chance to destroy the wand."
     ],
     [
       "Wand of Web",
       "0",
       "75000",
       "1",
-      "Cast Web using charges"
+      "Has 7 charges; spend 1 charge as an action to cast Web with save DC 15. Regains 1d6 + 1 charges at dawn; spending the last charge has a 1-in-20 chance to destroy the wand."
     ],
     [
       "Wand of the War Mage +1",
       "0",
       "50000",
       "1",
-      "+1 to spell attack rolls"
+      "While attuned, gain +1 to spell attack rolls made while holding the wand. Your spell attacks also ignore half cover."
     ],
     [
       "Rod of the Pact Keeper +1",
       "0",
       "75000",
       "1",
-      "+1 to warlock spell attacks and save DC; recover one spell slot"
+      "While attuned and holding the rod, gain +1 to warlock spell attack rolls and warlock spell save DC. Once per long rest, use an action to regain one expended warlock spell slot."
     ],
     [
       "Bloodwell Vial +1",
       "0",
       "75000",
       "1",
-      "+1 to sorcerer spell attacks and save DC; recover Sorcery Points"
+      "While attuned, gain +1 to sorcerer spell attack rolls and sorcerer spell save DC, and you can use the vial as a spellcasting focus. Once per dawn, when you roll any Hit Dice to regain HP, you can also regain 5 Sorcery Points."
     ],
     [
       "Moon Sickle +1",
       "0",
       "75000",
       "1",
-      "+1 to druid/ranger spell attacks and save DC; spells restore +1d4 HP"
+      "While attuned and holding the sickle, gain +1 to druid and ranger spell attack rolls and spell save DC, and you can use it as a spellcasting focus. Whenever one of your spells restores HP, add 1d4 to the amount restored."
     ],
     [
       "Sentinel Shield",
       "0",
       "50000",
       "1",
-      "Advantage on Initiative and Perception"
+      "This shield gives the normal +2 AC while wielded. While holding it, you also have advantage on initiative rolls and Wisdom (Perception) checks."
     ],
     [
       "Adamantine Armor",
       "0",
       "75000",
       "1",
-      "Critical hits against you become normal hits",
+      "While wearing this armor, any critical hit against you becomes a normal hit. The armor otherwise functions as its normal armor type.",
       "Price varies: 750-1,000 gp"
     ],
     [
@@ -155,7 +155,7 @@
       "0",
       "75000",
       "1",
-      "No Strength requirement and no Stealth disadvantage",
+      "This armor does not impose disadvantage on Dexterity (Stealth) checks. If its normal armor type has a Strength requirement, the mithral version does not.",
       "plus armor cost"
     ],
     [
@@ -163,28 +163,28 @@
       "0",
       "50000",
       "1",
-      "+1 to attack and damage rolls"
+      "Gain +1 to attack rolls made with this magic weapon. On a hit, it also deals +1 damage."
     ],
     [
       "Weapon +2",
       "0",
       "250000",
       "2",
-      "+2 to attack and damage rolls"
+      "Gain +2 to attack rolls made with this magic weapon. On a hit, it also deals +2 damage."
     ],
     [
       "Shield +1",
       "0",
       "75000",
       "1",
-      "+1 additional AC"
+      "This magic shield gives +1 AC in addition to the shield's normal +2 AC. While wielded, it therefore provides +3 AC total."
     ],
     [
       "Armor +1",
       "0",
       "300000",
       "2",
-      "+1 AC",
+      "This magic armor gives +1 AC in addition to the armor type's normal AC. All other properties of the base armor remain unchanged.",
       "plus armor cost"
     ],
     [
@@ -192,126 +192,126 @@
       "0",
       "50000",
       "1",
-      "Proficiency with longbows and shortbows; +2 damage with those weapons"
+      "While attuned, you gain proficiency with shortbows and longbows. You also gain +2 damage on attacks made with either weapon."
     ],
     [
       "Quiver of Ehlonna",
       "0",
       "40000",
       "1",
-      "Extradimensional storage for bows and arrows"
+      "Its three extradimensional compartments hold up to 60 arrows or bolts, 18 javelins, and 6 long objects such as bows, spears, or quarterstaffs. The quiver never weighs more than 2 lb, and items can be drawn normally."
     ],
     [
       "Javelin of Lightning",
       "0",
       "50000",
       "1",
-      "Becomes a 4d6 lightning line once per day"
+      "Once per dawn, throw it at a target within 120 ft to create a 5-ft-wide lightning line; creatures in the line make a DC 13 Dex save or take 4d6 lightning damage, half on success. Then make the normal javelin attack against the target; on a hit, it also takes 4d6 lightning damage."
     ],
     [
       "Weapon of Warning",
       "0",
       "60000",
       "1",
-      "Advantage on initiative; you and nearby allies can't be surprised"
+      "While attuned and carrying the weapon, you have advantage on initiative rolls. You and companions within 30 ft cannot be surprised, and the weapon wakes naturally sleeping allies in range when combat begins."
     ],
     [
       "Immovable Rod",
       "0",
       "50000",
       "1",
-      "Locks in place and can hold up to 8,000 lb"
+      "Press its button to lock the rod in place, even in midair, until the button is pressed again. It can hold up to 8,000 lb; greater force may move it after a DC 30 Strength check."
     ],
     [
       "Alchemy Jug",
       "0",
       "30000",
       "1",
-      "Produces a chosen liquid each day"
+      "Once per dawn, choose one liquid: acid 8 oz, poison 1/2 oz, beer 4 gal, honey 1 gal, mayonnaise 2 gal, oil 1 qt, vinegar 2 gal, fresh water 8 gal, salt water 12 gal, or wine 1 gal. The jug produces only that liquid until the next dawn and pours up to 2 gal per minute."
     ],
     [
       "Decanter of Endless Water",
       "0",
       "50000",
       "1",
-      "Produces unlimited water"
+      "As an action, produce fresh or salt water: Stream 1 gal, Fountain 5 gal, or Geyser 30 gal in a 30-ft line. Geyser can target a creature within 30 ft: DC 13 Strength save or take 1d4 bludgeoning damage and fall prone; it can instead push an unattended object up to 15 ft."
     ],
     [
       "Sending Stones",
       "0",
       "50000",
       "1",
-      "Cast Sending once per day"
+      "A matched pair lets the bearer of one stone send a 25-word message to the bearer of the other, who can immediately answer with up to 25 words. The pair can do this once per dawn; if the other stone has no bearer, you know and the use is not spent."
     ],
     [
       "Lantern of Revealing",
       "0",
       "40000",
       "1",
-      "Reveals invisible creatures in its light"
+      "One pint of oil burns for 6 hours, creating bright light for 30 ft and dim light for another 30 ft. Invisible creatures and objects are visible while inside the bright light."
     ],
     [
       "Rope of Climbing",
       "0",
       "30000",
       "1",
-      "Rope moves and ties itself on command"
+      "This 60-ft rope can animate, move 10 ft per turn, fasten or unfasten itself, knot itself, and coil on command. When knotted it becomes 50 ft long and gives advantage on checks made to climb it."
     ],
     [
       "Broom of Flying",
       "0",
       "100000",
       "1",
-      "50 ft flying speed"
+      "Speak its command word while riding it to fly at 50 ft, or 30 ft while carrying over 200 lb; maximum load is 400 lb. It can also travel alone to a familiar destination within 1 mile and return when commanded, if still within 1 mile."
     ],
     [
       "Winged Boots",
       "0",
       "150000",
       "1",
-      "Gain a flying speed equal to your walking speed"
+      "While attuned, gain a flying speed equal to your walking speed for up to 4 hours, used in increments of at least 1 minute. The boots regain 2 hours of flight for every 12 hours they are not used."
     ],
     [
       "Cloak of Elvenkind",
       "0",
       "50000",
       "1",
-      "Advantage on Stealth to hide; creatures have disadvantage to spot you"
+      "While its hood is up, creatures have disadvantage on Wisdom (Perception) checks made to see you. You have advantage on Dexterity (Stealth) checks made to hide, and raising or lowering the hood uses an action."
     ],
     [
       "Hat of Disguise",
       "0",
       "60000",
       "1",
-      "Cast Disguise Self at will"
+      "While wearing and attuned to the hat, you can cast Disguise Self at will. The spell ends immediately if the hat is removed."
     ],
     [
       "Eyes of Minute Seeing",
       "0",
       "25000",
       "1",
-      "Advantage on Investigation checks to inspect things within 1 foot"
+      "While wearing the lenses, you have advantage on Intelligence (Investigation) checks relying on sight. The object or area being inspected must be within 1 ft of you."
     ],
     [
       "Stone of Good Luck",
       "0",
       "75000",
       "1",
-      "+1 to ability checks and saving throws"
+      "While attuned and carrying the stone, gain +1 to all ability checks. You also gain +1 to all saving throws."
     ],
     [
       "Dust of Disappearance",
       "0",
       "20000",
       "1",
-      "Makes nearby creatures invisible for 2d4 minutes"
+      "As an action, you and every creature and object within 10 ft become invisible for 2d4 minutes; the dust is consumed. A creature's invisibility ends early if that creature attacks or casts a spell."
     ],
     [
       "Deck of Illusions",
       "0",
       "40000",
       "1",
-      "Draw cards to create illusory creatures"
+      "Draw and throw a card within 30 ft to create a life-sized illusion of the creature shown on that card. The illusion looks and behaves real but cannot cause harm, and it lasts until dispelled or the card is moved."
     ]
   ]
 }

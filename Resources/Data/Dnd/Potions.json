@@ -7,140 +7,140 @@
       ".5",
       "5000",
       "1",
-      "Regain 2d4 + 2 HP"
+      "Drink the potion to regain 2d4 + 2 HP. The healing happens immediately."
     ],
     [
       "Potion of Climbing",
       ".5",
       "5000",
       "1",
-      "Gain climbing speed equal to walking speed for 1 hour"
+      "For 1 hour, gain a climbing speed equal to your walking speed. You also have advantage on Strength (Athletics) checks made to climb."
     ],
     [
       "Potion of Greater Healing",
       ".5",
       "17500",
       "0",
-      "Regain 4d4 + 4 HP"
+      "Drink the potion to regain 4d4 + 4 HP. The healing happens immediately."
     ],
     [
       "Potion of Resistance",
       ".5",
       "20000",
       "0",
-      "Resistance to one damage type for 1 hour"
+      "For 1 hour, gain resistance to one damage type chosen when the potion is created or found. Resistance halves damage of that type after other modifiers."
     ],
     [
       "Potion of Water Breathing",
       ".5",
       "12500",
       "0",
-      "Breathe underwater for 1 hour"
+      "For 1 hour, you can breathe underwater normally. This does not give you a swimming speed."
     ],
     [
       "Potion of Animal Friendship",
       ".5",
       "12500",
       "0",
-      "Cast Animal Friendship for 1 hour"
+      "For 1 hour, you can repeatedly target beasts within 30 ft with Animal Friendship, save DC 13. A beast with Intelligence 3 or lower that fails its Wisdom save is charmed by you for 24 hours, ending early if you or an ally harms it."
     ],
     [
       "Potion of Growth",
       ".5",
       "22500",
       "0",
-      "Gain effects of Enlarge for 1d4 hours"
+      "For 1d4 hours, your size increases by one category and you have advantage on Strength checks and Strength saves. Your enlarged weapon attacks deal +1d4 damage; no concentration is required."
     ],
     [
       "Potion of Hill Giant Strength",
       ".5",
       "25000",
       "0",
-      "Strength becomes 21 for 1 hour"
+      "For 1 hour, your Strength score becomes 21. The potion has no effect if your Strength is already 21 or higher."
     ],
     [
       "Potion of Superior Healing",
       ".5",
       "62500",
       "2",
-      "Regain 8d4 + 8 HP"
+      "Drink the potion to regain 8d4 + 8 HP. The healing happens immediately."
     ],
     [
       "Potion of Heroism",
       ".5",
       "50000",
       "2",
-      "Gain Bless and 10 temporary HP for 1 hour"
+      "For 1 hour, gain 10 temporary HP and add 1d4 to every attack roll and saving throw. No concentration is required."
     ],
     [
       "Potion of Invulnerability",
       ".5",
       "87500",
       "2",
-      "Resistance to all damage for 1 minute"
+      "For 1 minute, you have resistance to all damage. Resistance normally halves damage after other modifiers."
     ],
     [
       "Potion of Gaseous Form",
       ".5",
       "50000",
       "2",
-      "Become a gaseous cloud for 1 hour"
+      "For up to 1 hour, become mist with a 10-ft flying speed, hover, resistance to nonmagical damage, and advantage on Strength, Dexterity, and Constitution saves. You can pass through tiny openings, but cannot attack, cast spells, speak, manipulate objects, or enter liquids."
     ],
     [
       "Potion of Diminution",
       ".5",
       "40000",
       "2",
-      "Gain effects of Reduce for 1d4 hours"
+      "For 1d4 hours, your size decreases by one category and you have disadvantage on Strength checks and Strength saves. Your reduced weapon attacks deal 1d4 less damage, to a minimum of 1; no concentration is required."
     ],
     [
       "Potion of Fire Giant Strength",
       ".5",
       "75000",
       "2",
-      "Strength becomes 25 for 1 hour"
+      "For 1 hour, your Strength score becomes 25. The potion has no effect if your Strength is already 25 or higher."
     ],
     [
       "Potion of Frost Giant Strength",
       ".5",
       "60000",
       "2",
-      "Strength becomes 23 for 1 hour"
+      "For 1 hour, your Strength score becomes 23. The potion has no effect if your Strength is already 23 or higher."
     ],
     [
       "Potion of Supreme Healing",
       ".5",
       "175000",
       "3",
-      "Regain 10d4 + 20 HP"
+      "Drink the potion to regain 10d4 + 20 HP. The healing happens immediately."
     ],
     [
       "Potion of Flying",
       ".5",
       "200000",
       "3",
-      "Gain flying speed equal to walking speed for 1 hour"
+      "For 1 hour, gain a flying speed equal to your walking speed and you can hover. If the effect ends while you are airborne, you fall unless something else keeps you aloft."
     ],
     [
       "Potion of Invisibility",
       ".5",
       "200000",
       "3",
-      "Become invisible for 1 hour or until attacking/casting"
+      "For 1 hour, you and everything you wear or carry become invisible. The effect ends early if you attack or cast a spell."
     ],
     [
       "Potion of Speed",
       ".5",
       "200000",
       "3",
-      "Gain effects of Haste for 1 minute"
+      "For 1 minute, your speed doubles, you gain +2 AC, advantage on Dexterity saves, and one extra action each turn for one weapon attack, Dash, Disengage, Hide, or Use an Object. When the effect ends, you cannot move or take actions until after your next turn."
     ],
     [
       "Potion of Cloud Giant Strength",
       ".5",
       "200000",
       "3",
-      "Strength becomes 27 for 1 hour"
+      "For 1 hour, your Strength score becomes 27. The potion has no effect if your Strength is already 27 or higher."
     ]
   ]
 }
