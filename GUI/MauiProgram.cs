@@ -26,15 +26,23 @@ namespace GUI
             builder.Services.AddSingleton<IAppPackage, FileAppPackage>();
 #endif
             builder.Services.AddSingleton<IPackagedLootDataSource, PackagedLootDataSource>();
+            builder.Services.AddSingleton<IUserLootProfileStore, UserLootProfileStore>();
             builder.Services.AddSingleton<IResourceCatalog, ResourceCatalog>();
             builder.Services.AddSingleton<IProfileService, ProfileService>();
             builder.Services.AddSingleton<IAppSettingsService, AppSettingsService>();
             builder.Services.AddSingleton<IGenerateResultStore, GenerateResultStore>();
+#if WINDOWS
+            builder.Services.AddSingleton<IExternalFileTransfer, WindowsExternalFileTransfer>();
+#else
+            builder.Services.AddSingleton<IExternalFileTransfer, ShareExternalFileTransfer>();
+#endif
+            builder.Services.AddSingleton<ITableTransferService, TableTransferService>();
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddTransient<ProfilesPage>();
             builder.Services.AddTransient<StorePage>();
             builder.Services.AddTransient<ItemListPage>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<ImportExportPage>();
             builder.Services.AddTransient<ResultsPage>();
             builder.Services.AddSingleton<AppShell>();
 

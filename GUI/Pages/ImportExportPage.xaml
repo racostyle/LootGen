@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GUI.Pages.ImportExportPage"
+             Title="Import / Export">
+
+    <ContentPage.Resources>
+        <Style x:Key="HelpLabel" TargetType="Label">
+            <Setter Property="LineBreakMode" Value="WordWrap" />
+        </Style>
+        <Style x:Key="SectionTitle" TargetType="Label">
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="CategoryCard" TargetType="Border">
+            <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource Gray300}, Dark={StaticResource Gray600}}" />
+            <Setter Property="StrokeThickness" Value="1" />
+            <Setter Property="StrokeShape" Value="RoundRectangle 8" />
+            <Setter Property="Padding" Value="12" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
+            <Border Style="{StaticResource CategoryCard}">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="How profiles are stored" Style="{StaticResource SectionTitle}" />
+                    <Label x:Name="StorageHelpLabel" Style="{StaticResource HelpLabel}" />
+                    <Label Text="Imported tables become a profile named after the folder. Built-in folders such as Fallout2d20 are never overwritten. Importing that name stores a new profile called Fallout2d20_imported, so both stay available."
+                           Style="{StaticResource HelpLabel}" />
+                    <Label Text="Importing a name that already exists as an imported profile replaces that import only. Rarity and Size settings are not part of the table files."
+                           Style="{StaticResource HelpLabel}" />
+                    <Label x:Name="TransferHelpLabel" Style="{StaticResource HelpLabel}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource CategoryCard}">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Export" Style="{StaticResource SectionTitle}" />
+                    <Label x:Name="CurrentProfileLabel" Style="{StaticResource HelpLabel}" />
+                    <Label x:Name="ExportHelpLabel" Style="{StaticResource HelpLabel}" />
+                    <Button x:Name="ExportButton"
+                            Text="Export current profile"
+                            Clicked="OnExportClicked" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource CategoryCard}">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Import" Style="{StaticResource SectionTitle}" />
+                    <Label x:Name="ImportHelpLabel" Style="{StaticResource HelpLabel}" />
+                    <Button x:Name="ImportArchiveButton"
+                            Text="Import zip"
+                            Clicked="OnImportArchiveClicked" />
+                    <Button x:Name="ImportFolderButton"
+                            Text="Import folder"
+                            Clicked="OnImportFolderClicked"
+                            IsVisible="False" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border x:Name="RemoveCard"
+                    Style="{StaticResource CategoryCard}"
+                    IsVisible="False">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Remove import" Style="{StaticResource SectionTitle}" />
+                    <Label x:Name="RemoveHelpLabel" Style="{StaticResource HelpLabel}" />
+                    <Button x:Name="RemoveButton"
+                            Text="Remove imported profile"
+                            Clicked="OnRemoveClicked" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

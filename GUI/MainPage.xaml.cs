@@ -42,6 +42,11 @@ namespace GUI
             await Shell.Current.GoToAsync(nameof(SettingsPage));
         }
 
+        private async void OnImportExportClicked(object? sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(ImportExportPage));
+        }
+
         private async Task RefreshProfileAsync()
         {
             try

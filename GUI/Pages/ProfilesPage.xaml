@@ -6,7 +6,8 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="24" Spacing="16">
-            <Label Text="Profiles come from resource data folders. Tap a profile to select it." />
+            <Label Text="Built-in profiles come from the original table folders and are never overwritten. Imported tables appear as extra profiles. Tap a profile to select it."
+                   LineBreakMode="WordWrap" />
 
             <VerticalStackLayout x:Name="ProfilesLayout" Spacing="8" />
         </VerticalStackLayout>

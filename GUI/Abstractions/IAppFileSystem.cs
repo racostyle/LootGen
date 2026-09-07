@@ -16,7 +16,11 @@ namespace GUI.Abstractions
 
         void DeleteDirectory(string relativePath);
 
+        void MoveDirectory(string relativeFrom, string relativeTo);
+
         IReadOnlyList<string> GetDirectoryNames(string relativePath);
+
+        IReadOnlyList<string> GetRelativeFilePaths(string relativeDirectory, string searchPattern);
 
         string GetAbsolutePath(string relativePath);
     }

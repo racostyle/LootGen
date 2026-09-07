@@ -19,6 +19,7 @@ namespace GUI.Pages
         private IReadOnlyList<IDataBatch> _batches = [];
 
         private string _loadedProfile = string.Empty;
+        private int _loadedRevision = -1;
 
         public StorePage(
             IProfileService profileService,
@@ -98,7 +99,8 @@ namespace GUI.Pages
             {
                 var profile = await _profileService.GetSelectedNameAsync();
                 if (string.Equals(profile, _loadedProfile, StringComparison.Ordinal)
-                    && _batches.Count > 0)
+                    && _batches.Count > 0
+                    && _loadedRevision == _resourceCatalog.Revision)
                 {
                     return;
                 }
@@ -107,6 +109,7 @@ namespace GUI.Pages
                 var loader = new FileLoader(path);
                 _batches = loader.Batches;
                 _loadedProfile = profile;
+                _loadedRevision = _resourceCatalog.Revision;
 
                 var types = _batches
                     .Select(batch => batch.Category)

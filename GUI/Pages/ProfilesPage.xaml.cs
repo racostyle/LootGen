@@ -6,13 +6,18 @@ namespace GUI.Pages
     public partial class ProfilesPage : ContentPage
     {
         private readonly IProfileService _profileService;
+        private readonly IResourceCatalog _resourceCatalog;
         private readonly ILogger<ProfilesPage> _logger;
         private string _selectedProfile = string.Empty;
 
-        public ProfilesPage(IProfileService profileService, ILogger<ProfilesPage> logger)
+        public ProfilesPage(
+            IProfileService profileService,
+            IResourceCatalog resourceCatalog,
+            ILogger<ProfilesPage> logger)
         {
             InitializeComponent();
             _profileService = profileService;
+            _resourceCatalog = resourceCatalog;
             _logger = logger;
         }
 
@@ -42,9 +47,20 @@ namespace GUI.Pages
                 foreach (var profile in settings.Profiles)
                 {
                     var isSelected = string.Equals(profile, _selectedProfile, StringComparison.Ordinal);
+                    var tags = new List<string>();
+                    if (_resourceCatalog.IsUserProfile(profile))
+                    {
+                        tags.Add("imported");
+                    }
+
+                    if (isSelected)
+                    {
+                        tags.Add("selected");
+                    }
+
                     var button = new Button
                     {
-                        Text = isSelected ? $"{profile} (selected)" : profile,
+                        Text = tags.Count == 0 ? profile : $"{profile} ({string.Join(", ", tags)})",
                         HorizontalOptions = LayoutOptions.Fill
                     };
                     ApplySelectionVisual(button, isSelected);

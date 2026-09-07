@@ -30,8 +30,8 @@
             HorizontalOptions="Fill" />
 
         <Button
-            Text="Tables"
-            IsEnabled="False"
+            Text="Import / Export"
+            Clicked="OnImportExportClicked"
             HorizontalOptions="Fill" />
 
     </VerticalStackLayout>

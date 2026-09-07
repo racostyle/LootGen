@@ -19,6 +19,7 @@ namespace GUI
             Routing.RegisterRoute(nameof(StorePage), typeof(StorePage));
             Routing.RegisterRoute(nameof(ItemListPage), typeof(ItemListPage));
             Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
+            Routing.RegisterRoute(nameof(ImportExportPage), typeof(ImportExportPage));
             Routing.RegisterRoute(nameof(ResultsPage), typeof(ResultsPage));
         }
     }

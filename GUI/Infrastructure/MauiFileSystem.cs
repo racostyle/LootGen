@@ -59,6 +59,29 @@ namespace GUI.Infrastructure
             }
         }
 
+        public void MoveDirectory(string relativeFrom, string relativeTo)
+        {
+            var source = GetFullPath(relativeFrom);
+            var destination = GetFullPath(relativeTo);
+            if (!Directory.Exists(source))
+            {
+                throw new DirectoryNotFoundException(source);
+            }
+
+            if (Directory.Exists(destination) || File.Exists(destination))
+            {
+                throw new InvalidOperationException("The destination folder already exists.");
+            }
+
+            var parent = Path.GetDirectoryName(destination);
+            if (!string.IsNullOrEmpty(parent))
+            {
+                Directory.CreateDirectory(parent);
+            }
+
+            Directory.Move(source, destination);
+        }
+
         public IReadOnlyList<string> GetDirectoryNames(string relativePath)
         {
             var fullPath = GetFullPath(relativePath);
@@ -72,6 +95,23 @@ namespace GUI.Infrastructure
                 .Where(name => !string.IsNullOrWhiteSpace(name))
                 .OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
                 .ToArray()!;
+        }
+
+        public IReadOnlyList<string> GetRelativeFilePaths(string relativeDirectory, string searchPattern)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(searchPattern);
+
+            var fullPath = GetFullPath(relativeDirectory);
+            if (!Directory.Exists(fullPath))
+            {
+                return [];
+            }
+
+            return Directory.GetFiles(fullPath, searchPattern, SearchOption.AllDirectories)
+                .Select(file => Path.GetRelativePath(fullPath, file).Replace('\\', '/'))
+                .Where(path => !string.IsNullOrWhiteSpace(path))
+                .OrderBy(path => path, StringComparer.OrdinalIgnoreCase)
+                .ToArray();
         }
 
         public string GetAbsolutePath(string relativePath)
