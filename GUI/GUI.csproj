@@ -76,6 +76,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms" />
 		<Content Include="..\Resources\Data\**\*.json">
 			<Link>Data\%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -30,37 +30,55 @@ namespace GUI.Services
 
         public async Task<STableTransferResult> ExportSelectedProfileAsync()
         {
-            var profile = await _profileService.GetSelectedNameAsync().ConfigureAwait(false);
-            if (string.IsNullOrWhiteSpace(profile))
-            {
-                return STableTransferResult.Fail("Select a profile before exporting.");
-            }
-
-            var files = _resourceCatalog.GetTableFiles(profile);
-            if (files.Count == 0)
-            {
-                return STableTransferResult.Fail($"Profile {profile} has no table files to export.");
-            }
-
-            byte[] archive;
             try
             {
-                archive = TableArchive.Create(profile, files);
+                var profile = await _profileService.GetSelectedNameAsync().ConfigureAwait(true);
+                if (string.IsNullOrWhiteSpace(profile))
+                {
+                    return STableTransferResult.Fail("Select a profile before exporting.");
+                }
+
+                IReadOnlyList<STableFile> files;
+                try
+                {
+                    files = _resourceCatalog.GetTableFiles(profile);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Failed to read tables for export of {Profile}", profile);
+                    return STableTransferResult.Fail($"Could not read tables for {profile}. {ex.Message}");
+                }
+
+                if (files.Count == 0)
+                {
+                    return STableTransferResult.Fail($"Profile {profile} has no table files to export.");
+                }
+
+                byte[] archive;
+                try
+                {
+                    archive = TableArchive.Create(profile, files);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Failed to create export archive for {Profile}", profile);
+                    return STableTransferResult.Fail("Could not create the export zip.");
+                }
+
+                var exported = await _fileTransfer.ExportArchiveAsync($"{profile}.zip", archive).ConfigureAwait(true);
+                if (!exported)
+                {
+                    return STableTransferResult.Cancel();
+                }
+
+                _logger.LogInformation("Exported profile {Profile} with {Count} tables", profile, files.Count);
+                return STableTransferResult.Ok($"Exported {profile} ({files.Count} tables).", profile);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to create export archive for {Profile}", profile);
-                return STableTransferResult.Fail("Could not create the export zip.");
+                _logger.LogError(ex, "Export failed");
+                return STableTransferResult.Fail($"Could not export the current profile. {ex.Message}");
             }
-
-            var exported = await _fileTransfer.ExportArchiveAsync($"{profile}.zip", archive).ConfigureAwait(true);
-            if (!exported)
-            {
-                return STableTransferResult.Cancel();
-            }
-
-            _logger.LogInformation("Exported profile {Profile} with {Count} tables", profile, files.Count);
-            return STableTransferResult.Ok($"Exported {profile} ({files.Count} tables).", profile);
         }
 
         public async Task<SPreparedImport?> PrepareArchiveImportAsync()

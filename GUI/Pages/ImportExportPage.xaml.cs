@@ -46,6 +46,7 @@ namespace GUI.Pages
                 var result = await _transferService.ExportSelectedProfileAsync();
                 if (result.Cancelled)
                 {
+                    await DisplayAlert("Export", "Export cancelled. No file was saved.", "OK");
                     return;
                 }
 
@@ -54,7 +55,9 @@ namespace GUI.Pages
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Export failed");
-                await DisplayAlert("Export", "Could not export the current profile.", "OK");
+                await DisplayAlert("Export", string.IsNullOrWhiteSpace(ex.Message)
+                    ? "Could not export the current profile."
+                    : $"Could not export the current profile. {ex.Message}", "OK");
             }
             finally
             {
@@ -120,6 +123,7 @@ namespace GUI.Pages
                 var prepared = await prepare();
                 if (prepared is null)
                 {
+                    await DisplayAlert("Import", "Import cancelled. No file was selected.", "OK");
                     return;
                 }
 
@@ -213,8 +217,8 @@ namespace GUI.Pages
                 ? "Android cannot browse that folder, so export uses Share and import uses the file picker."
                 : "You can copy folders in and out of that location, or use the buttons below.";
             ExportHelpLabel.Text = isAndroid
-                ? "Creates a zip of the current profile's JSON tables and opens the share sheet so you can save or send it."
-                : "Saves a zip of the current profile's JSON tables. The zip contains one folder named after the profile.";
+                ? "Exports the current profile, including built-in ones such as Fallout2d20_Alternative. Opens the share sheet so you can save or send the zip."
+                : "Exports the current profile, including built-in ones such as Fallout2d20_Alternative. Saves a zip whose folder name matches the profile.";
             ImportHelpLabel.Text = isAndroid
                 ? "Pick a .zip. The folder inside the zip becomes the profile name, unless that folder is a built-in profile — then it is saved as FolderName_imported."
                 : "Import a .zip, or a folder of JSON tables. The folder name becomes the profile name, unless it matches a built-in profile — then it is saved as FolderName_imported.";
