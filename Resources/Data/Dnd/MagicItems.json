@@ -12,7 +12,7 @@
     [
       "Cloak of Protection",
       "0",
-      "75000",
+      "47500",
       "1",
       "While wearing and attuned to the cloak, gain +1 AC. You also gain +1 to all saving throws."
     ],
@@ -52,23 +52,16 @@
       "Gain darkvision out to 60 ft while wearing the goggles. If you already have darkvision, its range increases by 60 ft."
     ],
     [
-      "Gloves of Thievery",
-      "0",
-      "50000",
-      "1",
-      "These invisible gloves give +5 to Dexterity (Sleight of Hand) checks. They also give +5 to Dexterity checks made to pick locks with thieves' tools."
-    ],
-    [
       "Gauntlets of Ogre Power",
       "0",
-      "75000",
+      "47500",
       "1",
       "Your Strength score becomes 19 while wearing and attuned to the gauntlets. They have no effect if your Strength is already 19 or higher."
     ],
     [
       "Headband of Intellect",
       "0",
-      "75000",
+      "47500",
       "1",
       "Your Intelligence score becomes 19 while wearing and attuned to the headband. It has no effect if your Intelligence is already 19 or higher."
     ],
@@ -89,7 +82,7 @@
     [
       "Pearl of Power",
       "0",
-      "75000",
+      "47500",
       "1",
       "Once per dawn, use an action to speak its command word and regain one expended spell slot of 3rd level or lower. You must be attuned to the pearl to use it."
     ],
@@ -103,7 +96,7 @@
     [
       "Wand of Web",
       "0",
-      "75000",
+      "47500",
       "1",
       "Has 7 charges; spend 1 charge as an action to cast Web with save DC 15. Regains 1d6 + 1 charges at dawn; spending the last charge has a 1-in-20 chance to destroy the wand."
     ],
@@ -117,46 +110,25 @@
     [
       "Rod of the Pact Keeper +1",
       "0",
-      "75000",
+      "47500",
       "1",
       "While attuned and holding the rod, gain +1 to warlock spell attack rolls and warlock spell save DC. Once per long rest, use an action to regain one expended warlock spell slot."
     ],
     [
-      "Bloodwell Vial +1",
-      "0",
-      "75000",
-      "1",
-      "While attuned, gain +1 to sorcerer spell attack rolls and sorcerer spell save DC, and you can use the vial as a spellcasting focus. Once per dawn, when you roll any Hit Dice to regain HP, you can also regain 5 Sorcery Points."
-    ],
-    [
-      "Moon Sickle +1",
-      "0",
-      "75000",
-      "1",
-      "While attuned and holding the sickle, gain +1 to druid and ranger spell attack rolls and spell save DC, and you can use it as a spellcasting focus. Whenever one of your spells restores HP, add 1d4 to the amount restored."
-    ],
-    [
-      "Sentinel Shield",
-      "0",
-      "50000",
-      "1",
-      "This shield gives the normal +2 AC while wielded. While holding it, you also have advantage on initiative rolls and Wisdom (Perception) checks."
-    ],
-    [
       "Adamantine Armor",
       "0",
-      "75000",
+      "47500",
       "1",
       "While wearing this armor, any critical hit against you becomes a normal hit. The armor otherwise functions as its normal armor type.",
-      "Price varies: 750-1,000 gp"
+      "plus base armor cost"
     ],
     [
       "Mithral Armor",
       "0",
-      "75000",
+      "47500",
       "1",
       "This armor does not impose disadvantage on Dexterity (Stealth) checks. If its normal armor type has a Strength requirement, the mithral version does not.",
-      "plus armor cost"
+      "plus base armor cost"
     ],
     [
       "Weapon +1",
@@ -175,7 +147,7 @@
     [
       "Shield +1",
       "0",
-      "75000",
+      "47500",
       "1",
       "This magic shield gives +1 AC in addition to the shield's normal +2 AC. While wielded, it therefore provides +3 AC total."
     ],
@@ -195,7 +167,7 @@
       "While attuned, you gain proficiency with shortbows and longbows. You also gain +2 damage on attacks made with either weapon."
     ],
     [
-      "Quiver of Ehlonna",
+      "Efficient Quiver",
       "0",
       "40000",
       "1",
@@ -209,13 +181,6 @@
       "Once per dawn, throw it at a target within 120 ft to create a 5-ft-wide lightning line; creatures in the line make a DC 13 Dex save or take 4d6 lightning damage, half on success. Then make the normal javelin attack against the target; on a hit, it also takes 4d6 lightning damage."
     ],
     [
-      "Weapon of Warning",
-      "0",
-      "60000",
-      "1",
-      "While attuned and carrying the weapon, you have advantage on initiative rolls. You and companions within 30 ft cannot be surprised, and the weapon wakes naturally sleeping allies in range when combat begins."
-    ],
-    [
       "Immovable Rod",
       "0",
       "50000",
@@ -223,25 +188,11 @@
       "Press its button to lock the rod in place, even in midair, until the button is pressed again. It can hold up to 8,000 lb; greater force may move it after a DC 30 Strength check."
     ],
     [
-      "Alchemy Jug",
-      "0",
-      "30000",
-      "1",
-      "Once per dawn, choose one liquid: acid 8 oz, poison 1/2 oz, beer 4 gal, honey 1 gal, mayonnaise 2 gal, oil 1 qt, vinegar 2 gal, fresh water 8 gal, salt water 12 gal, or wine 1 gal. The jug produces only that liquid until the next dawn and pours up to 2 gal per minute."
-    ],
-    [
       "Decanter of Endless Water",
       "0",
       "50000",
       "1",
       "As an action, produce fresh or salt water: Stream 1 gal, Fountain 5 gal, or Geyser 30 gal in a 30-ft line. Geyser can target a creature within 30 ft: DC 13 Strength save or take 1d4 bludgeoning damage and fall prone; it can instead push an unattended object up to 15 ft."
-    ],
-    [
-      "Sending Stones",
-      "0",
-      "50000",
-      "1",
-      "A matched pair lets the bearer of one stone send a 25-word message to the bearer of the other, who can immediately answer with up to 25 words. The pair can do this once per dawn; if the other stone has no bearer, you know and the use is not spent."
     ],
     [
       "Lantern of Revealing",
@@ -260,14 +211,14 @@
     [
       "Broom of Flying",
       "0",
-      "100000",
+      "49000",
       "1",
       "Speak its command word while riding it to fly at 50 ft, or 30 ft while carrying over 200 lb; maximum load is 400 lb. It can also travel alone to a familiar destination within 1 mile and return when commanded, if still within 1 mile."
     ],
     [
       "Winged Boots",
       "0",
-      "150000",
+      "50000",
       "1",
       "While attuned, gain a flying speed equal to your walking speed for up to 4 hours, used in increments of at least 1 minute. The boots regain 2 hours of flight for every 12 hours they are not used."
     ],
@@ -281,7 +232,7 @@
     [
       "Hat of Disguise",
       "0",
-      "60000",
+      "45000",
       "1",
       "While wearing and attuned to the hat, you can cast Disguise Self at will. The spell ends immediately if the hat is removed."
     ],
@@ -295,7 +246,7 @@
     [
       "Stone of Good Luck",
       "0",
-      "75000",
+      "47500",
       "1",
       "While attuned and carrying the stone, gain +1 to all ability checks. You also gain +1 to all saving throws."
     ],
@@ -312,6 +263,132 @@
       "40000",
       "1",
       "Draw and throw a card within 30 ft to create a life-sized illusion of the creature shown on that card. The illusion looks and behaves real but cannot cause harm, and it lasts until dispelled or the card is moved."
+    ],
+    [
+      "Amulet of Proof against Detection and Location",
+      "0",
+      "47500",
+      "1",
+      "While attuned and wearing the amulet, divination magic cannot target you or perceive you through magical scrying sensors."
+    ],
+    [
+      "Brooch of Shielding",
+      "0",
+      "47500",
+      "1",
+      "While attuned and wearing the brooch, you have resistance to force damage and immunity to damage from Magic Missile."
+    ],
+    [
+      "Cap of Water Breathing",
+      "0",
+      "50000",
+      "1",
+      "While wearing the cap underwater, you can speak its command word to create a bubble of breathable air around your head until the command is spoken again, the cap is removed, or you leave the water."
+    ],
+    [
+      "Circlet of Blasting",
+      "0",
+      "50000",
+      "1",
+      "Once per dawn, use an action to cast Scorching Ray from the circlet with a +5 attack bonus."
+    ],
+    [
+      "Cloak of the Manta Ray",
+      "0",
+      "50000",
+      "1",
+      "While wearing it with the hood up, you can breathe underwater and gain a swimming speed of 60 ft. Raising or lowering the hood uses an action."
+    ],
+    [
+      "Driftglobe",
+      "0",
+      "50000",
+      "1",
+      "Produces Light on command and can cast Daylight once per dawn. You can also command it to float and follow within 60 ft."
+    ],
+    [
+      "Eyes of the Eagle",
+      "0",
+      "50000",
+      "1",
+      "While attuned and wearing the lenses, you have advantage on Wisdom (Perception) checks that rely on sight and can clearly see extremely distant details."
+    ],
+    [
+      "Gem of Brightness",
+      "0",
+      "47500",
+      "1",
+      "Has 50 charges. Spend charges to create bright light, fire a blinding beam at one creature, or emit a blinding cone; depleted gems become nonmagical."
+    ],
+    [
+      "Restorative Ointment",
+      "0",
+      "50000",
+      "1",
+      "Contains 1d4 + 1 doses. Applying one dose restores 2d8 + 2 HP and ends poison and any disease affecting the target."
+    ],
+    [
+      "Medallion of Thoughts",
+      "0",
+      "50000",
+      "1",
+      "Has 3 charges; spend 1 charge to cast Detect Thoughts, save DC 13. Regains 1d3 charges each dawn."
+    ],
+    [
+      "Necklace of Adaptation",
+      "0",
+      "47500",
+      "1",
+      "While attuned and wearing it, you can breathe normally in any environment and have advantage on saves against harmful gases and vapors."
+    ],
+    [
+      "Periapt of Health",
+      "0",
+      "50000",
+      "1",
+      "While wearing it, you are immune to contracting diseases. Existing diseases are suppressed while the periapt is worn."
+    ],
+    [
+      "Periapt of Proof against Poison",
+      "0",
+      "250000",
+      "2",
+      "While attuned and wearing it, you are immune to poison damage and the poisoned condition."
+    ],
+    [
+      "Ring of Jumping",
+      "0",
+      "50000",
+      "1",
+      "While attuned and wearing the ring, you can cast Jump on yourself as a bonus action at will."
+    ],
+    [
+      "Ring of Mind Shielding",
+      "0",
+      "47500",
+      "1",
+      "While attuned, you are immune to magic that reads thoughts, determines whether you are lying, or reveals your alignment or creature type. Telepathic communication works only if you allow it."
+    ],
+    [
+      "Ring of Water Walking",
+      "0",
+      "50000",
+      "1",
+      "While wearing the ring, you can stand on and move across liquid surfaces as if they were solid ground."
+    ],
+    [
+      "Slippers of Spider Climbing",
+      "0",
+      "50000",
+      "1",
+      "While attuned and wearing them, you can move up, down, and across vertical surfaces and ceilings while keeping your hands free, with climbing speed equal to walking speed."
+    ],
+    [
+      "Wand of Secrets",
+      "0",
+      "30000",
+      "1",
+      "Has 3 charges. Spend 1 charge to make the wand point toward the nearest secret door or trap within 30 ft; it regains 1d3 charges each dawn."
     ]
   ]
 }
