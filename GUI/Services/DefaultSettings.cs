@@ -6,8 +6,8 @@ namespace GUI.Services
     {
         public static IReadOnlyList<string> Rarities { get; } =
         [
-            "Uncommon",
             "Common",
+            "Uncommon",
             "Rare",
             "Very Rare",
             "Legendary",

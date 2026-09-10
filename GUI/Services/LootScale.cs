@@ -8,8 +8,8 @@ namespace GUI.Services
 
         public static IReadOnlyList<SLabeledValue> Rarities { get; } =
         [
-            new("Uncommon", 0),
-            new("Common", 1),
+            new("Common", 0),
+            new("Uncommon", 1),
             new("Rare", 2),
             new("Very Rare", 3),
             new("Legendary", 4),
