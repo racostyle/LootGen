@@ -10,16 +10,17 @@ This is a fan-made tool for game nights. It is not an official product of any ga
 
 Pick the one that matches the device you will use at the table:
 
-- **[Windows](https://github.com/racostyle/LootGen/raw/main/dist/Windows/LootGen-1.1.3-win-x64.zip)** — `dist/Windows/LootGen-1.1.3-win-x64.zip`
-- **[Android](https://github.com/racostyle/LootGen/raw/main/dist/Android/LootGen-1.1.3.apk)** — `dist/Android/LootGen-1.1.3.apk`
+- **[Windows](https://github.com/racostyle/LootGen/raw/main/dist/Windows/LootGen-1.1.4-win-x64.zip)** — `dist/Windows/LootGen-1.1.4-win-x64.zip`
+- **[Android](https://github.com/racostyle/LootGen/raw/main/dist/Android/LootGen-1.1.4.apk)** — `dist/Android/LootGen-1.1.4.apk`
 
 ### Windows
 
 1. Click the Windows link above and save the zip file.
 2. Right-click the zip, choose **Extract All**, and pick a folder you can find again (for example your Desktop).
-3. Open the extracted folder and double-click **LootGen**.
+3. If this PC has not run LootGen before, install the **[.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0)** (x64) and the **[Windows App Runtime](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads)**.
+4. Open the extracted folder and double-click **LootGen**.
 
-You need a 64-bit PC running Windows 10 or Windows 11.
+You need a 64-bit PC running Windows 10 or Windows 11. If LootGen does not start, install the two runtimes above and try again.
 
 ### Android
 

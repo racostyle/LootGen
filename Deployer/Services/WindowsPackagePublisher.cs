@@ -80,7 +80,7 @@ namespace Deployer.Services
             return new SPublishResult
             {
                 Succeeded = true,
-                Message = $"Windows package created. Upload {zipName} to a GitHub Release. Recipients unzip and run {PublishConstants.AppTitle}.exe.",
+                Message = $"Windows package created. Upload {zipName} to a GitHub Release. Recipients unzip, install the .NET 9 Desktop Runtime and Windows App Runtime if needed, then run {PublishConstants.AppTitle}.exe.",
                 ArtifactPaths = [zipPath]
             };
         }

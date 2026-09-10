@@ -117,7 +117,7 @@ namespace Deployer
             });
             panel.Controls.Add(new Label
             {
-                Text = "Windows produces a self-contained zip (unzip and run). Android produces a signed APK for sideloading — not Play Store.",
+                Text = "Windows produces a zip that needs the .NET Desktop Runtime and Windows App Runtime. Android produces a signed APK for sideloading — not Play Store.",
                 AutoSize = true,
                 ForeColor = Color.DimGray,
                 Margin = new Padding(0, 0, 0, 12)
@@ -142,7 +142,7 @@ namespace Deployer
                 WrapContents = false
             };
 
-            _windowsRadio.Text = "Windows package (.zip)  —  attach to a GitHub Release; recipients unzip and run LootGen.exe";
+            _windowsRadio.Text = "Windows package (.zip)  —  attach to a GitHub Release; recipients need .NET 9 Desktop Runtime and Windows App Runtime";
             _windowsRadio.AutoSize = true;
             _windowsRadio.Checked = true;
             _windowsRadio.CheckedChanged += (_, _) => UpdateAndroidEnabled();
