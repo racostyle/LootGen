@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="Data\Fallout2d20\Items_SimpleMaterials.json" />
+    <Compile Include="Data\Fallout2d20_Alternative\Items_SimpleMaterials.json" />
+  </ItemGroup>
+
 </Project>
