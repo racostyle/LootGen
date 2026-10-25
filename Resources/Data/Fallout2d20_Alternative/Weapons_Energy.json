@@ -1,5 +1,5 @@
 {
-  "Type": "EnergyWeapons",
+  "Type": "Weapons_Energy",
   "Spotlight": 3,
   "Data": [
     [
@@ -7,105 +7,77 @@
       "4",
       "50",
       "2",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
+      "AMMO: Fusion cell, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
     ],
     [
       "Laser Musket",
       "13",
       "57",
       "1",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
+      "AMMO: Fusion cell, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: M, QUALITIES: Two-Handed"
     ],
     [
       "Laser Gun",
       "4",
       "69",
       "2",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters"
+      "AMMO: Fusion cell, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters"
     ],
     [
       "Plasma Gun",
       "4",
       "123",
       "3",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical/Energy, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
+      "AMMO: Plasma Cartrige, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical/Energy, FIRE RATE: 1, RANGE: C, QUALITIES: Close Quarters"
     ],
     [
       "Gamma Gun",
       "3",
       "156",
       "5",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, Stun, DAMAGE TYPE: Radiation, FIRE RATE: 1, RANGE: M, QUALITIES: Blast, Inaccurate"
+      "AMMO: Gamma Rounds, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Piercing 1, Stun, DAMAGE TYPE: Radiation, FIRE RATE: 1, RANGE: M, QUALITIES: Blast, Inaccurate"
     ],
     [
       "Alien Atomizer",
       "3",
       "1536",
       "5",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Reliable"
+      "AMMO: Alien Power Cells, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Close Quarters, Reliable"
     ],
     [
       "Alien Disintegrator",
       "7",
       "921",
       "5",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed, Reliable"
+      "AMMO: Alien Power Cells, DAMAGE RATING: 8 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed, Reliable"
     ],
     [
       "Arc Welder",
       "15",
       "370",
       "4",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 4, RANGE: C, QUALITIES: Surge, Two-Handed"
+      "AMMO: Electron Charge Pack, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 4, RANGE: C, QUALITIES: Surge, Two-Handed"
     ],
     [
       "Assaultron Head",
       "8",
       "500",
       "3",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: C, QUALITIES: -"
+      "AMMO: Fusion Cell, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Piercing 1, DAMAGE TYPE: Energy, FIRE RATE: 0, RANGE: C, QUALITIES: -"
     ],
     [
       "Microwave Emitter",
       "8",
       "500",
       "5",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Persistent, Piercing 3, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: Two-Handed"
+      "AMMO: Fusion Cell, DAMAGE RATING: 6 CD, DAMAGE EFFECTS: Persistent, Piercing 3, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: Two-Handed"
     ],
     [
       "Tesla Rifle",
       "8",
       "180",
       "4",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 4 CD, DAMAGE EFFECTS: Arc, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
-    ],
-    [
-      "Acid Soaker",
-      "3",
-      "125",
-      "3",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Breaking, Persistent, DAMAGE TYPE: Poison, FIRE RATE: 2, RANGE: C, QUALITIES: Debilitating, Inaccurate"
-    ],
-    [
-      "Alien Blaster",
-      "2",
-      "90",
-      "5",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Vicious, DAMAGE TYPE: Energy/Radiation, FIRE RATE: 2, RANGE: C, QUALITIES: Close Quarters, Inaccurate"
-    ],
-    [
-      "Cryojet",
-      "8",
-      "261",
-      "4",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Burst, Freeze, DAMAGE TYPE: Energy, FIRE RATE: 3, RANGE: C, QUALITIES: Inaccurate"
-    ],
-    [
-      "Mesmetron",
-      "2",
-      "120",
-      "4",
-      "WEAPON TYPE: Energy Weapon, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: Stun, DAMAGE TYPE: Energy, FIRE RATE: 1, RANGE: M, QUALITIES: -"
+      "AMMO: Fusion Cell, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: Arc, DAMAGE TYPE: Energy, FIRE RATE: 2, RANGE: M, QUALITIES: Two-Handed"
     ]
   ]
 }

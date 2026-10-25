@@ -1,0 +1,97 @@
+﻿{
+  "Type": "Items_Junk",
+  "Spotlight": 10,
+  "Data": [
+    [
+      "Alarm Clock",
+      "2",
+      "5",
+      "0",
+      "Junk"
+    ],
+    [
+      "Telephone",
+      "2",
+      "5",
+      "0",
+      "Junk"
+    ],
+    [
+      "Typewriter",
+      "2",
+      "5",
+      "0",
+      "Junk"
+    ],
+    [
+      "Ventilator",
+      "4",
+      "10",
+      "1",
+      "2x Junk"
+    ],
+    [
+      "Hot Plate",
+      "4",
+      "10",
+      "1",
+      "2x Junk"
+    ],
+    [
+      "Industrial Fan",
+      "4",
+      "5",
+      "1",
+      "2x Junk"
+    ],
+    [
+      "Fire Extinguisher",
+      "4",
+      "5",
+      "1",
+      "2x Junk"
+    ],
+    [
+      "Water Heater",
+      "6",
+      "15",
+      "2",
+      "2x Junk"
+    ],
+    [
+      "Water Pump",
+      "6",
+      "15",
+      "2",
+      "3x Junk"
+    ],
+    [
+      "Generator Parts",
+      "6",
+      "15",
+      "2",
+      "3x Junk"
+    ],
+    [
+      "Microscope",
+      "6",
+      "15",
+      "2",
+      "3x Junk"
+    ],
+    [
+      "Military-Grade Circuit Board",
+      "6",
+      "15",
+      "2",
+      "3x Junk"
+    ],
+    [
+      "Cooking Stove",
+      "6",
+      "15",
+      "2",
+      "3x Junk"
+    ]
+  ]
+}

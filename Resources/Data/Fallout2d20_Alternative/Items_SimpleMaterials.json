@@ -1,0 +1,97 @@
+﻿{
+  "Type": "Items_Materials",
+  "Spotlight": 10,
+  "Data": [
+    [
+      "Steel",
+      "1",
+      "1",
+      "0",
+      "Common material"
+    ],
+    [
+      "Wood",
+      "1",
+      "1",
+      "0",
+      "Common material"
+    ],
+    [
+      "Plastic",
+      "1",
+      "1",
+      "0",
+      "Common material"
+    ],
+    [
+      "Cloth",
+      "1",
+      "1",
+      "0",
+      "Common material"
+    ],
+    [
+      "Aluminum",
+      "1",
+      "3",
+      "2",
+      "Uncommon material"
+    ],
+    [
+      "Copper",
+      "1",
+      "3",
+      "2",
+      "Uncommon material"
+    ],
+    [
+      "Gears",
+      "1",
+      "3",
+      "2",
+      "Uncommon material"
+    ],
+    [
+      "Springs",
+      "1",
+      "3",
+      "2",
+      "Uncommon material"
+    ],
+    [
+      "Screws",
+      "1",
+      "3",
+      "2",
+      "Uncommon material"
+    ],
+    [
+      "Circuitry",
+      "1",
+      "5",
+      "4",
+      "Rare material"
+    ],
+    [
+      "Ballistic fiber",
+      "1",
+      "5",
+      "4",
+      "Rare material"
+    ],
+    [
+      "Fiber optics",
+      "1",
+      "5",
+      "4",
+      "Rare material"
+    ],
+    [
+      "Nuclear material",
+      "1",
+      "5",
+      "4",
+      "Rare material"
+    ]
+  ]
+}

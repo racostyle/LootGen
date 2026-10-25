@@ -1,0 +1,20 @@
+﻿{
+  "Type": "Weapons_Bows",
+  "Spotlight": 6,
+  "Data": [
+    [
+      "Bow",
+      "3",
+      "44",
+      "1",
+      "AMMO: Arrow, DAMAGE RATING: 3 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: 2, RANGE: M, QUALITIES: Suppressed, Recoil (6), Two-Handed"
+    ],
+    [
+      "Crossbow",
+      "3",
+      "44",
+      "2",
+      "AMMO: Bolt, DAMAGE RATING: 5 CD, DAMAGE EFFECTS: -, DAMAGE TYPE: Physical, FIRE RATE: -, RANGE: M, QUALITIES: Suppressed, Two-Handed, Slow Load"
+    ]
+  ]
+}
